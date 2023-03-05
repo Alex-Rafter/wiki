@@ -1,5 +1,6 @@
 # wiki
-My Personal Wiki.
+
+[My Personal Wiki.](https://github.com/Alex-Rafter/wiki/wiki)
 
 A test space for housing all of my writing that i want to share with others.
 
