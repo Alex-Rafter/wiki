@@ -26,3 +26,6 @@ Alex to discuss with rest of FE devs on builds before we make a decision on its 
 - Having explicit and consistent values e.g for font sizes, spacings, and container sizes, across pages on the design is important factor to building out the design. This can cause problems more so than the use / non-use of the header spacing calculation.
 - Not everyone always clear when / how to best leverage the Bootstrap variables instead of overriding them.
 
+## Outcome Notes
+- See TLDR :)
+
