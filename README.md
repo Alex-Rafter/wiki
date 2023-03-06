@@ -1,6 +1,6 @@
 # Wiki
 
-My Personal Wiki
+My Wiki
 
 A test space for housing all of my writing that i want to share with others.
 
