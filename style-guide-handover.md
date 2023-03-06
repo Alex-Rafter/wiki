@@ -29,8 +29,9 @@ Alex to discuss with rest of FE devs on builds before we make a decision on its 
 ## Outcome Notes
 - See TLDR :)
 
-## Images for Reference 
+## Images for Reference
+
+Images of the header spacing calculation ref'd above :
 
 ![image (4)](https://user-images.githubusercontent.com/42029575/223164327-0a4bd36a-4e15-4c33-8992-45de22cbcbf2.png)
-![image](https://user-images.githubusercontent.com/42029575/223164371-2447332d-5271-4af3-ae52-a80da4cef795.png)
 
