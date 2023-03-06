@@ -1,6 +1,6 @@
 # Bluesky Ideas
 
-:bulb: This is a collection of ideas for Bluesky Projects
+:bulb: Collection of ideas for Bluesky Projects
 
 ## BS Variables Training Videos
 
