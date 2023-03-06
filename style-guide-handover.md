@@ -7,7 +7,7 @@
   - consistent containers, typeface, font sizes, spacings, etc throughout pages of the design.
   - consistent use of the values laid out in the style guide throughout pages of the design / not deviating from those.
 - Bootstrap is very flexible, we can update font sizes, spacings, etc in the variables to match the design.
-- UI / UX designers should generally be able to make decisions about font sizes and type scales, spacings and scales, etc that work for the design rather than needing to be constrained by the pre-existing values in the BS variables file as these can be updated.
+- UI / UX designers should generally be able to make decisions about font sizes and type scales, spacings and scales, etc that work for the design rather than needing to be constrained by the pre-existing values in the BS variables file. as these can be updated.
 
 ## Context :
 Issue raised by ui/ux with using header spacing calculation (for title line-height and margins).
