@@ -1,4 +1,4 @@
-# Style Guide - Design to Development Handover Docs
+# Style Guide and Spacing Calculations
 
 ## Context :
 Issue raised by ui/ux with using header spacing calculation (for title line-height and margins).
