@@ -1,13 +1,13 @@
 # Style Guide and Spacing Calculations
 
 ## TLDR :
-- **UI / UX team to drop use of the existing header spacing calculations.**
+- UI / UX team to drop use of the existing header spacing calculations.
 - The style guide part of the design is very useful. This helps FE devs build out the design faster and more accurately.
-- Consistency is really important for the FE Dev team  :
+- Consistency is really important for the FE Dev team :
   - consistent containers, typeface, font sizes, spacings, etc throughout pages of the design.
   - consistent use of the values laid out in the style guide throughout pages of the design / not deviating from those.
 - Bootstrap is very flexible, we can update font sizes, spacings, etc in the variables to match the design.
-- UI / UX designers should genreally be able to make decisions about font sizes and type scales, spacings and scales, etc that work for the design rather than needing to be constrained by the existing calculations in the BS variables file.
+- UI / UX designers should generally be able to make decisions about font sizes and type scales, spacings and scales, etc that work for the design rather than needing to be constrained by the pre values in the BS variables file as these can be updated.
 
 ## Context :
 Issue raised by ui/ux with using header spacing calculation (for title line-height and margins).
