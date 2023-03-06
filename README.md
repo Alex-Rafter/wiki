@@ -1,4 +1,4 @@
-# My Wiki
+# Wiki
 
 My Personal Wiki
 
