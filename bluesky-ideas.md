@@ -1,4 +1,6 @@
-# Bluesky Ideas
+# Bluesky Ideas :bulb:
+
+
 
 ## BS Variables Training Videos
 
