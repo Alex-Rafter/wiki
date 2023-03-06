@@ -1,6 +1,6 @@
 # Style Guide and Spacing Calculations
 
-## TLDR :fast_forward: :
+## :fast_forward: TLDR :
 - **UI / UX team to drop use of the existing header spacing calculations.**
 - The style guide part of the design is very useful. This helps FE devs build out the design faster and more accurately.
 - Consistency is really important for the FE Dev team :
