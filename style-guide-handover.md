@@ -20,7 +20,7 @@ Alex to discuss with rest of FE devs on builds before we make a decision on its 
 
 
 ### Outcome Notes / Process Decisions :
-- UI / UX team to drop use of the existing header spacing calculations.
+- **UI / UX team to drop use of the existing header spacing calculations.**
 - The Styleguide is very useful. This helps FE devs build out the concept faster and more accurately.
 - Consistency is really important for the FE Dev team  :
   - consistent containers, typeface, font sizes, spacings, etc throughout pages of the concept.
