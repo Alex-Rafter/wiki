@@ -2,11 +2,11 @@
 
 ## TLDR :
 - **UI / UX team to drop use of the existing header spacing calculations.**
-- The Styleguide is very useful. This helps FE devs build out the concept faster and more accurately.
+- The Styleguide is very useful. This helps FE devs build out the design faster and more accurately.
 - Consistency is really important for the FE Dev team  :
-  - consistent containers, typeface, font sizes, spacings, etc throughout pages of the concept.
-  - consistent use of the values laid out in the styleguide throughout pages of the concept / not deviating from those.
-- Bootstrap is very flexible, we can update font sizes, spacings, etc in the variables to match the concept.
+  - consistent containers, typeface, font sizes, spacings, etc throughout pages of the design.
+  - consistent use of the values laid out in the styleguide throughout pages of the design / not deviating from those.
+- Bootstrap is very flexible, we can update font sizes, spacings, etc in the variables to match the design.
 - UI / UX designers should genreally be able to make decisions about font sizes and type scales, spacings and scales, etc that work for the design rather than needing to be constrained by the existing calculations in the BS variables file.
 
 ## Context :
@@ -24,6 +24,6 @@ Alex to discuss with rest of FE devs on builds before we make a decision on its 
 - The calculation is not used by majority of build devs or not considered critical.
 - It has been problematic to implement on builds.
 - Overall feeling that the style guide is very useful and helps make build process faster.
-- Having explicit and consistent values e.g for font sizes, spacings, and container sizes, across pages on the design is important factor to building out the concept. This can cause problems more so than the use / non-use of the header spacing calculation.
+- Having explicit and consistent values e.g for font sizes, spacings, and container sizes, across pages on the design is important factor to building out the design. This can cause problems more so than the use / non-use of the header spacing calculation.
 - Not everyone always clear when / how to best leverage the Bootstrap variables instead of overriding them.
 
