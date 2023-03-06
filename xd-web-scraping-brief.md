@@ -4,7 +4,7 @@
 -   aims of the web scraping - eg our xd in a consistent and logical way
 
 Aims :
--  the final result is to be a json file with
+-  the final result is to be script that can scrape the web link a json file with
    -  the css values pulled from each component in the xd file
    -  the css variables that are produced as part of the xd file
    - of these, the main problem area is the componet level css
