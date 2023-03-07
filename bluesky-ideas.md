@@ -13,5 +13,6 @@ Small snippets of extending / changing the core BS variables e.g
 ## Des / Dev Handover Process Review Meeting
 
 - A regular (bi-monthly?) meeting to look at handover issues - how its going in practise with the builds etc
+  - Style guide as a key focus
   - Actions assigned from this e.g style guide tweaks
 - And / or g form to get feedback on impiortant issues / probs etc and improvements from fe devs
