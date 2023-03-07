@@ -6,17 +6,17 @@
 On BP, after creating your new branch run `npm run elements 'pull'`
 This will bring the latest version of the components directories from bluesky-elements into your current BP branch.
 
-## How to push changes back to bluesky-elements repo from BP
+## :green_circle: How to push changes back to bluesky-elements repo from BP
 The workflow for component development is to work on bluesky-elements repo, and then bring the changes into BP to test them.
 But, if, for whatever reason, you needed to make an edit to a component or its logic while you're working on BP you can still push those changes back to the bluesky-elements repo.
 You can do that and run `npm run elements 'push'`
 This will push the changes from BP to the bluesky-elements repo to be held in a special `'sync'` branch, ready for testing and merging.
 
-## How to check what all the component names are
+## :green_circle: How to check what all the component names are
 To avoid creating duplicate component names, you might need to check what the names of all the existing components are.
 You can run `npm run elements 'list'` to get a list of all the component names in the terminal.
 
-## How to quickly turn a snippet of code into a component
+## :green_circle: How to quickly turn a snippet of code into a component
 Its likley that if you're working on a build you will end up writing code that would be a good case for re-use but that isn't covered in the core component library. For example, a spotlight or text section that is used in various places on the site.
 
 You can quickly and automatically turn any snippet into a component in 3 steps :
