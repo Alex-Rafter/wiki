@@ -12,5 +12,5 @@ Small snippets of extending / changing the core BS variables e.g
 
 ## Des / Dev Handover Process Review Meeting
 
-- A regular (bi-monthly?) meeting or g form to get feedback on impiortant issues / probs etc and improvements
+- A regular (bi-monthly?) meeting and / or g form to get feedback on impiortant issues / probs etc and improvements
 -
