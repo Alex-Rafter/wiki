@@ -1,2 +1,2 @@
-# Bluesky Elements Docs
+# Bluesky Elements CLI Docs
 
