@@ -9,3 +9,7 @@ Small snippets of extending / changing the core BS variables e.g
 - Spacings
 - Utils API
 - Theme colours
+
+## Des / Dev Handover Process Review Meeting
+
+- A regular (bi-monthly?) meeting or g form to get feedback on impiortant issues / probs etc and improvements
