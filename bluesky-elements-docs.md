@@ -6,7 +6,7 @@
 On BP, after creating your new branch run `npm run elements 'pull'`
 This will bring the latest version of the components directories from bluesky-elements into your current BP branch.
 
-## How to push changes back from BP to bluesky-elements repo
+## How to push changes back to bluesky-elements repo from BP
 The workflow for component development is to work on bluesky-elements repo, and then bring the changes into BP to test them.
 But, if, for whatever reason, you needed to make an edit to a component or its logic while you're working on BP you can still push those changes back to the bluesky-elements repo.
 You can do that and run `npm run elements 'push'`
