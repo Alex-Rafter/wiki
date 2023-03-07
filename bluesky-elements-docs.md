@@ -60,7 +60,7 @@ The snippet will automatically be added into the correct include directory, read
 `<bsk-spotlight></bsk-spotlight>`
 
 
-BSK Process:
+## bluesky-elements CLI :
 
 ## How to intergrate components pushed from BP into the bluesky-elements repo
 If there are changes that were pushed from BP to the bluesky-elements repo, you can bring those changes into your current branch.
