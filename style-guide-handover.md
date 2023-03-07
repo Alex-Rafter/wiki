@@ -2,7 +2,7 @@
 
 ## :fast_forward: TLDR
 - **UI / UX team to drop use of the existing header spacing calculations.**
-- Remove demo variables from xd file as these are not used and this can be confusing.
+- Remove references to bootstrap variables pasted in to the xd file These are not used and this can be confusing.
 - The style guide part of the design is very useful. This helps FE devs build out the design faster and more accurately.
 - Consistency is really important for the FE Dev team :
   - consistent containers, typeface, font sizes, spacings, etc throughout pages of the design.
