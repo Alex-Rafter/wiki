@@ -1,6 +1,6 @@
 # Bluesky Elements CLI Docs
 
-## Boilerplate Process :
+## Boilerplate CLI :
 
 ## How to pull in the latest version of the components from bluesky-elements into BP
 On BP, after creating your new branch run `npm run elements 'pull'`
