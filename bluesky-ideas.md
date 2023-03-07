@@ -12,5 +12,5 @@ Small snippets of extending / changing the core BS variables e.g
 
 ## Des / Dev Handover Process Review Meeting
 
-- A regular (bi-monthly?) meeting to look at handover issues - how its going in oractiuse with teh builds etc
+- A regular (bi-monthly?) meeting to look at handover issues - how its going in oractiuse with the builds etc
 - And / or g form to get feedback on impiortant issues / probs etc and improvements from fe devs
