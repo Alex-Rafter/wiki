@@ -60,9 +60,9 @@ The snippet will automatically be added into the correct include directory, read
 `<bsk-spotlight></bsk-spotlight>`
 
 
-## :green_circle: bluesky-elements CLI :
+## bluesky-elements CLI :
 
-## :question: How to intergrate components pushed from BP into the bluesky-elements repo
+## :green_circle: How to intergrate components pushed from BP into the bluesky-elements repo
 If there are changes that were pushed from BP to the bluesky-elements repo, you can bring those changes into your current branch.
 After creating your new branch run `npm run elements 'sync'`
 This will overwrite the components directories in your current branch with the version from the `'sync'` branch.
