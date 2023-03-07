@@ -2,7 +2,7 @@
 
 ## Boilerplate CLI :
 
-## :red_circle: How to pull in the latest version of the components from bluesky-elements into BP
+## :green_circle: How to pull in the latest version of the components from bluesky-elements into BP
 On BP, after creating your new branch run `npm run elements 'pull'`
 This will bring the latest version of the components directories from bluesky-elements into your current BP branch.
 
