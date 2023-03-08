@@ -42,5 +42,6 @@ Icon sets, typefaces - style guide? - speak with Kate.
 
 Steps and corresponding concept pages.
 
-Time quote : By end of the week? MOnday as day to provide.
+Time quote : By end of the week?
+MOnday as day to provide.
 
