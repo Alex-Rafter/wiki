@@ -6,9 +6,13 @@ First section quick vehicle uploader
 
     basic login
     2 fa step - enter code from email
+    checkbox and send code
 
 
 - dashboard
 - upload step 1
 
 Want FE involvemnt at this stage to match concepts
+
+Qs :
+what is it
