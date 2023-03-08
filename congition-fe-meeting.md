@@ -50,3 +50,4 @@ But will be more useful going forward.
 
 Check in once a week for standups.
 Sprint review will be more useful.
+12.04.2023
