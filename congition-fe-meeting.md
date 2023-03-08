@@ -15,9 +15,9 @@ First section quick vehicle uploader
     header
     footer
 
-- uploadloder
-- Have images only active Don't have images wont work as yet
--
+-uploadloder
+-Have images only active Don't have images wont work as yet
+
   modal on fail
   breadcrumbs
 
