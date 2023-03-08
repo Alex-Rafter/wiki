@@ -49,4 +49,4 @@ At the moment standups not likley to be useful.
 But will be more useful going forward.
 
 Check in once a week for standups.
-Sprint review will be more useufl.
+Sprint review will be more useful.
