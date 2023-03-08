@@ -45,3 +45,4 @@ Steps and corresponding concept pages.
 Time quote : By end of the week?
 Monday as day to provide.
 
+At the moment standups not likley to be useful.
