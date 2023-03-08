@@ -10,7 +10,6 @@ First section quick vehicle uploader
     email needs styling
     input section
 
-
 - dashboard
     header
     footer
