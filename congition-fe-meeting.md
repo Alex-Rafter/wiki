@@ -12,7 +12,6 @@ First section quick vehicle uploader
 
 
 
-
 - dashboard
 - upload step 1
 
