@@ -13,8 +13,9 @@ First section quick vehicle uploader
 
 
 - dashboard
-  header
-  footer
+    header
+    footer
+
 - upload step 1
 
 Want FE involvemnt at this stage to match concepts
