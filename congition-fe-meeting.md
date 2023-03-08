@@ -16,8 +16,10 @@ First section quick vehicle uploader
     footer
 
 - uploadloder
+  modal on fail
+  breadcrumbs
 
-
+couple of steps
 
 Want FE involvemnt at this stage to match concepts
 
