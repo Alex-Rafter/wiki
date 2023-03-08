@@ -6,7 +6,7 @@ First section quick vehicle uploader
 
     basic login
     2 fa step - enter code from email
-    checkbox and send code
+    checkbox and send code btn
 
 
 
