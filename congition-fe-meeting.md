@@ -48,4 +48,5 @@ Monday as day to provide.
 At the moment standups not likley to be useful.
 But will be more useful going forward.
 
-Check in once a week.
+Check in once a week for standups.
+Sprint review will be more useufl.
