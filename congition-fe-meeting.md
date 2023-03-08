@@ -38,3 +38,4 @@ What version of BS used?
 Working with the codebase needed to be scoped in to time quote.
 
 Icon sets, typefaces - style guide? - speak with Kate.
+
