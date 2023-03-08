@@ -26,5 +26,4 @@ Want FE involvemnt at this stage to match concepts
 Qs :
 what is it
 What version of bootstrap
-Code
-
+Code - partials
