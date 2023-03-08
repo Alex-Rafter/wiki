@@ -8,7 +8,7 @@ First section quick vehicle uploader
     2 fa step - enter code from email
     checkbox and send code btn
     email needs styling
-    input but
+    input section
 
 
 
