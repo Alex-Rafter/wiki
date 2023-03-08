@@ -4,7 +4,7 @@ First section quick vehicle uploader
 
 - Login
     basic login
-    2 fa step
+    2 fa step - enter code from email
 
 - dashboard
 - upload step 1
