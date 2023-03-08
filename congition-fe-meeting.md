@@ -29,3 +29,6 @@ What version of bootstrap
 Code - partials
 Razor as engine
 
+---
+How to build out
+BS Variables work first
