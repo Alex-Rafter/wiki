@@ -39,7 +39,6 @@ Working with the codebase needed to be scoped in to time quote.
 
 Icon sets, typefaces - style guide? - speak with Kate.
 
-
 Steps and corresponding concept pages.
 
 Time quote : By end of the week?
