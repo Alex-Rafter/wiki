@@ -35,4 +35,4 @@ Razor as engine
 How to build out
 BS Variables work first
 What version of BS used?
-Working with the codebase
+Working with the codebase.
