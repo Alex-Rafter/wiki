@@ -11,7 +11,6 @@ First section quick vehicle uploader
     input section
 
 
-
 - dashboard
     header
     footer
