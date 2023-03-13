@@ -12,7 +12,7 @@ This solution needs to be usable on an ongoing basis with the designs we produce
 
 ### Example
 
-Here is an example of how a componeny from the xd link would look. In this example, the component is borken down by XD into two clickable areas that when clicked produce css rule sets. That can be copied and pasted.
+Here is an example of how a component from the xd link would look. In this example, the component is borken down by XD into two clickable areas that when clicked produce css rule sets. That can be copied and pasted.
 
 #### Image 1
 
