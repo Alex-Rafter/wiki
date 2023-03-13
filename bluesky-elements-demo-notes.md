@@ -28,6 +28,7 @@ Master components
 Cog site
 
 ### Features
+Custom HTML class
 Code Structure
   - Vue syntax
     - benefits over vb e.g dynamic class binding - reactive
