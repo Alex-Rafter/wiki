@@ -17,7 +17,7 @@ Small snippets of extending / changing the core BS variables e.g
   - Actions assigned from this e.g style guide tweaks
 - And / or g form to get feedback on impiortant issues / probs etc and improvements from fe devs
 
-## Style Guide Imporvements
+## Style Guide Improvements
 
 - 80/20 the variables - most impirtant added to style guide
   - Add in border radius for example
