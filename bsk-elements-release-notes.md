@@ -17,3 +17,6 @@ Here are the highlights of the latest release :
   - prevent naming duplications when making new components with by listing all elements in a build.
   - rapid component creation from your clipboard. With this you can simly copy any code block and the cli tool will automatically create a new component file in the correct directory, and add the include you need to your build.
   - Here is the [location for the docs](https://github.com/Alex-Rafter/wiki/blob/main/bluesky-elements-docs.md) until all is intergrated into the Vitepress docs site :
+
+- ### Misc
+- Loads of smaller changes and refactoring to teh codebase
