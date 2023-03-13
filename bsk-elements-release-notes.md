@@ -10,7 +10,7 @@ Here are the highlights of the latest release :
   - Breadcrumbs and variant
   - Hero banners slider and slide, and variant
   - Hero banners video
-  - Part Exchange and Variant
+  - Part exchange and Variant
 
 - ### Bluseky Elements CLI tool + docs
   - 2 way sync between bluesky elements repo and build. Pull the latest verison of elements into a build, push any edited components back to a special branch on bluesky-elements for feeding back in to the repo.
