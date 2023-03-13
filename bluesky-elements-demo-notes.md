@@ -59,7 +59,7 @@ card + variant
 inline offer cards
 
 ### Part Ex
-
+section + variant
 
 ### hero banner
 slider
