@@ -11,9 +11,16 @@ The aim of the work is to create an automated solution that can either scrape an
 This solution needs to be usable on an ongoing basis with the designs we produce in XD.
 
 Here is an example of how a componeny from the xd link would look. In this example, the component is borken down by XD into two clickable areas that when clicked produce css rule sets. That can be copied and pasted.
+
+### Image 1
+
 ![xd-1](https://user-images.githubusercontent.com/42029575/224676417-726c8bdd-5bac-48d8-967f-44b12f287391.png)
 
+### Image 2
+
 ![xd-2](https://user-images.githubusercontent.com/42029575/224676443-548d1483-f3ae-4837-b802-59d71e7ce321.png)
+
+### JSON
 
 Here is an example of the sort of output that we would like to have in json format :
 
