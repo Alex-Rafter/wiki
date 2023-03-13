@@ -10,7 +10,14 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_
 https://github.com/vuejs/petite-vue
 
 ### Why is it?
-Benefits
+
+Some of the core aims for the library are :
+- to maximise re-usability of our code
+- save time on building, extending and maintaining sites
+- to optimise design to dev workflow including building a shared language for component namings
+- Flexibility and customisation within each component
+- Complex and/or time-consuming logic or styles (e.g header navs, js widgets etc) can been created, tested, and iterated on, and we all will have access to our best collective work inside these off-the-shelf components.
+- Its v early on, and this is very much a beta but sharing what i've been working on so far for feedback!
 
 vue syntax
 benefits over vb
