@@ -23,7 +23,6 @@ Some of the core aims for the library are :
 - Flexibility and customisation within each component
 - Complex and/or time-consuming logic or styles (e.g header navs, js widgets etc) can been created, tested, and iterated on, and we all will have access to our best collective work inside these off-the-shelf components.
 
-Its v early on, and this is very much a beta but sharing what i've been working on so far for feedback!
 
 vue syntax
 benefits over vb
