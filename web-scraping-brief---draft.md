@@ -24,7 +24,7 @@ Here is an example of how a componeny from the xd link would look. In this examp
 
 #### JSON
 
-Here is an example of the sort of result that we would like to have in json format :
+Here is an example of the sort of result that we would like to have in json format from the above :
 
 ```json
 {
