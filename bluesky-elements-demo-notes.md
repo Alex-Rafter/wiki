@@ -35,8 +35,9 @@ Dir Structure
 - 2 parts
   - Templates
   - Component Logic
-  -
+
 #### Demo
+
 
 ## Repo Demo
 BSK static repo
