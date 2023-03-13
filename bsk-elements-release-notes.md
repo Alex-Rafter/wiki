@@ -7,7 +7,7 @@ Here are the highlights of the latest release :
 - ### New Components in the library
   - Offers card and variants
   - Inline offers card
-  - Breadcrumbs
+  - Breadcrumbs and variant
   - Hero Banners
   - Hero Banners with Video
   - Part Exchange and Variant
