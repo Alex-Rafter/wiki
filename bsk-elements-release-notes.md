@@ -19,4 +19,4 @@ Here are the highlights of the latest release :
   - Here is the [location for the docs](https://github.com/Alex-Rafter/wiki/blob/main/bluesky-elements-docs.md) until all is intergrated into the Vitepress docs site :
 
 - ### Misc
-- Loads of smaller changes and refactoring to the codebase
+- Loads of smaller changes and refactoring of the codebase
