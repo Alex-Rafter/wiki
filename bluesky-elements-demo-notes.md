@@ -34,6 +34,7 @@ Code Structure
 Dir Structure
 - 2 parts
   - Templates
+    - Can do a lot inside teh templates alone with no extra js!
   - Component Logic
 
 #### Demo
