@@ -8,7 +8,7 @@ Here are the highlights of the latest release :
   - Offers card and variants
   - Inline offers card
   - Breadcrumbs and variant
-  - Hero Banners
+  - Hero Banners and variants
   - Hero Banners with Video
   - Part Exchange and Variant
 
