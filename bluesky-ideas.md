@@ -21,4 +21,3 @@ Small snippets of extending / changing the core BS variables e.g
 
 - 80/20 the variables - most impirtant added to style guide
   - Add in border radius for example
-  -
