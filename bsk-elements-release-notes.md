@@ -22,4 +22,3 @@ Here are the highlights of the latest release :
   Loads of smaller changes and refactoring of the codebase.
   - Custom directive for nesting components inside of each other.
   - Helper attribute makes it easy to identify if the component is only a simple template or if it has any additional logic.
-  -
