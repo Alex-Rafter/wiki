@@ -13,7 +13,7 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_element
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
 https://github.com/vuejs/petite-vue
 
-### Aims :
+### Aims
 
 Some of the core aims for the library are :
 
