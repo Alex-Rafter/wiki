@@ -26,8 +26,7 @@ Some of the core aims for the library are :
 ### Features
 Code Structure
 Vue syntax
-    - benefits over vb
-dynamic class binding - reactive
+    - benefits over vb e.g dynamic class binding - reactive
 
 ## Repo Demo
 BSK static repo
