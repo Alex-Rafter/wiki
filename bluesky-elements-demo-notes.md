@@ -1,8 +1,5 @@
 # Bluesky Elements Demo Notes
 
-
-Demo Notes
-
 Overview
 
 What is it?
