@@ -1,7 +1,7 @@
 # Web Scraping Brief - Draft
 
 ## Problem :
-Adobe XD does not provide an easy way to export css rules from components. We are limited to having to manually copy and paste after clicking on each component which is slow and manual. XD does provide an list of css rules for easy export but it is limited to a small number of those used in the design. We need the full set of rules associated with the components.
+Adobe XD does not provide an easy way to export css rules from components. We are limited to having to manually copy and paste after clicking on each component which is slow. XD does provide an list of css rules for easy export but it is limited to a small number of those used in the design. We need the full set of rules associated with the components.
 
 
 ## Overall Aim :
