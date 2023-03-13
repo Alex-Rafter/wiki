@@ -6,7 +6,7 @@ Adobe XD does not provide an easy way to export css rules from components. We ar
 
 ## Overall Aim :
 
-The aim of the work is to create an automated solution that can either scrape an xd link or otherwise interact with the ui of the adobe xd link to pull out the css rules of each component, and then create a json file containing all of the css rules broken down by each component / sub-component. It will also need to include the css rules that adobe xd does provide a list of mentioned above.
+The aim of the work is to create an automated solution that can either scrape an xd link or otherwise interact with the ui of the adobe xd link to pull out the css rules of each component, and then create a json file containing all of the css rules broken down by each component / sub-component. It will also need to include the css rules that adobe xd does provide a list of, mentioned above.
 
 This solution needs to be usable on an ongoing basis with the designs we produce in XD.
 
