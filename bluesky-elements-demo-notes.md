@@ -29,7 +29,7 @@ Cog site
 
 ### Features
 Custom HTML class
-AYto set up
+Auto set up
 Code Structure
   - Vue syntax
     - benefits over vb e.g dynamic class binding - reactive
