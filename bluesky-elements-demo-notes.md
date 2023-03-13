@@ -4,7 +4,11 @@
 
 ### What is it?
 
-Bluesky Elements is our own in-house component library built using custom html elements, template tags, and Petite Vue.
+Bluesky Elements is our own in-house component library built using
+- custom html elements,
+- template tags,
+- and Petite Vue.
+
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
 https://github.com/vuejs/petite-vue
