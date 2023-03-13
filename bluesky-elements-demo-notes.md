@@ -24,8 +24,7 @@ Some of the core aims for the library are :
 - Complex and/or time-consuming logic or styles (e.g header navs, js widgets etc) can been created, tested, and iterated on, and we all will have access to our best collective work inside these off-the-shelf components.
 
 ### Features
-
-
+Code Structure
 vue syntax
 benefits over vb
 dynamic class binding - reactive
