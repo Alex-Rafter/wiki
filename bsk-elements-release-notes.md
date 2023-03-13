@@ -20,4 +20,4 @@ Here are the highlights of the latest release :
 
 - ### Misc
   - Loads of smaller changes and refactoring of the codebase
--
+  -
