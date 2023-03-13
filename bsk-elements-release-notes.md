@@ -8,8 +8,8 @@ Here are the highlights of the latest release :
   - Offers card and variants
   - Inline offers card
   - Breadcrumbs and variant
-  - Hero Banners and variant
-  - Hero Banners with video
+  - Hero Banners Slider and slide, and variant
+  - Hero Banners video
   - Part Exchange and Variant
 
 - ### Bluseky Elements CLI tool + docs
