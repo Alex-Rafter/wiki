@@ -13,9 +13,10 @@ https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_element
 https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
 https://github.com/vuejs/petite-vue
 
-### Why is it?
+### Aims :
 
 Some of the core aims for the library are :
+
 - to maximise re-usability of our code
 - save time on building, extending and maintaining sites
 - to optimise design to dev workflow including building a shared language for component namings
