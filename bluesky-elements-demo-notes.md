@@ -25,8 +25,7 @@ Some of the core aims for the library are :
 
 ### Features
 Code Structure
-
-vue syntax
+Vue syntax
 benefits over vb
 dynamic class binding - reactive
 
