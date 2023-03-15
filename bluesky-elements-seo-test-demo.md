@@ -2,12 +2,14 @@
 
 
 Here is a dev link with the new custom elements on for SEO testing :
+
 http://alr46325.dev.cogplatform.co.uk/bluesky-elements-demo/used-list/
 
-It uses COG data passed to the custom elements via the attributes.
-After the javascript runs the markup is changed to display the data in a more user friendly way.
 
-As a small example, in the markup the specs section looks something like this
+- It uses COG data passed to the custom elements via the attributes.
+- After the javascript runs the markup is changed to display the data inside the template.
+
+As a small example, in the markup the specs section looks something like this :
 
 ```html
           <bsk-vehicle-card-specs
@@ -19,6 +21,8 @@ As a small example, in the markup the specs section looks something like this
           ```
 
 But when the javascript is parsed by the browser it will display html that looks like :
+
+And in the markup after parsing it looks like :
 
 ```html
 <div class="vehicle-card-specs p-0">
