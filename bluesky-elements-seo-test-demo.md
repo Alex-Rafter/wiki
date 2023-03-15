@@ -9,20 +9,21 @@ http://alr46325.dev.cogplatform.co.uk/bluesky-elements-demo/used-list/
 - After the javascript runs the markup is changed to display the data inside the template.
 
 ## Example
-As a small example, in the markup (before parsing) the specs section looks something like this :
+As a small example, the specs section looks something like this on the page :
+
+
+In the markup (before parsing) it looks like this :
 
 ```html
-          <bsk-vehicle-card-specs
-            is="pills"
-            specs="34230 miles|Petrol|Automatic"
-            icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs|fas fa-cogs"
-          >
-          </bsk-vehicle-card-specs>
-          ```
+  <bsk-vehicle-card-specs
+    is="pills"
+    specs="34230 miles|Petrol|Automatic"
+    icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs|fas fa-cogs"
+  >
+  </bsk-vehicle-card-specs>
+```
 
 But when the javascript is parsed by the browser it will display html that looks like :
-
-And in the markup after parsing it looks like :
 
 ```html
 <div class="vehicle-card-specs p-0">
