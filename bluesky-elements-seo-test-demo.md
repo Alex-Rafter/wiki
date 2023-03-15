@@ -8,7 +8,7 @@ http://alr46325.dev.cogplatform.co.uk/bluesky-elements-demo/used-list/
 - It uses COG data, passed to the custom elements via attributes.
 - After the javascript runs the markup is changed to display the data inside the template.
 
-As a small example, in the markup the specs section looks something like this :
+As a small example, in the markup (before parsing) the specs section looks something like this :
 
 ```html
           <bsk-vehicle-card-specs
