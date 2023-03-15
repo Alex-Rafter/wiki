@@ -21,3 +21,8 @@ Small snippets of extending / changing the core BS variables e.g
 
 - 80/20 the variables - most impirtant added to style guide
   - Add in border radius for example
+
+## VB Logic clean up
+incs dir for template-logic
+
+## Session Object as bigger thing
