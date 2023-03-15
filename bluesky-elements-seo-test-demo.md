@@ -11,6 +11,7 @@ http://alr46325.dev.cogplatform.co.uk/bluesky-elements-demo/used-list/
 ## Example
 As a small example, the specs section looks something like this on the page :
 
+![specs-el](https://user-images.githubusercontent.com/42029575/225279528-0f23115f-313a-49be-aa03-f4fc8bb4215e.png)
 
 In the markup (before parsing) it looks like this :
 
