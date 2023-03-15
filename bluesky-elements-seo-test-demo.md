@@ -5,7 +5,7 @@ Here is a dev link with the a small set of the new custom elements for SEO testi
 http://alr46325.dev.cogplatform.co.uk/bluesky-elements-demo/used-list/
 
 
-- It uses COG data passed to the custom elements via the attributes.
+- It uses COG data, passed to the custom elements via the attributes.
 - After the javascript runs the markup is changed to display the data inside the template.
 
 As a small example, in the markup the specs section looks something like this :
