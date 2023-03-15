@@ -26,3 +26,4 @@ Small snippets of extending / changing the core BS variables e.g
 incs dir for template-logic
 
 ## Session Object as bigger thing
+speak with Dave on any perf implications
