@@ -1,6 +1,6 @@
 # Bluesky Elements SEO Test Demo
 
-Here is a dev link with the a small set of the new custom elements on for SEO testing :
+Here is a dev link with the a small set of the new custom elements for SEO testing :
 
 http://alr46325.dev.cogplatform.co.uk/bluesky-elements-demo/used-list/
 
