@@ -16,12 +16,12 @@ As a small example, the specs section looks something like this on the page :
 In the markup (before parsing) it looks like this :
 
 ```html
-  <bsk-vehicle-card-specs
+<bsk-vehicle-card-specs
     is="pills"
-    specs="34230 miles|Petrol|Automatic"
-    icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs|fas fa-cogs"
-  >
-  </bsk-vehicle-card-specs>
+    specs="<%= Mileage.Text %> miles | <%= FuelType.Text %> | <%= Transmission.Text %> | <%=BodyType.Text%>"
+    icons="fas fa-tachometer-alt | fas fa-gas-pump | fas fa-cogs | fas fa-cogs"
+    >
+</bsk-vehicle-card-specs>
 ```
 
 But when the javascript is parsed by the browser it will display html that looks like :
