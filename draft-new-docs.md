@@ -87,8 +87,11 @@ The bsk-hero-banner-slider element is used to display a responsive slider of her
 Optional attributes:
 
 dots (default: false)
+
 Example:
+```html
 <bsk-hero-banner-slider dots="true"></bsk-hero-banner-slider>
+```
 
 Detailed explanation:
 
