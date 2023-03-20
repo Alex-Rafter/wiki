@@ -31,7 +31,7 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 - fullWidthInit(el): Initializes the full-width gallery and thumbnail navigation with Slick Carousel.
 - standardInit(el, thumbsToShow): Initializes the standard gallery and thumbnail navigation with Slick Carousel.
 
-Usage
+### Usage
 To use the bsk-gallery component, include the custom bsk-element tag in your HTML:
 
 ```html
