@@ -222,7 +222,7 @@ Mandatory attributes:
 
 Optional attributes:
 
-aspectRatio: The aspect ratio for the image in the CTA section (default is auto)
+- aspectRatio: The aspect ratio for the image in the CTA section (default is auto)
 Example for part-exchange form:
 
 <bsk-cta-section
