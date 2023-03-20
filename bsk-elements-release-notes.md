@@ -7,6 +7,8 @@ Here are the highlights of the latest release :
 
 - ### Focus on bug squashing this release
 
+- ### Store logic improvements
+
 - ### New Components in the library
   - Gallery component and variants
   - Spotlight components and variants inc strip
