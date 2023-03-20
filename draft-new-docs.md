@@ -20,6 +20,8 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 - version: (String) The name of the vehicle's version.
 - mileage: (String) The vehicle's mileage.
 
+### Optional attributes
+
 ### Methods
 
 - galleryClick(el): Navigates to the slide corresponding to the thumbnail clicked.
