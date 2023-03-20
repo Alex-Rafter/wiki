@@ -97,7 +97,7 @@ The bsk-hero-banner-slider element is used to display a responsive slider of her
 
 ### Optional Attributes:
 
-dots (default: false)
+- dots (default: false)
 
 Example:
 
