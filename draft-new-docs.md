@@ -118,6 +118,7 @@ Detailed explanation:
 If the dots attribute is set to "true", the position of the slick-dots element is set to absolute, and the bottom is set to 1rem.
 Methods:
 
+#### Methods
 init(el): Initializes the Slick Carousel with the specified options and binds it to the '.slider' element.
 
 ---
