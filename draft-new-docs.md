@@ -57,21 +57,6 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 - button-text: The text displayed on the call-to-action button
 - button-url: The URL the button will link to
 
-### Example:
-
-```html
-<bsk-hero-banner-video
-youtube-id="ywFnUyzBb6I"
-hero-bg-height="calc(100vh - 135px)"
-hero-bg-height-mobile="calc(100vh - 66px)"
-headline="I am a headline"
-synopsis="I am a test synopsis"
-button-text="Search Our Stock"
-button-url="https://www.blueskyinteractive.com"
->
-</bsk-hero-banner-video>
-```
-
 #### Detailed explanation:
 
 - The component displays a full-screen video background using YouTube's embedded player.
@@ -88,6 +73,21 @@ button-url="https://www.blueskyinteractive.com"
 #### Methods:
 
 init(el): Initializes the YouTube player by calling the 'ytInitMain()' function provided by the YouTube API.
+
+### Example:
+
+```html
+<bsk-hero-banner-video
+youtube-id="ywFnUyzBb6I"
+hero-bg-height="calc(100vh - 135px)"
+hero-bg-height-mobile="calc(100vh - 66px)"
+headline="I am a headline"
+synopsis="I am a test synopsis"
+button-text="Search Our Stock"
+button-url="https://www.blueskyinteractive.com"
+>
+</bsk-hero-banner-video>
+```
 
 ---
 
