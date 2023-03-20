@@ -129,7 +129,7 @@ The bsk-hero-banner-slide element is used to display a hero banner with an optio
 
 ### Mandatory attributes:
 
-imgSrc
+img-src
 
 ### Optional Attributes:
 
