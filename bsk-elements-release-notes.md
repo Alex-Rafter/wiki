@@ -11,7 +11,6 @@ Here are the highlights of the latest release :
   - Gallery Component and Variants
   - Spotlight components and vairiants inc strip
   - CTA section full width + variant + variant
-  - CTA section + variant rework
 
 
 ## Release Notes v.02
