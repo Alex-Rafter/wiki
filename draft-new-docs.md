@@ -61,12 +61,14 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 
 ```html
 <bsk-hero-banner-video
-youtubeId="your_youtube_id"
-headline="Sample Headline"
-synopsis="Sample Synopsis"
-buttonText="Click me"
-buttonUrl="https://example.com"
-
+youtube-id="ywFnUyzBb6I"
+hero-bg-height="calc(100vh - 135px)"
+hero-bg-height-mobile="calc(100vh - 66px)"
+headline="I am a headline"
+synopsis="I am a test synopsis"
+button-text="Search Our Stock"
+button-url="https://www.blueskyinteractive.com"
+>
 </bsk-hero-banner-video>
 ```
 
@@ -99,11 +101,7 @@ The bsk-hero-banner-slider element is used to display a responsive slider of her
 
 Example:
 
-```html
-<bsk-hero-banner-slider dots="true"></bsk-hero-banner-slider>
-```
-
-Detailed explanation:
+### Detailed explanation:
 
 - The component utilizes the Slick Carousel library to create a responsive and adaptive slider with a fading transition effect.
 - The dots attribute can be set to "true" to enable dot navigation at the bottom of the slider. By default, the dots are disabled.
@@ -118,6 +116,11 @@ Methods:
 
 #### Methods
 init(el): Initializes the Slick Carousel with the specified options and binds it to the '.slider' element.
+
+### Example
+```html
+<bsk-hero-banner-slider dots="true"></bsk-hero-banner-slider>
+```
 
 ---
 
@@ -138,17 +141,6 @@ The bsk-hero-banner-slide element is used to display a hero banner with an optio
 - overlay (default: true)
 - youtube-id
 
-```html
-Example:
-<bsk-hero-banner-slide
-  imgSrc="path/to/image.jpg"
-  headline="Your Headline"
-  synopsis="Your synopsis"
-  buttonText="Click Here"
-  linkUrl="https://example.com"
-></bsk-hero-banner-slide>
-```
-
 ### Detailed explanation:
 
 - If the youtubeId attribute is provided, the component will display a YouTube video as the background. The video will only play on larger screens (not xs or sm breakpoints).
@@ -165,6 +157,21 @@ Example:
 - wrapInAnchor(el): Wraps the hero slide in an anchor tag if the overlay is disabled and a linkUrl is provided.
 - initVideo(): Initializes the YouTube video if a youtubeId is provided and the current breakpoint is not xs or sm.
 - init(el): Calls wrapInAnchor and listens for breakpoint changes to initialize the video if needed.
+
+### Example : 
+
+```html
+<bsk-hero-banner-slide
+v-cloak
+youtube-id="ywFnUyzBb6I"
+headline="I am the 1st video"
+synopsis="I am a test synopsis"
+button-text="Search Our Stock"
+link-url="https://www.blueskyinteractive.com"
+img-src="https://bluesky-cogcms.cdn.imgeng.in/media/kb4hlthl/group-inspire-ext-brand.jpg"
+>
+</bsk-hero-banner-slide>
+```
 
 ---
 
