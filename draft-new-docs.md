@@ -114,6 +114,8 @@ Detailed explanation:
 - The component uses the 'adaptiveHeight' option to adjust the height of the slider based on the height of the current slide.
 -
 
+#### CSS:
+
 If the dots attribute is set to "true", the position of the slick-dots element is set to absolute, and the bottom is set to 1rem.
 Methods:
 
