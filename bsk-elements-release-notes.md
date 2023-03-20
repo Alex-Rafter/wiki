@@ -8,10 +8,10 @@ Here are the highlights of the latest release :
 - ### Focus on bug squashing this release
 
 - ### New Components in the library
-- Gallery Component and Variants
-- Spotlight components and vairiants inc strip
-- CTA section + variant
-- CTA section full width + variant + variant
+  - Gallery Component and Variants
+  - Spotlight components and vairiants inc strip
+  - CTA section + variant
+  - CTA section full width + variant + variant
 
 
 ## Release Notes v.02
