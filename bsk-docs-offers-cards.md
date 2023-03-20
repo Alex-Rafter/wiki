@@ -1,4 +1,4 @@
-# BSK-Docs Offers Cards
+# BSK Docs Offers Cards
 
 
 ## :green_circle: Inline Offer Card
