@@ -1,7 +1,5 @@
 # Draft New Component Docs
 
-(BSK Docs Offers Cards)[[BSK Docs Offers Cards]]
-
 ## :green_circle: Gallery
 
 The bsk-gallery component is a responsive image gallery with optional thumbnail navigation. It supports both full-width and standard display modes, and uses the Slick Carousel library for sliding functionality.
