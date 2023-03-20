@@ -203,7 +203,7 @@ Mandatory attributes:
 
 Optional attributes:
 
-line-clampLength: The number of lines to display in the offer description text (default is 3)
+line-clamplength: The number of lines to display in the offer description text (default is 3)
 Example:
 
 ```html
