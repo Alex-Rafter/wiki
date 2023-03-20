@@ -157,7 +157,7 @@ init(el): Calls wrapInAnchor and listens for breakpoint changes to initialize th
 
 ---
 
-## Inline Offer Card
+## :green_circle: Inline Offer Card
 The bsk-inline-offer-card element is used to display an offer card with relevant information such as the offer title, finance details, offer description, and related images. The card has a responsive design, with separate layouts for desktop and mobile views. The finance details are displayed in a table, and the text content can be truncated using the CSS property --line-clamp to limit the number of visible lines.
 
 Mandatory attributes:
