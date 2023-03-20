@@ -203,7 +203,7 @@ Mandatory attributes:
 
 Optional attributes:
 
-lineClampLength: The number of lines to display in the offer description text (default is 3)
+line-clampLength: The number of lines to display in the offer description text (default is 3)
 Example:
 
 ```html
@@ -231,7 +231,7 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 ### Optional Attributes:
 
 - is: The type of CTA, either 'part-exchange' or any other string for a simple button
-- aspect-tatio: The aspect ratio for the image in the CTA section (default is auto)
+- aspect-ratio: The aspect ratio for the image in the CTA section (default is auto)
 Example for part-exchange form:
 
 ```html
