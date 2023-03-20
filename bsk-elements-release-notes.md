@@ -9,7 +9,7 @@ Here are the highlights of the latest release :
 
 - ### New Components in the library
   - Gallery Component and Variants
-  - Spotlight components and vairiants inc strip
+  - Spotlight components and variants inc strip
   - CTA section full width + variant + variant
 
 
