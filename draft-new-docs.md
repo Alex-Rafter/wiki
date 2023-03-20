@@ -17,12 +17,13 @@ Props
 - model: (String) The name of the vehicle's model.
 - version: (String) The name of the vehicle's version.
 - mileage: (String) The vehicle's mileage.
+-
 Methods
-galleryClick(el): Navigates to the slide corresponding to the thumbnail clicked.
-init(el): Initializes the gallery component based on the display mode (is) and sets the total image count.
-Utility Functions
-fullWidthInit(el): Initializes the full-width gallery and thumbnail navigation with Slick Carousel.
-standardInit(el, thumbsToShow): Initializes the standard gallery and thumbnail navigation with Slick Carousel.
+- galleryClick(el): Navigates to the slide corresponding to the thumbnail clicked.
+- init(el): Initializes the gallery component based on the display mode (is) and sets the total image count.
+- Utility Functions
+- fullWidthInit(el): Initializes the full-width gallery and thumbnail navigation with Slick Carousel.
+- standardInit(el, thumbsToShow): Initializes the standard gallery and thumbnail navigation with Slick Carousel.
 Usage
 
 To use the bsk-gallery component, include the custom bsk-element tag in your HTML:
