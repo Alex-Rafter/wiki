@@ -1,4 +1,4 @@
-# Draft New Docs
+# Draft New Component Docs
 
 ---
 
