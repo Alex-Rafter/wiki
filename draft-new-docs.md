@@ -107,7 +107,6 @@ Example:
 - The slider contains next and previous arrows for navigation between slides.
 - The slider supports lazy loading for better performance with the 'ondemand' option.
 - The component uses the 'adaptiveHeight' option to adjust the height of the slider based on the height of the current slide.
--
 
 #### CSS
 If the dots attribute is set to "true", the position of the slick-dots element is set to absolute, and the bottom is set to 1rem.
