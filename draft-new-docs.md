@@ -195,11 +195,11 @@ The card includes an offer title, finance details, offer description, and button
 
 ### Mandatory Attributes:
 
-- offerTitle: The title of the offer
-- offerBody: The description text of the offer
-- offerFinanceDetails: An array of key-value pairs representing the finance details for the offer
-- offerUrl: The URL for the 'Find out More' button
-- offerImage: The image URL for the offer card
+- offer-title: The title of the offer
+- offer-body: The description text of the offer
+- offer-finance-details: An array of key-value pairs representing the finance details for the offer
+- offer-url: The URL for the 'Find out More' button
+- offer-image: The image URL for the offer card
 
 ### Optional Attributes:
 
