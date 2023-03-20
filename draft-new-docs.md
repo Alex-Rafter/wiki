@@ -158,7 +158,8 @@ Mandatory attributes:
 - offerBody
 - offerUrl
 - offerImage
-- Optional attributes:
+
+Optional attributes:
 
 lineClampLength (default is not set)
 Example:
