@@ -17,7 +17,7 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 - model: (String) The name of the vehicle's model.
 - version: (String) The name of the vehicle's version.
 - mileage: (String) The vehicle's mileage.
-- has-video : Used in icon overlay, determines whether the vehicle has a video or not. Default: false.
+- has-video : Used to set video icon overlay. Default: false.
 
 ### Optional attributes
 
