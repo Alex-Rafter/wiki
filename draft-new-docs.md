@@ -38,7 +38,7 @@ To use the bsk-gallery component, include the custom bsk-element tag in your HTM
   has-video="true"
   images="fbe73d57-63b1-450b-87f1-88d1ef879908,
   371d1eb7-e92d-4acd-b9e2-e9b9d4923439,
-  66702a92-fc5d-4af9-9284-f16b757f3df8
+  66702a92-fc5d-4af9-9284-f16b757f3df8"
 >
 </bsk-gallery>
 ```
