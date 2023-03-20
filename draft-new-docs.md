@@ -136,7 +136,7 @@ img-src
 headline
 synopsis
 buttonText
-linkUrl
+link-url
 overlay (default: true)
 youtubeId
 
