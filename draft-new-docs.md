@@ -95,11 +95,12 @@ Example:
 
 Detailed explanation:
 
-The component utilizes the Slick Carousel library to create a responsive and adaptive slider with a fading transition effect.
-The dots attribute can be set to "true" to enable dot navigation at the bottom of the slider. By default, the dots are disabled.
-The slider contains next and previous arrows for navigation between slides.
-The slider supports lazy loading for better performance with the 'ondemand' option.
-The component uses the 'adaptiveHeight' option to adjust the height of the slider based on the height of the current slide.
+- The component utilizes the Slick Carousel library to create a responsive and adaptive slider with a fading transition effect.
+- The dots attribute can be set to "true" to enable dot navigation at the bottom of the slider. By default, the dots are disabled.
+- The slider contains next and previous arrows for navigation between slides.
+- The slider supports lazy loading for better performance with the 'ondemand' option.
+- The component uses the 'adaptiveHeight' option to adjust the height of the slider based on the height of the current slide.
+-
 CSS:
 
 If the dots attribute is set to "true", the position of the slick-dots element is set to absolute, and the bottom is set to 1rem.
@@ -108,7 +109,8 @@ Methods:
 init(el): Initializes the Slick Carousel with the specified options and binds it to the '.slider' element.
 
 ---
-Hero Banner Slide
+## Hero Banner Slide
+
 The bsk-hero-banner-slide element is used to display a hero banner with an optional video or image background. The component supports a headline, synopsis, and a button with a link.
 
 Mandatory attributes:
@@ -122,6 +124,8 @@ buttonText
 linkUrl
 overlay (default: true)
 youtubeId
+
+
 Example:
 <bsk-hero-banner-slide imgSrc="path/to/image.jpg" headline="Your Headline" synopsis="Your synopsis" buttonText="Click Here" linkUrl="https://example.com"></bsk-hero-banner-slide>
 
