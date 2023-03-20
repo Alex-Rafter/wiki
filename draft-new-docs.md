@@ -153,12 +153,12 @@ The bsk-inline-offer-card element is used to display an offer card with relevant
 
 Mandatory attributes:
 
-offerTitle
-offerFinanceDetails
-offerBody
-offerUrl
-offerImage
-Optional attributes:
+- offerTitle
+- offerFinanceDetails
+- offerBody
+- offerUrl
+- offerImage
+- Optional attributes:
 
 lineClampLength (default is not set)
 Example:
