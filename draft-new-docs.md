@@ -132,14 +132,14 @@ Example:
 
 Detailed explanation:
 
-If the youtubeId attribute is provided, the component will display a YouTube video as the background. The video will only play on larger screens (not xs or sm breakpoints).
-If no youtubeId is provided, an image will be used as the background. The image source is set with the imgSrc attribute.
-The overlay attribute is used to enable or disable the hero overlay. If it's set to true (default), a div element containing the headline, synopsis, and button will be shown on top of the background.
-The headline attribute sets the text for the main heading, displayed in uppercase.
-The synopsis attribute sets the text for the secondary heading or paragraph.
-The buttonText attribute sets the text for the button.
-The linkUrl attribute sets the URL for the button link or the entire hero slide if the overlay is disabled.
-The component is responsive, and it adjusts its layout based on the current viewport.
+- If the youtubeId attribute is provided, the component will display a YouTube video as the background. The video will only play on larger screens (not xs or sm breakpoints).
+- If no youtubeId is provided, an image will be used as the background. The image source is set with the imgSrc attribute.
+- The overlay attribute is used to enable or disable the hero overlay. If it's set to true (default), a div element containing the headline, synopsis, and button will be shown on top of the background.
+- The headline attribute sets the text for the main heading, displayed in uppercase.
+- The synopsis attribute sets the text for the secondary heading or paragraph.
+- The buttonText attribute sets the text for the button.
+- The linkUrl attribute sets the URL for the button link or the entire hero slide if the overlay is disabled.
+- The component is responsive, and it adjusts its layout based on the current viewport.
 Methods:
 
 wrapInAnchor(el): Wraps the hero slide in an anchor tag if the overlay is disabled and a linkUrl is provided.
