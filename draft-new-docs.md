@@ -171,7 +171,8 @@ The bsk-inline-offer-card element is used to display an offer card with relevant
 ### Optional Attributes:
 
 line-clamp-length (default is not set)
-Example:
+
+### Example:
 
 ```html
 <bsk-inline-offer-card
