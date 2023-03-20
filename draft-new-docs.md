@@ -197,6 +197,7 @@ Optional attributes:
 lineClampLength: The number of lines to display in the offer description text (default is 3)
 Example:
 
+```html
 <bsk-inline-offer-card
   offerTitle="Special Offer"
   offerBody="Limited time offer on this amazing vehicle. Don't miss out!"
