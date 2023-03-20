@@ -71,7 +71,7 @@ buttonUrl="https://example.com"
 </bsk-hero-banner-video>
 ```
 
-Detailed explanation:
+### Detailed explanation:
 
 - The component displays a full-screen video background using YouTube's embedded player.
 - The video automatically plays and is set to loop.
