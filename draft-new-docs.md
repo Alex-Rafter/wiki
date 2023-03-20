@@ -55,8 +55,8 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 - hero-bg-height-mobile (default: 'calc(100vh - 93px)'): The height of the hero banner on mobile devices
 - headline: The headline text displayed on top of the video
 - synopsis: The synopsis text displayed below the headline
-- buttonText: The text displayed on the call-to-action button
-- buttonUrl: The URL the button will link to
+- button-text: The text displayed on the call-to-action button
+- button-url: The URL the button will link to
 
 ### Example:
 
