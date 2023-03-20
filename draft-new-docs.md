@@ -139,7 +139,7 @@ Example:
 <bsk-hero-banner-slide imgSrc="path/to/image.jpg" headline="Your Headline" synopsis="Your synopsis" buttonText="Click Here" linkUrl="https://example.com"></bsk-hero-banner-slide>
 ```
 
-Detailed explanation:
+### Detailed explanation:
 
 - If the youtubeId attribute is provided, the component will display a YouTube video as the background. The video will only play on larger screens (not xs or sm breakpoints).
 - If no youtubeId is provided, an image will be used as the background. The image source is set with the imgSrc attribute.
