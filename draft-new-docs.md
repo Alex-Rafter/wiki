@@ -252,7 +252,8 @@ The card includes an offer title, finance details, offer description, and button
 ### Optional Attributes:
 
 - line-clamp-length: The number of lines to display in the offer description text (default is 3)
-  Example:
+
+### Example:
 
 ```html
 <bsk-inline-offer-card
