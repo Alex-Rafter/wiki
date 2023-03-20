@@ -28,6 +28,7 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 - standardInit(el, thumbsToShow): Initializes the standard gallery and thumbnail navigation with Slick Carousel.
 
 ### Usage
+
 To use the bsk-gallery component, include the custom bsk-element tag in your HTML:
 
 ```html
@@ -40,7 +41,8 @@ To use the bsk-gallery component, include the custom bsk-element tag in your HTM
   has-video="true"
   images="fbe73d57-63b1-450b-87f1-88d1ef879908,
   371d1eb7-e92d-4acd-b9e2-e9b9d4923439,
-  66702a92-fc5d-4af9-9284-f16b757f3df8">
+  66702a92-fc5d-4af9-9284-f16b757f3df8"
+>
 </bsk-gallery>
 ```
 
@@ -83,7 +85,7 @@ CSS:
 - Media queries are used to adjust the video and text dimensions and positioning for different screen sizes and aspect ratios.
 - The headline and synopsis text use responsive font sizes and line heights.
 - The video is displayed with a slightly reduced opacity (0.8) to improve text readability.
-Methods:
+  Methods:
 
 init(el): Initializes the YouTube player by calling the 'ytInitMain()' function provided by the YouTube API.
 
@@ -98,6 +100,7 @@ Optional attributes:
 dots (default: false)
 
 Example:
+
 ```html
 <bsk-hero-banner-slider dots="true"></bsk-hero-banner-slider>
 ```
@@ -109,8 +112,7 @@ Detailed explanation:
 - The slider contains next and previous arrows for navigation between slides.
 - The slider supports lazy loading for better performance with the 'ondemand' option.
 - The component uses the 'adaptiveHeight' option to adjust the height of the slider based on the height of the current slide.
--
-CSS:
+- CSS:
 
 If the dots attribute is set to "true", the position of the slick-dots element is set to absolute, and the bottom is set to 1rem.
 Methods:
@@ -118,6 +120,7 @@ Methods:
 init(el): Initializes the Slick Carousel with the specified options and binds it to the '.slider' element.
 
 ---
+
 ## :green_circle: Hero Banner Slide
 
 The bsk-hero-banner-slide element is used to display a hero banner with an optional video or image background. The component supports an optional headline, synopsis, and button with a link.
@@ -137,7 +140,13 @@ youtubeId
 
 ```html
 Example:
-<bsk-hero-banner-slide imgSrc="path/to/image.jpg" headline="Your Headline" synopsis="Your synopsis" buttonText="Click Here" linkUrl="https://example.com"></bsk-hero-banner-slide>
+<bsk-hero-banner-slide
+  imgSrc="path/to/image.jpg"
+  headline="Your Headline"
+  synopsis="Your synopsis"
+  buttonText="Click Here"
+  linkUrl="https://example.com"
+></bsk-hero-banner-slide>
 ```
 
 ### Detailed explanation:
@@ -160,6 +169,7 @@ init(el): Calls wrapInAnchor and listens for breakpoint changes to initialize th
 ---
 
 ## :green_circle: Inline Offer Card
+
 The bsk-inline-offer-card element is used to display an offer card with relevant information such as the offer title, finance details, offer description, and related images. The card has a responsive design, with separate layouts for desktop and mobile views. The finance details are displayed in a table, and the text content can be truncated using the CSS property --line-clamp to limit the number of visible lines.
 
 ### Mandatory Attributes:
@@ -182,12 +192,12 @@ line-clamp-length (default is not set)
   :offerFinanceDetails="[{'Finance option 1': '£500'}, {'Finance option 2': '£1000'}]"
   offerBody="This is a sample description for the offer."
   offerUrl="/offer-url/"
-  offerImage="/path/to/offer-image.jpg">
+  offerImage="/path/to/offer-image.jpg"
+>
 </bsk-inline-offer-card>
 ```
 
 The bsk-inline-offer-card component displays an offer card with the provided information. The card has separate layouts for desktop and mobile devices. The offer details are displayed in a table, and the description can be truncated using the CSS property --line-clamp to limit the number of visible lines. The component includes two buttons, one to view all offers and the other to find out more about the specific offer.
-
 
 ---
 
@@ -207,7 +217,7 @@ The card includes an offer title, finance details, offer description, and button
 ### Optional Attributes:
 
 - line-clamp-length: The number of lines to display in the offer description text (default is 3)
-Example:
+  Example:
 
 ```html
 <bsk-inline-offer-card
@@ -215,7 +225,8 @@ Example:
   offerBody="Limited time offer on this amazing vehicle. Don't miss out!"
   offerFinanceDetails="[{'Deposit': '£1,000'}, {'Monthly Payment': '£250'}]"
   offerUrl="/special-offer"
-  offerImage="/path/to/image.jpg">
+  offerImage="/path/to/image.jpg"
+>
 </bsk-inline-offer-card>
 ```
 
@@ -235,14 +246,15 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 
 - is: The type of CTA, either 'part-exchange' or any other string for a simple button
 - aspect-ratio: The aspect ratio for the image in the CTA section (default is auto)
-Example for part-exchange form:
+  Example for part-exchange form:
 
 ```html
 <bsk-cta-section
   title="Get a Part-Exchange Valuation"
   bodyText="Enter your registration below to receive a free valuation for your vehicle."
   btnText="Get Valuation"
-  is="part-exchange">
+  is="part-exchange"
+>
 </bsk-cta-section>
 ```
 
