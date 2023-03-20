@@ -164,6 +164,7 @@ Optional attributes:
 lineClampLength (default is not set)
 Example:
 
+```html
 <bsk-inline-offer-card
   offerTitle="Sample Offer"
   :offerFinanceDetails="[{'Finance option 1': '£500'}, {'Finance option 2': '£1000'}]"
@@ -171,6 +172,7 @@ Example:
   offerUrl="/offer-url/"
   offerImage="/path/to/offer-image.jpg">
 </bsk-inline-offer-card>
+```
 
 The bsk-inline-offer-card component displays an offer card with the provided information. The card has separate layouts for desktop and mobile devices. The offer details are displayed in a table, and the description can be truncated using the CSS property --line-clamp to limit the number of visible lines. The component includes two buttons, one to view all offers and the other to find out more about the specific offer.
 
