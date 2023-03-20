@@ -162,7 +162,6 @@ The bsk-hero-banner-slide element is used to display a hero banner with an optio
 
 ```html
 <bsk-hero-banner-slide
-v-cloak
 youtube-id="ywFnUyzBb6I"
 headline="I am the 1st video"
 synopsis="I am a test synopsis"
