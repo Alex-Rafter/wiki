@@ -10,7 +10,6 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 
 ### Mandatory attributes
 
-- is: used to set variations : default, thumbs, full-width
 - thumbs: (Boolean) Determines whether to display thumbnail navigation or not. Default: true.
 - thumbs-to-show: (Number) Specifies the number of thumbnails to show in the navigation. Default: 4.
 - img-count: (Number) The total number of images in the gallery. Default: 0.
@@ -21,6 +20,8 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 - mileage: (String) The vehicle's mileage.
 
 ### Optional attributes
+
+- is: used to set variations : default, thumbs, full-width
 
 ### Methods
 
