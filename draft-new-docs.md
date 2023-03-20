@@ -89,7 +89,6 @@ button-url="https://www.blueskyinteractive.com"
 </bsk-hero-banner-video>
 ```
 
----
 
 ## :green_circle: Hero Banner Slider
 
@@ -122,7 +121,6 @@ init(el): Initializes the Slick Carousel with the specified options and binds it
 <bsk-hero-banner-slider dots="true"></bsk-hero-banner-slider>
 ```
 
----
 
 ## :green_circle: Hero Banner Slide
 
