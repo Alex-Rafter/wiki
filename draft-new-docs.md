@@ -29,16 +29,16 @@ Usage
 To use the bsk-gallery component, include the custom bsk-element tag in your HTML:
 
 ```html
-          <bsk-gallery
-            is="full-width"
-            manufacturer="SEAT"
-            model="IBIZA"
-            version="Sport"
-            mileage="12,333"
-            has-video="true"
-            images="fbe73d57-63b1-450b-87f1-88d1ef879908,371d1eb7-e92d-4acd-b9e2-e9b9d4923439,66702a92-fc5d-4af9-9284-f16b757f3df8,f1df53b2-1147-4c16-bbb4-3cf2a833583a,ba642185-eff7-487b-a092-6bc65f4c8fb9,3240b912-9fcd-425c-9869-3878a4c4d280"
-          >
-          </bsk-gallery>
+<bsk-gallery
+  is="full-width"
+  manufacturer="SEAT"
+  model="IBIZA"
+  version="Sport"
+  mileage="12,333"
+  has-video="true"
+  images="fbe73d57-63b1-450b-87f1-88d1ef879908,371d1eb7-e92d-4acd-b9e2-e9b9d4923439,66702a92-fc5d-4af9-9284-f16b757f3df8,f1df53b2-1147-4c16-bbb4-3cf2a833583a,ba642185-eff7-487b-a092-6bc65f4c8fb9,3240b912-9fcd-425c-9869-3878a4c4d280"
+>
+</bsk-gallery>
 ```
 
 ---
