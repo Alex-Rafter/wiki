@@ -8,7 +8,7 @@
 
 The bsk-gallery component is a responsive image gallery with optional thumbnail navigation. It supports both full-width and standard display modes, and uses the Slick Carousel library for sliding functionality.
 
-### Mandatory attributes:
+### Mandatory attributes
 
 - is: used to set variations : default, thumbs, full-width
 - thumbs: (Boolean) Determines whether to display thumbnail navigation or not. Default: true.
