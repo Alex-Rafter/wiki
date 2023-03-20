@@ -6,7 +6,7 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 
 ### Mandatory attributes
 
-- thumbs-to-show: (Number) Specifies the number of thumbnails to show in the navigation. Default: 4.
+
 - images: (String) A comma-separated list of image names.
 - manufacturer: (String) The name of the vehicle's manufacturer.
 - model: (String) The name of the vehicle's model.
@@ -17,6 +17,7 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 ### Optional attributes
 
 - is: used to set variations : default, thumbs, full-width
+- thumbs-to-show: (Number) Specifies the number of thumbnails to show in the navigation. Default: 4.
 
 ### Methods
 
