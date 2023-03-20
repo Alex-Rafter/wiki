@@ -1,7 +1,5 @@
 # Draft New Docs
 
-# Components Notes
-
 ---
 
 ## Gallery
