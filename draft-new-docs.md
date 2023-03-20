@@ -1,6 +1,5 @@
 # Draft New Component Docs
 
----
 
 ## Gallery
 
