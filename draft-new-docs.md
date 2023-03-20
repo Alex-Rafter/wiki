@@ -71,9 +71,9 @@ Detailed explanation:
 
 CSS:
 
-Media queries are used to adjust the video and text dimensions and positioning for different screen sizes and aspect ratios.
-The headline and synopsis text use responsive font sizes and line heights.
-The video is displayed with a slightly reduced opacity (0.8) to improve text readability.
+- Media queries are used to adjust the video and text dimensions and positioning for different screen sizes and aspect ratios.
+- The headline and synopsis text use responsive font sizes and line heights.
+- The video is displayed with a slightly reduced opacity (0.8) to improve text readability.
 Methods:
 
 init(el): Initializes the YouTube player by calling the 'ytInitMain()' function provided by the YouTube API.
