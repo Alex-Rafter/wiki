@@ -149,7 +149,8 @@ Example:
 - The buttonText attribute sets the text for the button.
 - The linkUrl attribute sets the URL for the button link or the entire hero slide if the overlay is disabled.
 - The component is responsive, and it adjusts its layout based on the current viewport.
-Methods:
+
+#### Methods:
 
 wrapInAnchor(el): Wraps the hero slide in an anchor tag if the overlay is disabled and a linkUrl is provided.
 initVideo(): Initializes the YouTube video if a youtubeId is provided and the current breakpoint is not xs or sm.
