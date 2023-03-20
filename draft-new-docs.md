@@ -95,7 +95,7 @@ init(el): Initializes the YouTube player by calling the 'ytInitMain()' function 
 
 The bsk-hero-banner-slider element is used to display a responsive slider of hero banners. The slider uses the Slick Carousel library to create a fading slide transition with navigation arrows and optional dots for navigation.
 
-Optional attributes:
+### Optional Attributes:
 
 dots (default: false)
 
