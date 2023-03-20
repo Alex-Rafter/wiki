@@ -186,12 +186,12 @@ The card includes an offer title, finance details, offer description, and button
 
 Mandatory attributes:
 
-offerTitle: The title of the offer
-offerBody: The description text of the offer
-offerFinanceDetails: An array of key-value pairs representing the finance details for the offer
-offerUrl: The URL for the 'Find out More' button
-offerImage: The image URL for the offer card
-Optional attributes:
+- offerTitle: The title of the offer
+- offerBody: The description text of the offer
+- offerFinanceDetails: An array of key-value pairs representing the finance details for the offer
+- offerUrl: The URL for the 'Find out More' button
+- offerImage: The image URL for the offer card
+- Optional attributes:
 
 lineClampLength: The number of lines to display in the offer description text (default is 3)
 Example:
