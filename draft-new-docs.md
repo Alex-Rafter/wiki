@@ -227,11 +227,11 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 - title: The title text of the CTA section
 - body-text: The description text of the CTA section
 - btn-text: The text for the action button
-- is: The type of CTA, either 'part-exchange' or any other string for a simple button
 
 ### Optional Attributes:
 
-- aspectRatio: The aspect ratio for the image in the CTA section (default is auto)
+- is: The type of CTA, either 'part-exchange' or any other string for a simple button
+- aspect-tatio: The aspect ratio for the image in the CTA section (default is auto)
 Example for part-exchange form:
 
 ```html
