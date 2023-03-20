@@ -32,7 +32,7 @@ To use the bsk-gallery component, include the custom bsk-element tag in your HTM
 <template bsk-element="bsk-gallery">
   <!-- Gallery component code -->
 </template>
-``
+```
 
 ---
 
