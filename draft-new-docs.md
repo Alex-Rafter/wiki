@@ -9,14 +9,14 @@ bsk-gallery
 The bsk-gallery component is a responsive image gallery with optional thumbnail navigation. It supports both full-width and standard display modes, and uses the Slick Carousel library for sliding functionality.
 
 Props
-thumbs: (Boolean) Determines whether to display thumbnail navigation or not. Default: true.
-thumbsToShow: (Number) Specifies the number of thumbnails to show in the navigation. Default: 4.
-imgCount: (Number) The total number of images in the gallery. Default: 0.
-images: (String) A comma-separated list of image names.
-manufacturer: (String) The name of the vehicle's manufacturer.
-model: (String) The name of the vehicle's model.
-version: (String) The name of the vehicle's version.
-mileage: (String) The vehicle's mileage.
+- thumbs: (Boolean) Determines whether to display thumbnail navigation or not. Default: true.
+- thumbsToShow: (Number) Specifies the number of thumbnails to show in the navigation. Default: 4.
+- imgCount: (Number) The total number of images in the gallery. Default: 0.
+- images: (String) A comma-separated list of image names.
+- manufacturer: (String) The name of the vehicle's manufacturer.
+- model: (String) The name of the vehicle's model.
+- version: (String) The name of the vehicle's version.
+- mileage: (String) The vehicle's mileage.
 Methods
 galleryClick(el): Navigates to the slide corresponding to the thumbnail clicked.
 init(el): Initializes the gallery component based on the display mode (is) and sets the total image count.
