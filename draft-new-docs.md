@@ -201,7 +201,6 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 </bsk-cta-section>
 ```
 
-# BSK Docs Offers Cards
 
 ## :green_circle: Inline Offer Card
 
