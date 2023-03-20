@@ -122,10 +122,11 @@ init(el): Initializes the Slick Carousel with the specified options and binds it
 
 The bsk-hero-banner-slide element is used to display a hero banner with an optional video or image background. The component supports a headline, synopsis, and a button with a link.
 
-Mandatory attributes:
+### Mandatory attributes:
 
 imgSrc
-Optional attributes:
+
+### Optional Attributes:
 
 headline
 synopsis
