@@ -138,7 +138,7 @@ synopsis
 buttonText
 link-url
 overlay (default: true)
-youtubeId
+youtube-id
 
 ```html
 Example:
