@@ -222,14 +222,14 @@ Example:
 
 The bsk-cta-section is a call-to-action (CTA) section element used to encourage user interaction. It features a two-column layout with an image on one side and a title, description, and an action button on the other side. The element is designed to be responsive and can be used for various CTAs, such as a part-exchange form or a simple button to navigate to another page.
 
-Mandatory attributes:
+### Mandatory attributes:
 
 - title: The title text of the CTA section
 - bodyText: The description text of the CTA section
 - btnText: The text for the action button
 - is: The type of CTA, either 'part-exchange' or any other string for a simple button
 
-Optional attributes:
+### Optional attributes:
 
 - aspectRatio: The aspect ratio for the image in the CTA section (default is auto)
 Example for part-exchange form:
