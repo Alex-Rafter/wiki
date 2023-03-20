@@ -225,11 +225,13 @@ Optional attributes:
 - aspectRatio: The aspect ratio for the image in the CTA section (default is auto)
 Example for part-exchange form:
 
+```html
 <bsk-cta-section
   title="Get a Part-Exchange Valuation"
   bodyText="Enter your registration below to receive a free valuation for your vehicle."
   btnText="Get Valuation"
   is="part-exchange">
 </bsk-cta-section>
+```
 
 ---
