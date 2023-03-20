@@ -193,7 +193,7 @@ The bsk-inline-offer-card component displays an offer card with the provided inf
 The bsk-inline-offer-card element is used to display a special offer in a card format.
 The card includes an offer title, finance details, offer description, and buttons for navigation. The card is designed to be responsive, displaying the title and image differently on mobile and desktop screens. The offer description text is truncated using -webkit-line-clamp to control the number of lines displayed, which can be set via the lineClampLength attribute.
 
-Mandatory attributes:
+### Mandatory Attributes:
 
 - offerTitle: The title of the offer
 - offerBody: The description text of the offer
@@ -201,7 +201,7 @@ Mandatory attributes:
 - offerUrl: The URL for the 'Find out More' button
 - offerImage: The image URL for the offer card
 
-Optional attributes:
+### Optional Attributes:
 
 - line-clamp-length: The number of lines to display in the offer description text (default is 3)
 Example:
