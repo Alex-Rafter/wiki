@@ -225,8 +225,8 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 ### Mandatory Attributes:
 
 - title: The title text of the CTA section
-- bodyText: The description text of the CTA section
-- btnText: The text for the action button
+- body-text: The description text of the CTA section
+- btn-text: The text for the action button
 - is: The type of CTA, either 'part-exchange' or any other string for a simple button
 
 ### Optional Attributes:
