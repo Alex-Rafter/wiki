@@ -47,6 +47,7 @@ Attributes:
 - synopsis: The synopsis text displayed below the headline
 - buttonText: The text displayed on the call-to-action button
 - buttonUrl: The URL the button will link to
+-
 Example:
 <bsk-hero-banner-video
 youtubeId="your_youtube_id"
