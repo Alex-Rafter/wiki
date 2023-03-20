@@ -1,6 +1,6 @@
 # Draft New Component Docs
 
-[[BSK Docs Offers Cards]]
+[BSK Docs Offers Cards]
 
 ## :green_circle: Gallery
 
