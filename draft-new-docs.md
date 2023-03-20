@@ -232,9 +232,6 @@ line-clamp-length (default is not set)
 </bsk-inline-offer-card>
 ```
 
-
----
-
 ## :green_circle: Inline Offer Card
 
 The bsk-inline-offer-card element is used to display a special offer in a card format.
