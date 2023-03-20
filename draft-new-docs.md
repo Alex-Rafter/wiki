@@ -125,9 +125,10 @@ linkUrl
 overlay (default: true)
 youtubeId
 
-
+```html
 Example:
 <bsk-hero-banner-slide imgSrc="path/to/image.jpg" headline="Your Headline" synopsis="Your synopsis" buttonText="Click Here" linkUrl="https://example.com"></bsk-hero-banner-slide>
+```
 
 Detailed explanation:
 
