@@ -205,6 +205,7 @@ Example:
   offerUrl="/special-offer"
   offerImage="/path/to/image.jpg">
 </bsk-inline-offer-card>
+```
 
 ---
 
