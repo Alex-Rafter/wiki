@@ -32,16 +32,14 @@ To use the bsk-gallery component, include the custom bsk-element tag in your HTM
 
 ```html
 <bsk-gallery
-  is="full-width"
-  manufacturer="SEAT"
-  model="IBIZA"
-  version="Sport"
-  mileage="12,333"
-  has-video="true"
-  images="fbe73d57-63b1-450b-87f1-88d1ef879908,
-  371d1eb7-e92d-4acd-b9e2-e9b9d4923439,
-  66702a92-fc5d-4af9-9284-f16b757f3df8"
->
+is="full-width"
+manufacturer="SEAT"
+model="IBIZA"
+version="Sport"
+mileage="12,333"
+has-video="true"
+images="fbe73d57-63b1-450b-87f1-88d1ef879908,371d1eb7-e92d-4acd-b9e2-e9b9d4923439,66702a92-fc5d-4af9-9284-f16b757f3df8,f1df53b2-1147-4c16-bbb4-3cf2a833583a,ba642185-eff7-487b-a092-6bc65f4c8fb9,3240b912-9fcd-425c-9869-3878a4c4d280,7de3499d-998e-4879-ba12-632eab3582ad,9b7bfc6a-d2fc-4a2d-8e19-199582fad4e5,08e44c33-d446-471a-b45f-6cec5c0fc53f,e7971fce-970b-4a37-9295-96c49dfe4497"
+          >
 </bsk-gallery>
 ```
 
