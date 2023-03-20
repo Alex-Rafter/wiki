@@ -51,6 +51,7 @@ Attributes:
 - buttonUrl: The URL the button will link to
 -
 Example:
+```html
 <bsk-hero-banner-video
 youtubeId="your_youtube_id"
 headline="Sample Headline"
@@ -59,6 +60,7 @@ buttonText="Click me"
 buttonUrl="https://example.com"
 
 </bsk-hero-banner-video>
+```
 Detailed explanation:
 
 The component displays a full-screen video background using YouTube's embedded player.
