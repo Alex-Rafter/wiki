@@ -133,12 +133,12 @@ img-src
 
 ### Optional Attributes:
 
-headline
-synopsis
-buttonText
-link-url
-overlay (default: true)
-youtube-id
+- headline
+- synopsis
+- buttonText
+- link-url
+- overlay (default: true)
+- youtube-id
 
 ```html
 Example:
