@@ -57,7 +57,7 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 - synopsis: The synopsis text displayed below the headline
 - buttonText: The text displayed on the call-to-action button
 - buttonUrl: The URL the button will link to
--
+
 Example:
 ```html
 <bsk-hero-banner-video
