@@ -44,8 +44,6 @@ To use the bsk-gallery component, include the custom bsk-element tag in your HTM
 </bsk-gallery>
 ```
 
----
-
 ### Hero Banner Video
 
 The bsk-hero-banner-video element is used to display a responsive full-screen video background with an optional headline, synopsis, and call-to-action button. The video is played using YouTube's embedded player.
