@@ -130,7 +130,7 @@ The bsk-vehicle-card-specs element is used for displaying vehicle specifications
 ### Optional attributes :
 
 - is
-- icons : passed as list of items separated by a pipe character e.g ```icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs|fas fa-cogs"```
+- icons : passed as list of items separated by a pipe character e.g ```icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs"```
 
 ### Example:
 
