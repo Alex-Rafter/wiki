@@ -128,4 +128,27 @@ Vehicle Card Pricing
 
 ```
 
+Vehicle Card Specs
+------------------
+
+- The bsk-vehicle-card-specs element is used for displaying vehicle specifications.
+- The template uses v-for to iterate over each specification and display it with its associated icon (if specified) in a span element.
+- Conditional class bindings are used to set styles for list and grid view, and icon and pills styles.
+
+##### Mandatory attributes :
+
+- specs (passed as csv)
+
+##### Optional attributes :
+
+- is
+- icons (passed as csv)
+
+##### Example:
+
+ ```
+
+
+```
+
 
