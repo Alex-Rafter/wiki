@@ -714,3 +714,18 @@ The bsk-read-more element is used to provide a 'read more' button that can be tr
 ```
 
 Here, the `bsk-read-more` component is used to target the `p` element within the `.card-text` element. The `chars` attribute is set to 100, meaning that only the first 100 characters of the text will be displayed until the 'Read more' button is clicked. An additional `extra-class` attribute is included to add the "foo" class to the 'Read more' button element.
+
+
+## :green_circle: Clear Filters
+
+The bsk-clear-filters element is used to display a 'Clear All Filters' button that resets all select options to their default position.
+
+### Mandatory Attributes:
+
+- text: The text to display on the button
+
+### Example:
+
+```html
+<bsk-clear-filters text="Clear All Filters"></bsk-clear-filters>
+```
