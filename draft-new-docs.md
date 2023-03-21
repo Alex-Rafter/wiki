@@ -47,7 +47,7 @@ has-video="true"
 
 ## :green_circle: Hero Banner Video
 
-The bsk-hero-banner-video element is used to display a responsive full-screen video background with an optional headline, synopsis, and call-to-action button. The video is played using YouTube's embedded player. You can use this in conjunction with cms banner.
+The bsk-hero-banner-video element is used to display a responsive full-screen video background with an optional headline, synopsis, and call-to-action button. The video is played using YouTube's embedded player. You can use this in conjunction with a cms banner.
 
 ### Mandatory Attributes
 
