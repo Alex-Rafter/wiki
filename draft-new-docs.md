@@ -211,6 +211,8 @@ The bsk-cta-section-full-width is a call-to-action (CTA) section element very si
 - aspect-ratio: The aspect ratio for the image in the CTA section (default is auto)
   Example for part-exchange form:
 
+### Example
+
 ```html
 <bsk-cta-section-full-width
   is="part-exchange"
