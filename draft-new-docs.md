@@ -378,3 +378,10 @@ The bsk-simple-spotlight element is used to display a spotlight item with an ico
 </bsk-simple-spotlight>
 
 ```
+
+
+## :green_circle: UCR Grid
+The bsk-ucr-grid element is used to display a responsive grid layout for vehicle cards. The grid layout adapts according to the screen size, displaying a single column on mobile screens, two columns on tablet screens, and three columns on desktop screens. The grid also supports two different view types: list view and grid view. The grid items have transition animations for both view types when they appear on the page.
+
+### Optional Attributes:
+store.ucr.gridType: The type of grid view, either 'list' or 'grid' (default is 'grid')
