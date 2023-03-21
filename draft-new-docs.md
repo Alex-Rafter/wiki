@@ -210,6 +210,7 @@ The bsk-inline-offer-card element is used to display an offer card with relevant
 
 line-clamp-length (default is not set)
 
+### Detailed explanation:
 
 When using the Inline Offer Card with cms data, we need to get the offer-finance-details in the correct format. We have a helper function inside boilerplate's template logic directory directory.
 
