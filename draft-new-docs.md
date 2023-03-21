@@ -309,7 +309,7 @@ The bsk-breadcrumb element is used to create a breadcrumb navigation component t
 ### Optional Attributes:
 - item-one
 - item-two
-- itemThree
+- item-three
 - itemFour
 - itemFive
 
