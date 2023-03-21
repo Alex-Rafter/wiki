@@ -53,8 +53,8 @@ Vehicle Card Img
 
 
 
-Vehicle Card Body
------------------
+## Vehicle Card Body
+
 
 - The bsk-vehicle-card-img-body element creates a container element for the vehicle card text components.
 - It makes use of the v-wrap directive to ensure all children are placed inside the component's html rather than outside of it.
@@ -77,8 +77,8 @@ No optional attributes for this portion.
 
 ```
 
-Vehicle Card Titles
--------------------
+## Vehicle Card Titles
+--
 
 - The bsk-vehicle-card-titles element defines the vehicle card's title and sub-title, and allows them to be styled differently for both grid view and a list view.
 - CSS classed are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
@@ -100,8 +100,8 @@ No optional attributes for this portion.
 
 ```
 
-Vehicle Card Pricing
---------------------
+## Vehicle Card Pricing
+---
 
 - The bsk-vehicle-card-pricing element is used to display vehicle pricing information.
 - It has has two possible variations : default and was-now-save.
@@ -127,8 +127,8 @@ Vehicle Card Pricing
 
 ```
 
-Vehicle Card Specs
-------------------
+## Vehicle Card Specs
+-
 
 - The bsk-vehicle-card-specs element is used for displaying vehicle specifications.
 - The template uses v-for to iterate over each specification and display it with its associated icon (if specified) in a span element.
@@ -150,8 +150,8 @@ Vehicle Card Specs
 
 ```
 
-Vehicle Card Actions
---------------------
+## Vehicle Card Actions
+---
 
 - The button is linked to a URL that is passed through the 'href' attribute.
 - The 'title' attribute displays the car's details.
