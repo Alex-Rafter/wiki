@@ -12,7 +12,7 @@ No mandatory attributes are required for this portion.
 
 ### Optional attributes :
 
-No optional attributes for this portion.
+- theme
 
 ### Example:
 
