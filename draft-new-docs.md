@@ -323,7 +323,7 @@ The first item in the breadcrumb can display a house icon using the fs-5 fa-ligh
 The last item in the breadcrumb is displayed with a different text color and without a hyperlink, indicating the current page.
 The divider attribute is used to set the --bs-breadcrumb-divider CSS variable, which controls the character used as the breadcrumb divider.
 
-###Example:
+### Example:
 
 ```html
 <bsk-breadcrumb
