@@ -382,7 +382,7 @@ The bsk-simple-spotlight element is used to display a spotlight item with an ico
 ```
 
 
-## :green_circle: UCR Grid
+## :car: UCR Grid
 The bsk-ucr-grid element is used to display a responsive grid layout for vehicle cards. The grid layout adapts according to the screen size, displaying a single column on mobile screens, two columns on tablet screens, and three columns on desktop screens. The grid also supports two different view types: list view and grid view. The grid items have transition animations for both view types when they appear on the page.
 
 ### Optional Attributes:
@@ -412,7 +412,7 @@ The bsk-ucr-grid element is used to display a responsive grid layout for vehicle
 </bsk-ucr-grid>
 ```
 
-## :green_circle: UCR List/Grid Toggle
+## :car: UCR List/Grid Toggle
 The bsk-ucr-list-grid-toggle element is used to provide a toggle between list and grid views on used list pages. The toggle consists of two icons, one representing a list view and the other representing a grid view. The active view is indicated by the icon's color changing to primary.
 The component listens for click events on the icons to toggle between list and grid views by updating the ```store.ucr.gridType``` value.
 
