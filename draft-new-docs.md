@@ -633,7 +633,11 @@ The bsk-vehicle-card-location element is used to display the location informatio
 ### Example:
 
 ```html
-<bsk-shortlist-global-heart childClass="custom-heart"></bsk-shortlist-global-heart>
+<bsk-vehicle-card-location
+  location-url="www.google.com"
+  location="Bluesky| Coventry"
+>
+</bsk-vehicle-card-location>
 ```
 
 ## :heart: Shortlist Local Heart
