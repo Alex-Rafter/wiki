@@ -212,14 +212,15 @@ The bsk-cta-section-full-width is a call-to-action (CTA) section element very si
   Example for part-exchange form:
 
 ```html
-<bsk-cta-section
-  title="Get a Part-Exchange Valuation"
-  bodyText="Enter your registration below to receive a free valuation for your vehicle."
-  btnText="Get Valuation"
-  img-src="https://bluesky-cogcms.cdn.imgeng.in/media/kb4hlthl/group-inspire-ext-brand.jpg"
+<bsk-cta-section-full-width
   is="part-exchange"
+  title="Part exchange your vehicle"
+  body-text="Enter your registration number and mileage to get a free valuation today."
+  btn-text="Get a Free Valuation"
+  single="false"
+  aspectRatio="16/9"
 >
-</bsk-cta-section>
+</bsk-cta-section-full-width>
 ```
 
 ## :green_circle: Inline Offer Card
