@@ -593,6 +593,22 @@ The button is linked to a URL that is passed through the 'href' attribute. The '
 </bsk-vehicle-card-actions>
 ```
 
+## :car: Vehicle Card Location
+The bsk-vehicle-card-location element is used to display the location information of a vehicle on a card. It includes a location icon and a location name, both of which are linked to the specified URL. The location name is styled with a bold font weight.
+
+### Mandatory Attributes:
+- location: The name of the location
+- location-url: The URL for the location link
+
+### Example:
+
+```html
+<bsk-vehicle-card-location
+  location-url="www.google.com"
+  location="Bluesky| Coventry"
+>
+</bsk-vehicle-card-location>
+```
 
 ## :car: Vehicle Card Image Count
 The bsk-vehicle-card-img-count element is used to display the image count and video status on a vehicle card. The component is designed to be positioned absolutely, appearing at the bottom left corner of the vehicle card image. The image and video count are displayed as badges with icons and text, indicating the total number of images and whether there is a video available for the vehicle.
@@ -623,22 +639,6 @@ The bsk-vehicle-card-sash element is used to display a sash on a vehicle card. I
 <bsk-vehicle-card-sash text="reserved"></bsk-vehicle-card-sash>
 ```
 
-## :car: Vehicle Card Location
-The bsk-vehicle-card-location element is used to display the location information of a vehicle on a card. It includes a location icon and a location name, both of which are linked to the specified URL. The location name is styled with a bold font weight.
-
-### Mandatory Attributes:
-- location: The name of the location
-- location-url: The URL for the location link
-
-### Example:
-
-```html
-<bsk-vehicle-card-location
-  location-url="www.google.com"
-  location="Bluesky| Coventry"
->
-</bsk-vehicle-card-location>
-```
 
 ## :heart: Shortlist Local Heart
 The bsk-shortlist-local-heart element is used to display a clickable heart icon that allows users to add or remove a vehicle from their shortlist. The heart icon changes its appearance based on whether the vehicle is added to the shortlist or not. This component requires the vehicle's information to be passed in the data attribute.
