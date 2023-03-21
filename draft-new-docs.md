@@ -310,6 +310,14 @@ itemOne: The first breadcrumb item, must be provided in the following format: "[
 itemTwo, itemThree, itemFour, itemFive: Additional breadcrumb items (up to 5 items total), must be provided in the same format as itemOne: "[text, url]"
 divider: The character used as the breadcrumb divider (default is "/")
 
+
+### How it works:
+The component reads the values of the item attributes and pushes them into the items array.
+The items array is looped through, and each item is rendered as a breadcrumb-item.
+The first item in the breadcrumb can display a house icon using the fs-5 fa-light fa-house classes.
+The last item in the breadcrumb is displayed with a different text color and without a hyperlink, indicating the current page.
+The divider attribute is used to set the --bs-breadcrumb-divider CSS variable, which controls the character used as the breadcrumb divider.
+
 ###Example:
 
 <bsk-breadcrumb
@@ -320,3 +328,4 @@ divider: The character used as the breadcrumb divider (default is "/")
   divider=">"
 >
 </bsk-breadcrumb>
+
