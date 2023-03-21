@@ -43,7 +43,7 @@ Vehicle Card Img
 
 ##### Optional attributes :
 
-No optional attributes for this portion.
+No optional attributes
 
 ##### Example:
 
