@@ -387,3 +387,20 @@ The bsk-ucr-grid element is used to display a responsive grid layout for vehicle
 
 ### Optional Attributes:
 store.ucr.gridType: The type of grid view, either 'list' or 'grid' (default is 'grid')
+
+
+### Example with Nested COG Repeater
+
+```html
+<bsk-ucr-grid list-transition="true" >
+  <COG:COGDynamicRepeater_V1
+  ID="COGDynamicRepeater_V1"
+  runat="server"
+  DataType="UsedCarData"
+  CarsPerPage="15"
+  DynamicPagerID1="PagerBottom"
+  DynamicPagerRangeID1="DynamicPagerRangeTop"
+  Template="/COGTemplates/Vehicles/CarRepeat.ascx"
+  />
+</bsk-ucr-grid>
+```
