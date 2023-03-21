@@ -52,7 +52,7 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 ### Mandatory Attributes
 
 - youtube-id: The YouTube video ID for the background video
-- hero-bg-height (default: '100vh'): Set the height of the hero banner on desktop - useful to set the height to accomodate the header nav e.g ```hero-bg-height="calc(100vh - 135px)"```
+- hero-bg-height (default: '100vh'): Set the height of the hero banner on desktop - useful to set the height to accomodate the header nav above e.g ```hero-bg-height="calc(100vh - 135px)"```
 - hero-bg-height-mobile (default: 'calc(100vh - 93px)'): The height of the hero banner on mobile devices
 - headline: The headline text displayed on top of the video
 - synopsis: The synopsis text displayed below the headline
