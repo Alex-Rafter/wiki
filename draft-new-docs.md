@@ -620,3 +620,8 @@ data: A JSON string containing the vehicle's information, including stockID, url
 ### Optional Attributes:
 child-class: A custom CSS class to apply to the heart icon
 
+### Example:
+
+```html
+
+```
