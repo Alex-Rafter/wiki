@@ -621,6 +621,8 @@ data: A JSON string containing the vehicle's information, including stockID, url
 <!--#include file="/inc/modules/petite/shortlist-plus/props-object.aspx" -->
 ```
 
+Add this towards the top of the repeater, and your can then use the variable ```<%= PropObj %>``` in the data attribute.
+
 ### Optional Attributes:
 child-class: A custom CSS class to apply to the heart icon
 
