@@ -689,3 +689,29 @@ The bsk-shortlist-global-heart element is used to display a heart icon that repr
 <bsk-shortlist-global-heart childClass="custom-heart"></bsk-shortlist-global-heart>
 ```
 
+
+## :green_circle: Read More Button
+
+The bsk-read-more element is used to provide a 'read more' button that can be triggered to reveal additional text content. The button is designed to be responsive, appearing only on smaller screens.
+
+### Mandatory Attributes:
+
+- target: The CSS selector for the text element to be truncated and revealed
+- chars: The maximum number of characters to display in the truncated text
+
+### Optional Attributes:
+
+- extra-class: Additional CSS classes to be applied to the 'Read more' button element
+
+Example:
+
+```html
+<div class="card-text">
+  <p bsk-element="bsk-read-more" target=".card-text p" chars="100" extra-class="foo">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a odio erat. Aliquam gravida porttitor
+    pellentesque. Curabitur commodo...
+  </p>
+</div>
+```
+
+Here, the `bsk-read-more` component is used to target the `p` element within the `.card-text` element. The `chars` attribute is set to 100, meaning that only the first 100 characters of the text will be displayed until the 'Read more' button is clicked. An additional `extra-class` attribute is included to add the "foo" class to the 'Read more' button element.
