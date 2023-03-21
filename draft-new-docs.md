@@ -194,6 +194,34 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 </bsk-cta-section>
 ```
 
+## :green_circle: CTA Section Full Width
+
+The bsk-cta-section is a call-to-action (CTA) section element used to encourage user interaction. It features a two-column layout with an image on one side and a title, description, and an action button on the other side. The element is designed to be responsive and can be used for various CTAs. The default set up is provides a simple button to navigate to another page. There is also a part-exchange variant that outputs form fields and will redirect to a valuation page with vehicle reg passed in the url as a query string parameter.
+
+### Mandatory Attributes:
+
+- img-src
+- title: The title text of the CTA section
+- body-text: The description text of the CTA section
+- btn-text: The text for the action button
+
+### Optional Attributes:
+
+- is: The type of CTA, either 'part-exchange' or any other string for a simple button
+- aspect-ratio: The aspect ratio for the image in the CTA section (default is auto)
+  Example for part-exchange form:
+
+```html
+<bsk-cta-section
+  title="Get a Part-Exchange Valuation"
+  bodyText="Enter your registration below to receive a free valuation for your vehicle."
+  btnText="Get Valuation"
+  img-src="https://bluesky-cogcms.cdn.imgeng.in/media/kb4hlthl/group-inspire-ext-brand.jpg"
+  is="part-exchange"
+>
+</bsk-cta-section>
+```
+
 ## :green_circle: Inline Offer Card
 
 The bsk-inline-offer-card element is used to display an offer card with relevant information such as the offer title, finance details, offer description, and related images. The card has a responsive design, with separate layouts for desktop and mobile views. The finance details are displayed in a table, and the text content can be truncated using the CSS property --line-clamp to limit the number of visible lines. The component includes two buttons, one to view all offers and the other to find out more about the specific offer. The primary button's link is set with the offer-url attribute, and the secondary button links to /offers by default.
