@@ -1,6 +1,5 @@
 # Wessex Build Initial Meeting
 
-
 CMS Page folders as landing pages, but in nav these only show the pages
 The pages here have redirects to other page folder
 Use Whiteboard view as source of truth (sitemap)
