@@ -1,6 +1,5 @@
 # Wessex Build Initial Meeting
 
-## Wessex Prep Meeting with Ellie
 
 CMS Page folders as landing pages, but in nav these only show the pages
 The pages here have redirects to other page folder
