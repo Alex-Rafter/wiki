@@ -100,7 +100,6 @@ No optional attributes for this portion.
 ```
 
 ## Vehicle Card Pricing
----
 
 - The bsk-vehicle-card-pricing element is used to display vehicle pricing information.
 - It has has two possible variations : default and was-now-save.
