@@ -196,7 +196,7 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 
 ## :green_circle: CTA Section Full Width
 
-The bsk-cta-section-full-width is a call-to-action (CTA) section element used to encourage user interaction. It features a two-column layout with an image on one side and a title, description, and an action button on the other side. The element is designed to be responsive and can be used for various CTAs. The default set up is provides a simple button to navigate to another page. There is also a part-exchange variant that outputs form fields and will redirect to a valuation page with vehicle reg passed in the url as a query string parameter.
+The bsk-cta-section-full-width is a call-to-action (CTA) section element very similar to the standard bsk-cta-section but with different a layout. As above, the default set up is provides a simple button to navigate to another page. There is also a part-exchange variant that outputs form fields and will redirect to a valuation page with vehicle reg passed in the url as a query string parameter.
 
 ### Mandatory Attributes:
 
