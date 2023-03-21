@@ -62,7 +62,7 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 - button-text: The text displayed on the call-to-action button
 - button-url: The URL the button will link to
 
-#### Detailed explanation:
+### Detailed explanation:
 
 - The component displays a full-screen video background using YouTube's embedded player.
 - The video automatically plays and is set to loop.
