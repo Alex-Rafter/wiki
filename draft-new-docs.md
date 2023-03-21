@@ -123,7 +123,7 @@ init(el): Initializes the Slick Carousel with the specified options and binds it
 
 ### Example
 ```html
-<bsk-hero-banner-slider dots="true"></bsk-hero-banner-slider>
+<bsk-carousel-banner dots="true"></bsk-carousel-banner>
 ```
 
 
