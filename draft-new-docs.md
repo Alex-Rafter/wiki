@@ -620,7 +620,9 @@ text: The text to be displayed on the sash ribbon
 
 ### Example:
 
-
+```html
+<bsk-vehicle-card-sash text="reserved"></bsk-vehicle-card-sash>
+```
 
 ## :heart: Shortlist Local Heart
 The bsk-shortlist-local-heart element is used to display a clickable heart icon that allows users to add or remove a vehicle from their shortlist. The heart icon changes its appearance based on whether the vehicle is added to the shortlist or not. This component requires the vehicle's information to be passed in the data attribute.
