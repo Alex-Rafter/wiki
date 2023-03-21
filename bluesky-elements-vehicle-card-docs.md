@@ -14,7 +14,7 @@ No mandatory attributes are required for this portion.
 
 No optional attributes for this portion.
 
-##### Example:
+### Example:
 
 html```
 <bsk-vehicle-card theme="bp"></bsk-vehicle-card>
