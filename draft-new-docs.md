@@ -307,7 +307,6 @@ The bsk-breadcrumb element is used to create a breadcrumb navigation component t
 - item-one The first breadcrumb item, must be provided in the following format: "[text, url]"
 
 ### Optional Attributes:
-
 - item-two
 - item-three
 - item-four
