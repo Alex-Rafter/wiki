@@ -319,6 +319,7 @@ The divider attribute is used to set the --bs-breadcrumb-divider CSS variable, w
 
 ###Example:
 
+```html
 <bsk-breadcrumb
   itemOne="[Home, /]"
   itemTwo="[Blog, /blog]"
@@ -327,4 +328,7 @@ The divider attribute is used to set the --bs-breadcrumb-divider CSS variable, w
   divider=">"
 >
 </bsk-breadcrumb>
+```
+
+
 
