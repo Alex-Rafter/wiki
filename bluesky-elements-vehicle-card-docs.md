@@ -138,7 +138,7 @@ The bsk-vehicle-card-specs element is used for displaying vehicle specifications
 <bsk-vehicle-card-specs
   is="pills"
   specs="34230 miles|Petrol|Automatic"
-  icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs|fas fa-cogs"
+  icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs"
 >
 </bsk-vehicle-card-specs>
 ```
