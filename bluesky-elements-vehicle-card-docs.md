@@ -125,7 +125,7 @@ The bsk-vehicle-card-specs element is used for displaying vehicle specifications
 
 ### Mandatory attributes :
 
-- specs (passed as lust of items separated by a pipe character)
+- specs : passed as list of items separated by a pipe character e.g ```specs="34230 miles|Petrol|Automatic"```
 
 ### Optional attributes :
 
