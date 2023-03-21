@@ -77,7 +77,7 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 
 #### Methods:
 
-init(el): Initializes the YouTube player by calling the 'ytInitMain()' function provided by the YouTube API.
+init(el): Initializes the YouTube player by calling the 'ytInitMain()' function which wraps the code used with the YouTube API.
 
 ### Example:
 
