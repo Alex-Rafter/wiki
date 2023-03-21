@@ -190,3 +190,9 @@ The bsk-vehicle-card-img-count element is used to display the image and video co
 
 ### Example:
 
+```html
+<bsk-vehicle-card-img-count
+  img-count="32"
+  has-video="true"
+></bsk-vehicle-card-img-count>
+```
