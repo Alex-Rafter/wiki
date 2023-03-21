@@ -225,15 +225,16 @@ Add the file as an include towards the top of your page, and the you can call th
 offer-finance-details="<%= If(offer.FinanceDetails.Any(), returnKeyValuePairStringified(offer.FinanceDetails), "") %>"
 ```
 
-### Example:
+### Example with CMS Data:
 
 ```html
 <bsk-inline-offer-card
-  offerTitle="Sample Offer"
-  :offerFinanceDetails="[{'Finance option 1': '£500'}, {'Finance option 2': '£1000'}]"
-  offerBody="This is a sample description for the offer."
-  offerUrl="/offer-url/"
-  offerImage="/path/to/offer-image.jpg"
+  offer-title="<%= offer.Title %>"
+  offer-finance-details="<%= If(offer.FinanceDetails.Any(), returnKeyValuePairStringified(offer.FinanceDetails), "") %>"
+  offer-body="<%= offer.body %>"
+  offer-url="<%= offer.CallToActionUrl %>"
+  offer-image="<%=offer.Image %>"
+  line-clamp-length="3"
 >
 </bsk-inline-offer-card>
 ```
