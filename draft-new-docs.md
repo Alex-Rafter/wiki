@@ -155,7 +155,7 @@ The bsk-carousel-banner-slide element is used to display a banner slide, with op
 ### Example :
 
 ```html
-<bsk-hero-banner-slide
+<bsk-carousel-banner-slide
 youtube-id="ywFnUyzBb6I"
 headline="I am the 1st video"
 synopsis="I am a test synopsis"
@@ -163,7 +163,7 @@ button-text="Search Our Stock"
 link-url="https://www.blueskyinteractive.com"
 img-src="https://bluesky-cogcms.cdn.imgeng.in/media/kb4hlthl/group-inspire-ext-brand.jpg"
 >
-</bsk-hero-banner-slide>
+</bsk-carousel-banner-slide>
 ```
 
 ## :green_circle: CTA Section
