@@ -604,8 +604,8 @@ The bsk-vehicle-card-location element is used to display the location informatio
 
 ```html
 <bsk-vehicle-card-location
-  location-url="www.google.com"
   location="Bluesky| Coventry"
+  location-url="www.google.com"
 >
 </bsk-vehicle-card-location>
 ```
