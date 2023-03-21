@@ -705,12 +705,7 @@ The bsk-read-more element is used to provide a 'read more' button that can be tr
 ### Example:
 
 ```html
-<div class="card-text">
-  <p bsk-element="bsk-read-more" target=".card-text p" chars="100" extra-class="foo">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a odio erat. Aliquam gravida porttitor
-    pellentesque. Curabitur commodo...
-  </p>
-</div>
+<bsk-read-more target="#textToTruncate" chars="100" extra-class="foo"></bsk-read-more>
 ```
 
 Here, the `bsk-read-more` component is used to target the `p` element within the `.card-text` element. The `chars` attribute is set to 100, meaning that only the first 100 characters of the text will be displayed until the 'Read more' button is clicked. An additional `extra-class` attribute is included to add the "foo" class to the 'Read more' button element.
