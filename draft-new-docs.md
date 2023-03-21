@@ -6,11 +6,11 @@ The bsk-gallery component is a responsive image gallery with optional thumbnail 
 
 ### Mandatory attributes
 
-- images: (String) A comma-separated list of image names.
-- manufacturer: (String) The name of the vehicle's manufacturer.
-- model: (String) The name of the vehicle's model.
-- version: (String) The name of the vehicle's version.
-- mileage: (String) The vehicle's mileage.
+- images: A comma-separated list of image names.
+- manufacturer: The name of the vehicle's manufacturer.
+- model: The name of the vehicle's model.
+- version: The name of the vehicle's version.
+- mileage: The vehicle's mileage.
 
 ### Optional attributes
 
