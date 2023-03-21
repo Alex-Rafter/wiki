@@ -311,7 +311,7 @@ The bsk-breadcrumb element is used to create a breadcrumb navigation component t
 - item-three
 - item-four
 - item-five
-- divider: The character used as the breadcrumb divider (default is "/")*
+- divider: The glphy used as the breadcrumb divider (default is "/")*
 
 *Additional breadcrumb items (up to 5 items total), must be provided in the same format as item-one: "[text, url]"
 
