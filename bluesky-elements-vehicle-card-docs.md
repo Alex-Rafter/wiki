@@ -23,10 +23,7 @@ No mandatory attributes are required for this portion.
 Vehicle Card Img
 ----------------
 
-- The img tag includes a lazyloaded class and is conditionally assigned the list-view class based on the gridType property in the store.
-- The href attribute of the anchor tag is bound to a url variable, and the title attribute displays various vehicle information.
-- The data-vehicle attributes contain additional vehicle data that can be used for tracking or other purposes.
-- The &lt;noscript&gt; tag provides alternative content for browsers that do not support JavaScript.
+The img tag includes a lazyloaded class and is conditionally assigned the list-view class based on the gridType property in the store. The href attribute of the anchor tag is bound to a url variable, and the title attribute displays various vehicle information. The data-vehicle attributes contain additional vehicle data that can be used for tracking or other purposes. The &lt;noscript&gt; tag provides alternative content for browsers that do not support JavaScript.
 
 ### Mandatory attributes :
 
