@@ -611,7 +611,7 @@ The bsk-vehicle-card-img-count element is used to display the image count and vi
 ></bsk-vehicle-card-img-count>
 ```
 
-## :car: Shortlist Local Heart
+## :heart: Shortlist Local Heart
 The bsk-shortlist-local-heart element is used to display a clickable heart icon that allows users to add or remove a vehicle from their shortlist. The heart icon changes its appearance based on whether the vehicle is added to the shortlist or not. This component requires the vehicle's information to be passed in the data attribute.
 
 ### Mandatory Attributes:
@@ -636,7 +636,7 @@ childClass="text-danger"
 ```
 
 
-## :green_circle: Shortlist Global Heart
+## :heart: Shortlist Global Heart
 The bsk-shortlist-global-heart element is used to display a heart icon that represents the user's shortlisted items. The heart icon serves as a link to the shortlist page. The icon's appearance changes based on the count of shortlisted items. If the count is less than 1, the heart icon will be outlined, otherwise, it will be solid.
 
 ### Mandatory Attributes:
