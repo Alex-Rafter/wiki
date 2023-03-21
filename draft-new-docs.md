@@ -386,7 +386,7 @@ The bsk-simple-spotlight element is used to display a spotlight item with an ico
 The bsk-ucr-grid element is used to display a responsive grid layout for vehicle cards. The grid layout adapts according to the screen size, displaying a single column on mobile screens, two columns on tablet screens, and three columns on desktop screens. The grid also supports two different view types: list view and grid view. The grid items have transition animations for both view types when they appear on the page.
 
 ### Optional Attributes:
-- list-transition : add transition animation between list and grid view (default is false)
+- list-transition : add transition animation between list and grid views (default is false)
 
 
 ### Example with Nested COG Repeater
