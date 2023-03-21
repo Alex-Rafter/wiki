@@ -148,7 +148,7 @@ The bsk-carousel-banner-slide element is used to display a banner slide, with op
 
 #### Methods:
 
-- wrapInAnchor(el): Wraps the hero slide in an anchor tag if the overlay is disabled and a linkUrl is provided.
+- wrapInAnchor(el): Wraps the hero slide in an anchor tag if the overlay is disabled and a link-url is provided.
 - initVideo(): Initializes the YouTube video if a youtubeId is provided and the current breakpoint is not xs or sm.
 - init(el): Calls wrapInAnchor and listens for breakpoint changes to initialize the video if needed.
 
