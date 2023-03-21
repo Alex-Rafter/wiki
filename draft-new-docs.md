@@ -616,5 +616,6 @@ The bsk-shortlist-local-heart element is used to display a clickable heart icon 
 
 ### Mandatory Attributes:
 data: A JSON string containing the vehicle's information, including stockID, url, manufacturer, model, reg, year, price, image, colour, transmission, fuelType, and mileage
-Optional Attributes:
+
+### Optional Attributes:
 child-class: A custom CSS class to apply to the heart icon
