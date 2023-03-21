@@ -367,3 +367,4 @@ The bsk-simple-spotlight element is used to display a spotlight item with an ico
 ### Optional Attributes:
 - url: The URL for the spotlight item, which turns the entire item into a clickable link (default is null)
 - is: The layout style for the spotlight item, accepts 'strip' or 'bordered' (default is none)
+
