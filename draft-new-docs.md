@@ -351,24 +351,7 @@ To use the bsk-simple-spotlight-group element, wrap a series of bsk-simple-spotl
 
 ```html
 <bsk-simple-spotlight-group is="strip">
-  <bsk-simple-spotlight
-    title="Spotlight 1"
-    body="This is spotlight 1 description."
-    image="/path/to/image1.jpg"
-    url="/spotlight-1"
-  ></bsk-simple-spotlight>
-  <bsk-simple-spotlight
-    title="Spotlight 2"
-    body="This is spotlight 2 description."
-    image="/path/to/image2.jpg"
-    url="/spotlight-2"
-  ></bsk-simple-spotlight>
-  <bsk-simple-spotlight
-    title="Spotlight 3"
-    body="This is spotlight 3 description."
-    image="/path/to/image3.jpg"
-    url="/spotlight-3"
-  ></bsk-simple-spotlight>
+<!-- Nest simple spotlights within -->
 </bsk-simple-spotlight-group>
 
 ```
