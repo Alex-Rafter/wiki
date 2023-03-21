@@ -188,6 +188,7 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
   title="Get a Part-Exchange Valuation"
   bodyText="Enter your registration below to receive a free valuation for your vehicle."
   btnText="Get Valuation"
+  img-src="https://bluesky-cogcms.cdn.imgeng.in/media/kb4hlthl/group-inspire-ext-brand.jpg"
   is="part-exchange"
 >
 </bsk-cta-section>
