@@ -125,7 +125,7 @@ init(el): Initializes the Slick Carousel with the specified options and binds it
 
 ## :green_circle: Carousel Banner Slide
 
-The bsk-carousel-banner-slide element is used to display a banner slide with an optional video or image background. The component supports an optional headline, synopsis, and button with a link.
+The bsk-carousel-banner-slide element is used to display a banner slide, with options for video or image background. The component supports an optional headline, synopsis, and button with a link.
 
 ### Mandatory attributes:
 
