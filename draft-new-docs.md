@@ -346,3 +346,5 @@ The bsk-simple-spotlight-group element is used to create a group of spotlight it
 
 ### Usage:
 To use the bsk-simple-spotlight-group element, wrap a series of bsk-simple-spotlight components within the element and set the 'is' attribute to either 'strip' or 'grid', depending on the desired display mode.
+
+
