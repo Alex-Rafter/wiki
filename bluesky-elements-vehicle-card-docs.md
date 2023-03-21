@@ -99,7 +99,7 @@ BY default, the component will only show the price and monthly payment and will 
 If the is attribute is set to 'was-now-save', the element will display in a css grid layout using css variables that set col and row positions.
 The values that show will be for previous price, current price, and savings, along finance price.
 The vehicle price is formatted to include commas in the thousands place.
-CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
+CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - ```store.ucr.gridType```).
 
 ### Mandatory attributes :
 
