@@ -45,7 +45,7 @@ Vehicle Card Img
 
 - No optional attributes
 
-##### Example:
+### Example:
 
 ```html
 <bsk-vehicle-card-img></bsk-vehicle-card-img>
@@ -70,7 +70,7 @@ No mandatory attributes are required for this portion.
 
 No optional attributes for this portion.
 
-##### Example:
+### Example:
 
  ```html
 
@@ -92,7 +92,7 @@ No optional attributes for this portion.
 
 No optional attributes for this portion.
 
-##### Example:
+### Example:
 
  ```html
 
@@ -118,7 +118,7 @@ No optional attributes for this portion.
 
 - is
 
-##### Example:
+### Example:
 
  ```html
 
@@ -140,7 +140,7 @@ No optional attributes for this portion.
 - is
 - icons (passed as csv)
 
-##### Example:
+### Example:
 
  ```html
 
@@ -170,7 +170,7 @@ No optional attributes for this portion.
 
 - is
 
-##### Example:
+### Example:
 
  ```html
 
