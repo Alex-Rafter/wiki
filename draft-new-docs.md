@@ -304,11 +304,10 @@ offer-finance-details="<%= If(offer.FinanceDetails.Any(), returnKeyValuePairStri
 The bsk-breadcrumb element is used to create a breadcrumb navigation component that provides an easy way for users to navigate back to previous pages or sections. The breadcrumb includes a list of navigation items separated by a custom divider, and each item can include a font-awesome icon, text, and a URL for navigation. The color of the navigation items changes on hover, providing visual feedback for users.
 
 ### Mandatory Attributes:
-- itemOne: The first breadcrumb item, must be provided in the following format: "[text, url]"
+- item-one The first breadcrumb item, must be provided in the following format: "[text, url]"
 
 ### Optional Attributes:
 
-- item-one
 - item-two
 - item-three
 - item-four
