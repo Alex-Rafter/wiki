@@ -101,6 +101,7 @@ The bsk-carousel-banner element is used to display a responsive slider of hero b
 The slider uses the Slick Carousel library to create a fading slide transition with navigation arrows and optional dots for navigation.
 
 ### Optional Attributes:
+
 - dots (default: false)
 
 Example:
