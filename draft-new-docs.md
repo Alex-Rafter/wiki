@@ -388,6 +388,13 @@ The bsk-ucr-grid element is used to display a responsive grid layout for vehicle
 ### Optional Attributes:
 - list-transition : add css transition between list and grid views (default is false)
 
+### Example :
+
+```html
+<bsk-ucr-grid list-transition="true" >
+</bsk-ucr-grid>
+```
+
 ### Example with Nested COG Repeater
 
 ```html
