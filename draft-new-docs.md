@@ -368,6 +368,7 @@ The bsk-simple-spotlight element is used to display a spotlight item with an ico
 - is: The layout style for the spotlight item, accepts 'strip' or 'bordered' (default is none)
 
 ### Example
+
 ```html
 <bsk-simple-spotlight
   title="Fast Service"
