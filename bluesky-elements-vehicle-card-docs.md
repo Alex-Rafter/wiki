@@ -151,4 +151,35 @@ Vehicle Card Specs
 
 ```
 
+Vehicle Card Actions
+--------------------
+
+- The button is linked to a URL that is passed through the 'href' attribute.
+- The 'title' attribute displays the car's details.
+- The anchor tag with button classes also contains several custom data attributes that hold tracking information about the vehicle.
+
+##### Mandatory attributes :
+
+- img-src
+- url
+- regyear
+- manufacturer
+- model
+- version
+- price
+- monthly
+- stockid
+- index
+
+##### Optional attributes :
+
+- is
+
+##### Example:
+
+ ```
+
+
+```
+
 
