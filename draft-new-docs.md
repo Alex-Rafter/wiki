@@ -695,7 +695,7 @@ The bsk-read-more element is used to provide a 'read more' button that can be tr
 
 ### Mandatory Attributes:
 
-- target: The selector for the text element to be truncated and revealed
+- target: The id selector for the text element to be truncated and revealed
 - chars: The maximum number of characters to display in the truncated text
 
 ### Optional Attributes:
