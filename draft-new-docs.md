@@ -45,9 +45,9 @@ has-video="true"
 </bsk-gallery>
 ```
 
-## :green_circle: Hero Banner Video
+## :green_circle: Video Banner
 
-The bsk-hero-banner-video element is used to display a responsive full-screen video background with an optional headline, synopsis, and call-to-action button. The video is played using YouTube's embedded player. You can use this in conjunction with a cms banner to populate the attributes such as video id and headline etc.
+The bsk-video-banner element is used to display a responsive full-screen video background with an optional headline, synopsis, and call-to-action button. The video is played using YouTube's embedded player. You can use this in conjunction with a cms banner to populate the attributes such as video id and headline etc.
 
 ### Mandatory Attributes
 
@@ -55,8 +55,8 @@ The bsk-hero-banner-video element is used to display a responsive full-screen vi
 
 ### Optional Attributes:
 
-- hero-bg-height (default: '100vh'): Set the height of the hero banner on desktop - useful for setting the height to fill the viewport while accomodating the header nav above e.g ```hero-bg-height="calc(100vh - 135px)"```
-- hero-bg-height-mobile (default: 'calc(100vh - 93px)'): Set the height of the hero banner on mobile devices. Same as above, but accomodates the mobile header nav e.g ``` hero-bg-height-mobile="calc(100vh - 66px)"```
+- hero-bg-height (default: '100vh'): Set the height of the video banner on desktop - useful for setting the height to fill the viewport while accomodating the header nav above e.g ```hero-bg-height="calc(100vh - 135px)"```
+- hero-bg-height-mobile (default: 'calc(100vh - 93px)'): Set the height of the video banner on mobile devices. Same as above, but accomodates the mobile header nav e.g ``` hero-bg-height-mobile="calc(100vh - 66px)"```
 - headline: The headline text displayed on top of the video
 - synopsis: The synopsis text displayed below the headline
 - button-text: The text displayed on the call-to-action button
