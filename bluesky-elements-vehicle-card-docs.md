@@ -147,9 +147,8 @@ No optional attributes for this portion.
 
 ### Example:
 
- ```html
-
-
+```html
+<bsk-vehicle-card-body></bsk-vehicle-card-body>
 ```
 
 ## Vehicle Card Actions
