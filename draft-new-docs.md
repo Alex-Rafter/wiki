@@ -391,7 +391,9 @@ The bsk-ucr-grid element is used to display a responsive grid layout for vehicle
 ### Example :
 
 ```html
-<bsk-ucr-grid list-transition="true"></bsk-ucr-grid>
+<bsk-ucr-grid list-transition="true">
+    <!-- Nest vehicle card custom elements inside the group -->
+</bsk-ucr-grid>
 ```
 
 ### Example with Nested COG Repeater
