@@ -310,7 +310,6 @@ itemOne: The first breadcrumb item, must be provided in the following format: "[
 itemTwo, itemThree, itemFour, itemFive: Additional breadcrumb items (up to 5 items total), must be provided in the same format as itemOne: "[text, url]"
 divider: The character used as the breadcrumb divider (default is "/")
 
-
 ### How it works:
 The component reads the values of the item attributes and pushes them into the items array.
 The items array is looped through, and each item is rendered as a breadcrumb-item.
