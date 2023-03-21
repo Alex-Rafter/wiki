@@ -239,6 +239,21 @@ The bsk-offer-card element is used to display a single offer in a card format. T
 ### Optional Attributes:
 - button-text: The text for the button at the bottom of the card. If not provided, the default text is 'View Details'
 
+
+### Example :
+
+```html
+<bsk-offer-card
+  imgSrc="/path/to/image.jpg"
+  title="Amazing Offer"
+  offerText="Get an incredible deal on this exclusive product while supplies last."
+  offerUrl="/amazing-offer"
+  offerPrice="£199"
+  buttonText="Learn More"
+>
+</bsk-offer-card>
+```
+
 ## :green_circle: Inline Offer Card
 
 The bsk-inline-offer-card element is used to display an offer card with relevant information such as the offer title, finance details, offer description, and related images. The card has a responsive design, with separate layouts for desktop and mobile views. The finance details are displayed in a table, and the text content can be truncated using the CSS property --line-clamp to limit the number of visible lines. The component includes two buttons, one to view all offers and the other to find out more about the specific offer. The primary button's link is set with the offer-url attribute, and the secondary button links to /offers by default.
