@@ -621,7 +621,7 @@ The bsk-shortlist-local-heart element is used to display a clickable heart icon 
 <!--#include file="/inc/modules/petite/shortlist-plus/props-object.aspx" -->
 ```
 
-Add this towards the top of the repeater, and your can then use the variable in the data attribute e.g ```data="<%= PropObj %>"```
+Add this towards the top of the repeater, and your can then use the PropObj variable in the data attribute e.g ```data="<%= PropObj %>"```
 
 ### Optional Attributes:
 - child-class: A custom CSS class to apply to the heart icon
