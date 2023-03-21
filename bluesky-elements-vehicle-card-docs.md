@@ -47,9 +47,8 @@ No optional attributes for this portion.
 
 ##### Example:
 
- ```
-
-
+```html
+<bsk-vehicle-card-img></bsk-vehicle-card-img>
 ```
 
 
@@ -73,7 +72,7 @@ No optional attributes for this portion.
 
 ##### Example:
 
- ```
+ ```html
 
 
 ```
@@ -96,7 +95,7 @@ No optional attributes for this portion.
 
 ##### Example:
 
- ```
+ ```html
 
 
 ```
@@ -123,7 +122,7 @@ Vehicle Card Pricing
 
 ##### Example:
 
- ```
+ ```html
 
 
 ```
@@ -146,7 +145,7 @@ Vehicle Card Specs
 
 ##### Example:
 
- ```
+ ```html
 
 
 ```
@@ -177,7 +176,7 @@ Vehicle Card Actions
 
 ##### Example:
 
- ```
+ ```html
 
 
 ```
