@@ -623,5 +623,8 @@ child-class: A custom CSS class to apply to the heart icon
 ### Example:
 
 ```html
-
+<bsk-shortlist-local-heart
+data="<%= PropObj %>"
+childClass="text-danger"
+></bsk-shortlist-local-heart>
 ```
