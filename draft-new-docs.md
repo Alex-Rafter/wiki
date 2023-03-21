@@ -82,7 +82,7 @@ init(el): Initializes the YouTube player by calling the 'ytInitMain()' function 
 ### Example:
 
 ```html
-<bsk-hero-banner-video
+<bsk-video-banner
 youtube-id="ywFnUyzBb6I"
 hero-bg-height="calc(100vh - 135px)"
 hero-bg-height-mobile="calc(100vh - 66px)"
@@ -91,7 +91,7 @@ synopsis="I am a test synopsis"
 button-text="Search Our Stock"
 button-url="https://www.blueskyinteractive.com"
 >
-</bsk-hero-banner-video>
+</bsk-video-banner>
 ```
 
 
