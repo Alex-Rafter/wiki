@@ -594,3 +594,12 @@ The button is linked to a URL that is passed through the 'href' attribute. The '
 ```
 
 
+## :car: Vehicle Card Image Count
+The bsk-vehicle-card-img-count element is used to display the image and video count on a vehicle card. The component is designed to be positioned absolutely, appearing at the bottom left corner of the vehicle card image. The image and video count are displayed as badges with icons and text, indicating the total number of images and whether there is a video available for the vehicle.
+
+### Mandatory Attributes:
+- imgCount: The number of images for the vehicle
+- hasVideo: A boolean indicating if there is a video available for the vehicle
+
+### Example:
+
