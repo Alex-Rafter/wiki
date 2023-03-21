@@ -96,7 +96,7 @@ No optional attributes for this portion.
 The bsk-vehicle-card-pricing element is used to display vehicle pricing information.
 It has has two possible variations : default and was-now-save.
 If the is attribute is set to 'was-now-save', the element will display in a css grid layout using css variables that set col and row positions.
-The values show will be for previous price, current price, and savings, along finance price.
+The values that show will be for previous price, current price, and savings, along finance price.
 Otherwise, the component will only show the price and monthly payment and will show these in row layout using flex.
 The vehicle price is formatted to include commas in the thousands place.
 CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
