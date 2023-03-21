@@ -2,7 +2,7 @@
 
 ## Vehicle Card
 
-The bsk-vehicle-card is the main container element for the vehicle card custom elements, with the ability to switch between a grid view and a list view. The ```v-wrap``` directive used in the template causes all elements nested inside the component to be wrapped in the component's ```article``` tag. CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (stored in global property ```store.ucr.gridType```). This allows the element and components nested within it to be styled properly for list view.
+The bsk-vehicle-card is the main container element for the vehicle card custom elements, with the ability to switch between a grid view and a list view. The ```v-wrap``` directive used in the template causes all elements nested inside the component to be wrapped in the component's ```article``` tag. CSS classes are dynamically set based on the variant    and whether the grid type is set to 'list' or 'grid' (stored in global property ```store.ucr.gridType```). This allows the element and components nested within it to be styled properly for list view.
 
 ### Mandatory attributes :
 
@@ -93,13 +93,13 @@ No optional attributes for this portion.
 
 ## Vehicle Card Pricing
 
-- The bsk-vehicle-card-pricing element is used to display vehicle pricing information.
-- It has has two possible variations : default and was-now-save.
-- If the is attribute is set to 'was-now-save', the element will display in a css grid layout using css variables to set col and row positions.
-- The values show will be for previous price, current price, and savings, along finance price.
-- Otherwise, the component will only show the price and monthly payment and will show these in row layout using flex.
-- The vehicle price is formatted to include commas in the thousands place.
-- CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
+The bsk-vehicle-card-pricing element is used to display vehicle pricing information.
+It has has two possible variations : default and was-now-save.
+If the is attribute is set to 'was-now-save', the element will display in a css grid layout using css variables to set col and row positions.
+The values show will be for previous price, current price, and savings, along finance price.
+Otherwise, the component will only show the price and monthly payment and will show these in row layout using flex.
+The vehicle price is formatted to include commas in the thousands place.
+CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
 
 ### Mandatory attributes :
 
