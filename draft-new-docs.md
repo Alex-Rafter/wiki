@@ -38,7 +38,7 @@ is="full-width"
 manufacturer="<%=Manufacturer.Text%>"
 model="<%=Model.Text%>"
 version="<%=Version.Text %>"
-mileage="12,333"
+mileage="<%= Mileage.Text %>"
 has-video="true"
 images="<%= Images_51.Text %>"
 >
