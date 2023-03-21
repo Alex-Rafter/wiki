@@ -198,7 +198,7 @@ The bsk-cta-section is a call-to-action (CTA) section element used to encourage 
 
 The bsk-inline-offer-card element is used to display an offer card with relevant information such as the offer title, finance details, offer description, and related images. The card has a responsive design, with separate layouts for desktop and mobile views. The finance details are displayed in a table, and the text content can be truncated using the CSS property --line-clamp to limit the number of visible lines. The component includes two buttons, one to view all offers and the other to find out more about the specific offer. The primary button's link is set with the offer-url attribute, and the secondary button links to /offers by default.
 
-To use this with cms data, we need to get the offer-finance-details in the correct format. We have a helper function inside boilerplate's template logic directory ```/inc\modules\template-logic\return-key-value-pair.aspx``` directory. Add the file as an include towards the top of your page, and the you can call the function like this:
+To use this with cms data, we need to get the offer-finance-details in the correct format. We have a helper function inside boilerplate's template logic directory directory. Add the file as an include towards the top of your page, and the you can call the function like this:
 
 ```html
 <!--#include file="/inc/modules/template-logic/return-key-value-pair.aspx" -->
