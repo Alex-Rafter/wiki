@@ -718,7 +718,7 @@ Here, the `bsk-read-more` component is used to target the `p` element within the
 
 ## :green_circle: Clear Filters
 
-The bsk-clear-filters element is used to display a 'Clear All Filters' button that resets all select options to their default position.
+The bsk-clear-filters element is used to display a 'Clear All Filters' button that resets all select options to their default position. It is designed to be used in conjunction with search filters.
 
 ### Mandatory Attributes:
 
