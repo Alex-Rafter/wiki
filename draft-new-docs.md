@@ -309,3 +309,14 @@ itemOne: The first breadcrumb item, must be provided in the following format: "[
 ### Optional Attributes:
 itemTwo, itemThree, itemFour, itemFive: Additional breadcrumb items (up to 5 items total), must be provided in the same format as itemOne: "[text, url]"
 divider: The character used as the breadcrumb divider (default is "/")
+
+###Example:
+
+<bsk-breadcrumb
+  itemOne="[Home, /]"
+  itemTwo="[Blog, /blog]"
+  itemThree="[Category, /blog/category]"
+  itemFour="[Article, /blog/category/article]"
+  divider=">"
+>
+</bsk-breadcrumb>
