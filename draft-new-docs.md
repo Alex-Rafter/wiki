@@ -640,9 +640,10 @@ childClass="text-danger"
 The bsk-shortlist-global-heart element is used to display a heart icon that represents the user's shortlisted items. The heart icon serves as a link to the shortlist page. The icon's appearance changes based on the count of shortlisted items. If the count is less than 1, the heart icon will be outlined, otherwise, it will be solid.
 
 ### Mandatory Attributes:
-None
+- None
+
 ### Optional Attributes:
-child-class: A custom CSS class to apply to the global-heart element if needed.
+- child-class: A custom CSS class to apply to the global-heart element if needed.
 
 ```html
 <bsk-shortlist-global-heart childClass="custom-heart"></bsk-shortlist-global-heart>
