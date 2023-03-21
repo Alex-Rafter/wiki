@@ -392,7 +392,7 @@ The bsk-ucr-grid element is used to display a responsive grid layout for vehicle
 
 ```html
 <bsk-ucr-grid list-transition="true">
-    <!-- Nest vehicle card custom elements inside the group -->
+    <!-- Nest vehicle card custom elements inside -->
 </bsk-ucr-grid>
 ```
 
