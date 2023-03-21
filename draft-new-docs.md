@@ -41,7 +41,7 @@ version="Sport"
 mileage="12,333"
 has-video="true"
 images="<%= Images_51.Text %>"
-          >
+>
 </bsk-gallery>
 ```
 
