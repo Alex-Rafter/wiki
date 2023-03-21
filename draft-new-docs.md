@@ -143,7 +143,7 @@ The bsk-carousel-banner-slide element is used to display a banner slide, with op
 ### Detailed explanation:
 
 - If the youtubeId attribute is provided, the component will display a YouTube video as the background. The video will only play on larger screens (not xs or sm breakpoints).
-- If no youtubeId is provided, an image will be used as the background. The image source is set with the imgSrc attribute.
+- If no youtubeId is provided, an image will be used as the background. The image source is set with the img-src attribute.
 - The overlay attribute is used to enable or disable the hero overlay. If it's set to true (default), a div element containing the headline, synopsis, and button will be shown on top of the background.
 - The headline attribute sets the text for the main heading, displayed in uppercase.
 - The synopsis attribute sets the text for the secondary heading or paragraph.
