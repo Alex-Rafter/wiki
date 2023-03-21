@@ -148,7 +148,12 @@ No optional attributes for this portion.
 ### Example:
 
 ```html
-<bsk-vehicle-card-body></bsk-vehicle-card-body>
+<bsk-vehicle-card-specs
+  is="pills"
+  specs="34230 miles|Petrol|Automatic"
+  icons="fas fa-tachometer-alt|fas fa-gas-pump|fas fa-cogs|fas fa-cogs|fas fa-cogs"
+>
+</bsk-vehicle-card-specs>
 ```
 
 ## Vehicle Card Actions
