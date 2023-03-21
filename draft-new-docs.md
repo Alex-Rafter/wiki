@@ -66,7 +66,7 @@ The bsk-video-banner element is used to display a responsive full-screen video b
 
 - The component displays a full-screen video background using YouTube's embedded player.
 - The video automatically plays and is set to loop.
-- The hero banner video can have an optional headline, synopsis, and call-to-action button displayed on top of the video.
+- The video banner can have an optional headline, synopsis, and call-to-action button displayed on top of the video.
 - The component is responsive and adjusts its dimensions based on the screen size and aspect ratio of the video.
 
 ### CSS:
