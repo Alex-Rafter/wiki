@@ -98,7 +98,7 @@ button-url="https://www.blueskyinteractive.com"
 ## :green_circle: Carousel Banner
 
 The bsk-carousel-banner element is used to display a responsive slider of banners.
-The carousel uses the Slick library to create a fading slide transition with navigation arrows and optional dots for navigation.
+The carousel uses the Slick.js library to create a fading slide transition with navigation arrows and optional dots for navigation.
 
 ### Optional Attributes:
 
