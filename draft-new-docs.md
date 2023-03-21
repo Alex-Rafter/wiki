@@ -200,6 +200,7 @@ The bsk-inline-offer-card element is used to display an offer card with relevant
 
 To use this with cms data, we need to get the offer-finance-details in the correct format. We have a helper function inside boilerplate's template logic directory ```/inc\modules\template-logic\return-key-value-pair.aspx``` directory. Add the file as an include towards the top of your page, and the you can call the function like this:
 ```html
+<!--#include file="/inc/modules/template-logic/return-key-value-pair.aspx" -->
 offer-finance-details="<%= If(offer.FinanceDetails.Any(), returnKeyValuePairStringified(offer.FinanceDetails), "") %>"
 ```
 
