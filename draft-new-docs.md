@@ -616,7 +616,7 @@ The bsk-vehicle-card-img-count element is used to display the image count and vi
 The bsk-vehicle-card-sash element is used to display a sash on a vehicle card. The sash consists of a ribbon with customizable text. The ribbon is designed to be responsive, adjusting its size based on the screen width.
 
 ### Mandatory Attributes:
-text: The text to be displayed on the sash ribbon
+- text: The text to be displayed on the sash ribbon
 
 ### Example:
 
