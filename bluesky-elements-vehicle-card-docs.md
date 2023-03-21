@@ -28,7 +28,7 @@ Vehicle Card Img
 - The data-vehicle attributes contain additional vehicle data that can be used for tracking or other purposes.
 - The &lt;noscript&gt; tag provides alternative content for browsers that do not support JavaScript.
 
-##### Mandatory attributes :
+### Mandatory attributes :
 
 - img-src
 - url
@@ -41,7 +41,7 @@ Vehicle Card Img
 - stockid
 - index
 
-##### Optional attributes :
+### Optional attributes :
 
 - No optional attributes
 
@@ -62,11 +62,11 @@ Vehicle Card Img
 - This ensures the child components sit correctly inside the container for both of these views.
 -
 
-##### Mandatory attributes :
+### Mandatory attributes :
 
 No mandatory attributes are required for this portion.
 
-##### Optional attributes :
+### Optional attributes :
 
 No optional attributes for this portion.
 
@@ -82,13 +82,13 @@ No optional attributes for this portion.
 - The bsk-vehicle-card-titles element defines the vehicle card's title and sub-title, and allows them to be styled differently for both grid view and a list view.
 - CSS classed are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
 
-##### Mandatory attributes :
+### Mandatory attributes :
 
 - manufacturer
 - model
 - version
 
-##### Optional attributes :
+### Optional attributes :
 
 No optional attributes for this portion.
 
@@ -109,12 +109,12 @@ No optional attributes for this portion.
 - The vehicle price is formatted to include commas in the thousands place.
 - CSS classes are dynamically set based on the variant and whether the grid type is set to 'list' or 'grid' (variable - store.ucr.gridType).
 
-##### Mandatory attributes :
+### Mandatory attributes :
 
 - price
 - monthly
 
-##### Optional attributes :
+### Optional attributes :
 
 - is
 
@@ -131,11 +131,11 @@ No optional attributes for this portion.
 - The template uses v-for to iterate over each specification and display it with its associated icon (if specified) in a span element.
 - Conditional class bindings are used to set styles for list and grid view, and icon and pills styles.
 
-##### Mandatory attributes :
+### Mandatory attributes :
 
 - specs (passed as csv)
 
-##### Optional attributes :
+### Optional attributes :
 
 - is
 - icons (passed as csv)
@@ -153,7 +153,7 @@ No optional attributes for this portion.
 - The 'title' attribute displays the car's details.
 - The anchor tag with button classes also contains several custom data attributes that hold tracking information about the vehicle.
 
-##### Mandatory attributes :
+### Mandatory attributes :
 
 - img-src
 - url
@@ -166,7 +166,7 @@ No optional attributes for this portion.
 - stockid
 - index
 
-##### Optional attributes :
+### Optional attributes :
 
 - is
 
