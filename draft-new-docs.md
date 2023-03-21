@@ -689,7 +689,6 @@ The bsk-shortlist-global-heart element is used to display a heart icon that repr
 <bsk-shortlist-global-heart childClass="custom-heart"></bsk-shortlist-global-heart>
 ```
 
-
 ## :green_circle: Read More Button
 
 The bsk-read-more element is used to provide a 'read more' button that can be triggered to reveal additional text content. The button is designed to be responsive, appearing only on smaller screens.
