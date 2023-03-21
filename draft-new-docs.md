@@ -17,7 +17,7 @@ It supports both standard and full-width designs, and uses the Slick Carousel li
 ### Optional attributes
 
 - is: used to set variations : default, thumbs, full-width
-- thumbs-to-show: (Number) Specifies the number of thumbnails to show in the navigation. Default: 4.
+- thumbs-to-show: Specifies the number of thumbnails to show in the navigation. Default: 4.
 - has-video : Used to set video icon overlay. Default: false.
 
 ### Methods
