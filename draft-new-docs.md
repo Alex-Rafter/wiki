@@ -354,3 +354,16 @@ To use the bsk-simple-spotlight-group element, wrap a series of bsk-simple-spotl
   <!-- Nest simple bsk-simple-spotlight custom elemenst inside the group -->
 </bsk-simple-spotlight-group>
 ```
+
+
+## :green_circle: Simple Spotlight
+The bsk-simple-spotlight element is used to display a spotlight item with an icon, title, and description. The spotlight item is designed to be responsive and adaptable to various layout styles such as 'strip' and 'bordered'. The spotlight item can also include an optional URL attribute to create a link for users to navigate to a specific page when clicked.
+
+### Mandatory Attributes:
+- title: The title of the spotlight item
+- body: The description text of the spotlight item
+- icon: The icon class for the spotlight item (e.g., using Font Awesome, Material Icons, etc.)
+
+### Optional Attributes:
+- url: The URL for the spotlight item, which turns the entire item into a clickable link (default is null)
+- is: The layout style for the spotlight item, accepts 'strip' or 'bordered' (default is none)
