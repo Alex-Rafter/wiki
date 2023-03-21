@@ -7,7 +7,7 @@ It supports both standard and full-width designs, and uses the Slick Carousel li
 
 ### Mandatory attributes
 
-- images: A comma-separated list of vehicle image names - set up so as to work with csv output by COG Literal br
+- images: A comma-separated list of vehicle image names - set up so as to work with csv output by COG Literal <br>
 eg. ```images="<%= Images_51.Text %>"```.
 - manufacturer: The name of the vehicle's manufacturer.
 - model: The name of the vehicle's model.
