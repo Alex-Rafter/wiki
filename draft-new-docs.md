@@ -351,7 +351,7 @@ To use the bsk-simple-spotlight-group element, wrap a series of bsk-simple-spotl
 
 ```html
 <bsk-simple-spotlight-group is="strip">
-<!-- Nest simple bsk-simple-spotlight custom elemenst inside the group -->
+  <!-- Nest simple bsk-simple-spotlight custom elemenst inside the group -->
 </bsk-simple-spotlight-group>
 
 ```
