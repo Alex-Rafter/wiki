@@ -39,8 +39,8 @@ manufacturer="<%=Manufacturer.Text%>"
 model="<%=Model.Text%>"
 version="<%=Version.Text %>"
 mileage="<%= Mileage.Text %>"
-has-video="true"
 images="<%= Images_51.Text %>"
+has-video="true"
 >
 </bsk-gallery>
 ```
