@@ -126,7 +126,6 @@ No optional attributes for this portion.
 ```
 
 ## Vehicle Card Specs
--
 
 - The bsk-vehicle-card-specs element is used for displaying vehicle specifications.
 - The template uses v-for to iterate over each specification and display it with its associated icon (if specified) in a span element.
@@ -149,7 +148,6 @@ No optional attributes for this portion.
 ```
 
 ## Vehicle Card Actions
----
 
 - The button is linked to a URL that is passed through the 'href' attribute.
 - The 'title' attribute displays the car's details.
