@@ -34,7 +34,7 @@ To use the bsk-gallery component, include the custom bsk-element tag in your HTM
 
 ```html
 <bsk-gallery
-is="full-width"
+is="thumbs"
 manufacturer="<%=Manufacturer.Text%>"
 model="<%=Model.Text%>"
 version="<%=Version.Text %>"
