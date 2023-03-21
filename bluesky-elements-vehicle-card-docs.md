@@ -55,9 +55,7 @@ Vehicle Card Img
 
 ## Vehicle Card Body
 
-The bsk-vehicle-card-img-body element creates a container element for the vehicle card text components. It makes use of the v-wrap directive to ensure all children are placed inside the component's html rather than outside of it.
-- CSS classes are dynamically set on card-body element for both list view and grid view.
-- This ensures the child components sit correctly inside the container for both of these views.
+The bsk-vehicle-card-img-body element creates a container element for the vehicle card text components. It makes use of the v-wrap directive to ensure all children are placed inside the component's html rather than outside of it. CSS classes are dynamically set on card-body element for both list view and grid view. This ensures the child components sit correctly inside the container for both of these views.
 
 ### Mandatory attributes :
 
