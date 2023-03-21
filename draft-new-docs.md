@@ -624,7 +624,7 @@ data: A JSON string containing the vehicle's information, including stockID, url
 Add this towards the top of the repeater, and your can then use the variable in the data attribute e.g ```data="<%= PropObj %>"```
 
 ### Optional Attributes:
-child-class: A custom CSS class to apply to the heart icon
+- child-class: A custom CSS class to apply to the heart icon
 
 ### Example:
 
