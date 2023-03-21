@@ -702,7 +702,7 @@ The bsk-read-more element is used to provide a 'read more' button that can be tr
 
 - extra-class: Additional CSS classes to be applied to the 'Read more' button element
 
-Example:
+### Example:
 
 ```html
 <div class="card-text">
