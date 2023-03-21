@@ -611,7 +611,6 @@ The bsk-vehicle-card-img-count element is used to display the image count and vi
 ></bsk-vehicle-card-img-count>
 ```
 
-
 ## :car:  Vehicle Card Sash
 The bsk-vehicle-card-sash element is used to display a sash on a vehicle card. It is positioned absolutely over the card image. The sash consists of a ribbon with customizable text.
 
@@ -622,6 +621,19 @@ The bsk-vehicle-card-sash element is used to display a sash on a vehicle card. I
 
 ```html
 <bsk-vehicle-card-sash text="reserved"></bsk-vehicle-card-sash>
+```
+
+## :green_circle: Vehicle Card Location
+The bsk-vehicle-card-location element is used to display the location information of a vehicle on a card. It includes a location icon and a location name, both of which are linked to the specified URL. The location name is styled with a bold font weight.
+
+### Mandatory Attributes:
+- location: The name of the location
+- location-url: The URL for the location link
+
+### Example:
+
+```html
+<bsk-shortlist-global-heart childClass="custom-heart"></bsk-shortlist-global-heart>
 ```
 
 ## :heart: Shortlist Local Heart
@@ -661,3 +673,4 @@ The bsk-shortlist-global-heart element is used to display a heart icon that repr
 ```html
 <bsk-shortlist-global-heart childClass="custom-heart"></bsk-shortlist-global-heart>
 ```
+
