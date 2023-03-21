@@ -1,4 +1,4 @@
-# Bleusky Elements Component Docs (Draft)
+# Bluesky Elements Component Docs (Draft)
 
 ## :green_circle: Gallery
 
