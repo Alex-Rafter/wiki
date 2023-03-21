@@ -603,3 +603,17 @@ The bsk-vehicle-card-img-count element is used to display the image count and vi
 
 ### Example:
 
+```html
+<bsk-vehicle-card-actions
+  is="blank"
+  url="http://boilerplate.dev.cogplatform.co.uk/"
+  regyear="2015"
+  manufacturer="fiat"
+  model="500"
+  version="Sport"
+  price="6500"
+  monthly="250"
+  stockid="7262"
+  index="1"
+>
+</bsk-
