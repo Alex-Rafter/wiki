@@ -594,7 +594,7 @@ The button is linked to a URL that is passed through the 'href' attribute. The '
 ```
 
 ## :car: Vehicle Card Location
-The bsk-vehicle-card-location element is used to display the location information of a vehicle on a card. It includes a location icon and a location name, both of which are linked to the specified URL. The location name is styled with a bold font weight.
+The bsk-vehicle-card-location element is used to display the location information on the vehicle card. It includes a location icon and a location name, both of which are linked to the specified URL. The location name is styled with a bold font weight.
 
 ### Mandatory Attributes:
 - location: The name of the location
