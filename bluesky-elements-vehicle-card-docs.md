@@ -196,3 +196,4 @@ The bsk-vehicle-card-img-count element is used to display the image and video co
   has-video="true"
 ></bsk-vehicle-card-img-count>
 ```
+
