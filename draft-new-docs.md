@@ -361,7 +361,7 @@ The bsk-simple-spotlight element is used to display a spotlight item with an ico
 ### Mandatory Attributes:
 - title: The title of the spotlight item
 - body: The description text of the spotlight item
-- icon: The icon class for the spotlight item (using Font Awesome css classes)
+- icon: The icon class for the spotlight item (eg using Font Awesome css classes)
 
 ### Optional Attributes:
 - url: The URL for the spotlight item, which turns the entire item into a clickable link (default is null)
