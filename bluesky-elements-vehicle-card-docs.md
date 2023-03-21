@@ -124,7 +124,10 @@ No optional attributes for this portion.
 ### Example:
 
 ```html
-<bsk-vehicle-card-body></bsk-vehicle-card-body>
+<bsk-vehicle-card-pricing
+  price="6,500"
+  monthly="250"
+></bsk-vehicle-card-pricing>
 ```
 
 ## Vehicle Card Specs
