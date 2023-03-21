@@ -338,3 +338,11 @@ The divider attribute is used to set the --bs-breadcrumb-divider CSS variable, w
 
 
 
+## :green_circle: Simple Spotlight Group
+The bsk-simple-spotlight-group element is used to create a group of spotlight items in a responsive layout. The group can be displayed either as a strip or grid. In strip mode, the items are displayed in a horizontal carousel, while in grid mode, they are displayed in a grid format. The carousel is initialized using the Slick library in strip mode and adapts to different screen sizes.
+
+### Optional Attributes:
+- is: The display mode for the spotlight group, either 'strip' or 'grid'
+
+Usage:
+To use the bsk-simple-spotlight-group element, wrap a series of bsk-simple-spotlight components within the element and set the 'is' attribute to either 'strip' or 'grid', depending on the desired display mode.
