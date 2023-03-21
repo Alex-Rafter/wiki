@@ -94,7 +94,12 @@ No optional attributes for this portion.
 ### Example:
 
 ```html
-<bsk-vehicle-card-body></bsk-vehicle-card-body>
+<bsk-vehicle-card-titles
+  manufacturer="fiat"
+  model="500"
+  version="SE L S/S 5-Dr Estate"
+>
+</bsk-vehicle-card-titles>
 ```
 
 ## Vehicle Card Pricing
