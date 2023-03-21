@@ -188,3 +188,4 @@ The bsk-vehicle-card-img-count element is used to display the image and video co
 - imgCount: The number of images for the vehicle
 - hasVideo: A boolean indicating if there is a video available for the vehicle
 
+### Example:
