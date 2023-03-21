@@ -16,7 +16,7 @@ No optional attributes for this portion.
 
 ### Example:
 
-html```
+```html
 <bsk-vehicle-card theme="bp"></bsk-vehicle-card>
 ```
 
