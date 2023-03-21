@@ -238,33 +238,3 @@ offer-finance-details="<%= If(offer.FinanceDetails.Any(), returnKeyValuePairStri
 >
 </bsk-inline-offer-card>
 ```
-
-## :green_circle: Inline Offer Card
-
-The bsk-inline-offer-card element is used to display a special offer in a card format.
-The card includes an offer title, finance details, offer description, and buttons for navigation. The card is designed to be responsive, displaying the title and image differently on mobile and desktop screens. The offer description text is truncated using -webkit-line-clamp to control the number of lines displayed, which can be set via the lineClampLength attribute.
-
-### Mandatory Attributes:
-
-- offer-title: The title of the offer
-- offer-body: The description text of the offer
-- offer-finance-details: An array of key-value pairs representing the finance details for the offer
-- offer-url: The URL for the 'Find out More' button
-- offer-image: The image URL for the offer card
-
-### Optional Attributes:
-
-- line-clamp-length: The number of lines to display in the offer description text (default is 3)
-
-### Example:
-
-```html
-<bsk-inline-offer-card
-  offerTitle="Special Offer"
-  offerBody="Limited time offer on this amazing vehicle. Don't miss out!"
-  offerFinanceDetails="[{'Deposit': '£1,000'}, {'Monthly Payment': '£250'}]"
-  offerUrl="/special-offer"
-  offerImage="/path/to/image.jpg"
->
-</bsk-inline-offer-card>
-```
