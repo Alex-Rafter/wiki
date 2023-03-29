@@ -28,3 +28,10 @@ incs dir for template-logic
 ## Session Object as bigger thing
 speak with Dave on any perf implications
 
+## Build speed Up Ideas
+- set up wizard (with bash script / shelljs)
+    sets up branches,
+    urls in readme,
+    webpack config
+
+- Scripting design to bs variables definitley possible. At least making my version of the xd file first from the design vars should be doable. Get Kate and Rach to input into form and then can script from there.
