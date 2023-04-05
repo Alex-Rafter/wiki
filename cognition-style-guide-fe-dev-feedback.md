@@ -67,9 +67,6 @@ Will rm all other variants to reduce lib size?
 - button click tooltip -> pull out as component for styleguide if used throughout site
 - seems like the circle with icon is a motif? Component for styleguide?
 
-###### Step 2 imperfections
-- tooltip - doesn't seem to match those in style guide?
-
 ###### Uploader imperfection details
 - the tags component - can we link to a bs component? or add this to style guide as a custom component as its used throughout parts of the site?
 
