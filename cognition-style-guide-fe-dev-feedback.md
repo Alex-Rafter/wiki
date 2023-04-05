@@ -2,8 +2,8 @@
 
 
 ## XD Links Referenced
-Style guide :  https://xd.adobe.com/view/ae691825-dd27-4699-9809-6abcc17231ce-fb3a/
-Design : https://xd.adobe.com/view/c7b890fc-eb32-41fc-89f2-4727c8298cfb-92eb/
+- Style guide :  https://xd.adobe.com/view/ae691825-dd27-4699-9809-6abcc17231ce-fb3a/
+- Design : https://xd.adobe.com/view/c7b890fc-eb32-41fc-89f2-4727c8298cfb-92eb/
 
 
 #### Typography :
