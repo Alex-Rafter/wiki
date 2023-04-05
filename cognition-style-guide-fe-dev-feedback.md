@@ -21,7 +21,7 @@ $headings-line-height:
 $headings-color:
 ```
 
-expliict font sizes and font family
+time saver : expliict font sizes and font family
 *issue with line-height on wessex at 1.8
 
 #### Spacing
