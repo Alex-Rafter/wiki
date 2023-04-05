@@ -9,7 +9,7 @@
 #### Typography :
 - margin - q if just bottom or margin all?
 - Pls can we use rem not em to keep in line with bs
-- line height?
+- q on heading line height?
 - Can we pull out the key values for heading that we will set in bs type vars as css (eg line height) from xd not useful in this regard.
 
 ```css
