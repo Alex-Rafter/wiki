@@ -21,7 +21,6 @@ $headings-line-height:
 $headings-color:
 ```
 
-
 *issue with line-height on wessex at 1.8
 
 #### Spacing
