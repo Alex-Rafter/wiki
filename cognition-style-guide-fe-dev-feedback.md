@@ -12,12 +12,14 @@
 - line height?
 - Can we pull out the key values for heading that we will set in bs type vars as css form xd not useful in this regard.
 
+```css
 $headings-margin-bottom:
 $headings-font-family:
 $headings-font-style:
 $headings-font-weight:
 $headings-line-height:
 $headings-color:
+```
 
 expliict font sizes and font family
 *issue with line-height on wessex at 1.8
