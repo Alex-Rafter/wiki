@@ -7,10 +7,10 @@
 
 
 #### Typography :
-margin - just bottom or margin all?
-Pls can we use rem not em to keep in line with bs
-line height?
-Can we pull out the key values for heading that we will set in bs type vars as css form xd not useful in this regard.
+- margin - just bottom or margin all?
+- Pls can we use rem not em to keep in line with bs
+- line height?
+- Can we pull out the key values for heading that we will set in bs type vars as css form xd not useful in this regard.
 
 $headings-margin-bottom:
 $headings-font-family:
