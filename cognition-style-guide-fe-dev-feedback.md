@@ -57,6 +57,7 @@ Can we have examples of icon to action from design - icon / tooltip states would
 
 #### Tables
 Will rm all other variants to reduce lib size?
+YES - can rm the variants we are not using
 
 ##### Qs from referencing design to style guide
 
