@@ -28,7 +28,7 @@ Wessex 10px not small enough for lowest spacing level - can we make sure we have
 Are button spacings (x and y paddings) supposed matched to this spacing scale or separate? Getting y 11px and x 20px on standard button.
 
 #### Borer radius
-If only using the two sizes can we make explicit which should override which bs var?
+If only using the two sizes can we make explicit which should override which bs var? Eg shoulkd it just be 4px for all unless specified?
 $border-radius:
 $border-radius-sm:
 $border-radius-lg:
