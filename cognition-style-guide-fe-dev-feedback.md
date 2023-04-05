@@ -10,7 +10,7 @@
 - margin - just bottom or margin all?
 - Pls can we use rem not em to keep in line with bs
 - line height?
-- Can we pull out the key values for heading that we will set in bs type vars as css form xd not useful in this regard.
+- Can we pull out the key values for heading that we will set in bs type vars as css from xd not useful in this regard.
 
 ```css
 $headings-margin-bottom:
@@ -21,7 +21,7 @@ $headings-line-height:
 $headings-color:
 ```
 
-time saver : expliict font sizes and font family
+
 *issue with line-height on wessex at 1.8
 
 #### Spacing
