@@ -24,7 +24,7 @@ $headings-color:
 *issue with line-height on wessex at 1.8
 
 #### Spacing
-Wessex 10px not small enough for lowest spacing level - can we make sure we have smaller ones than this on the scale
+Wessex 10px not small enough for lowest spacing level - can we make sure we have smaller ones than this on the scale for use as spacing utils
 Are buttons matched to this spacing scale?
 
 #### Borer radius
