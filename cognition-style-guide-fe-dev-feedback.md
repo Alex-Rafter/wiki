@@ -25,7 +25,7 @@ $headings-color:
 
 #### Spacing
 Wessex 10px not small enough for lowest spacing level - can we make sure we have smaller ones than this on the scale for use as spacing utils
-Are button spacings matched to this spacing scale?
+Are button spacings matched to this spacing scale or separate?
 
 #### Borer radius
 If only using the two sizes can we make explicit which should override which bs var?
