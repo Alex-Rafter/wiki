@@ -41,6 +41,7 @@ vertical variation looks a bit out possibly?
 
 #### Cards
 Did we get a decision with Lauren on future dev work re: card and carousels re: keep in or take out?
+Could the click action in vehicle uploader be a good candidate for adding imn under card components?
 
 #### List Group and Modals
 Are we using these as designed here in the current design? Eg modals look like this?
