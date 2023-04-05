@@ -65,7 +65,7 @@ Will rm all other variants to reduce lib size?
 
 ###### upload imagery
 - button click tooltip -> pull out as component for styleguide if used throughout site
-- seems like small circle with icon is a motif? Component for styleguide?
+- seems like the circle with icon is a motif? Component for styleguide?
 
 ###### Step 2 imperfections
 - tooltip - doesn't seem to match those in style guide?
