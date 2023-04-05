@@ -61,7 +61,7 @@ Will rm all other variants to reduce lib size?
 ##### Qs from referencing design to style guide
 
 ###### Design dashboard
-- Upload buttons : is this a button component? Is this style used throughout the site? If so can we add to the style guide? MIght be helpful to have in there?
+- Upload buttons : is this a button component? Is this style used throughout the site? If so can we add to the style guide? Might be helpful to have in there?
 
 ###### upload imagery
 - button click tooltip -> pull out as component for styleguide if used throughout site
