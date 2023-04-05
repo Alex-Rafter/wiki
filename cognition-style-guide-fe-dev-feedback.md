@@ -40,7 +40,7 @@ pages 1 -5 - cant seen acant seen any content on these pages?
 vertical variation looks a bit out possibly?
 
 #### Cards
-Did we get a decision with Lauren on future dev work re: card and carousels?
+Did we get a decision with Lauren on future dev work re: card and carousels re: keep in or take out?
 
 #### List Group and Modals
 Are we using these as designed here in the current design? Eg modals look like this?
