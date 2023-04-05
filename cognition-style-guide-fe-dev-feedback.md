@@ -34,7 +34,7 @@ $border-radius-sm:
 $border-radius-lg:
 
 #### Components
-pages 1 -5 - no content?
+pages 1 -5 - cant seen any content?
 
 #### Btn group
 vertical variation looks a bit out possibly?
