@@ -36,3 +36,5 @@ speak with Dave on any perf implications
 
 - Scripting design to bs variables definitley possible.
   At least making my version of the xd file first from the design vars should be doable. Get Kate and Rach to input into form and then can script from there.
+
+## Hypes script
