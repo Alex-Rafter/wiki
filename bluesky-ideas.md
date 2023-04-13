@@ -39,3 +39,4 @@ speak with Dave on any perf implications
 
 ## Hypes script
 - script to integrate hypes into a build - shelljs
+- No need to do all the set up manually
