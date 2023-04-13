@@ -42,4 +42,4 @@ speak with Dave on any perf implications
 - No need to do all the set up manually
 
 ## Psyudo Lang for bsk-els
--
+- firebase vid as example to work from?
