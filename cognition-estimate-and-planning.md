@@ -1,6 +1,6 @@
 # Cognition Estimate and Planning
 
-Goal :
+## Goal :
 - Customised version of BS ui library with updated util classes that can be used in fe dev work but that also enables tech to work easily with pre-established design tokens while working Agile methodology
 - style guide components : either base BS components (re)styled and applicable via markup and css classes, or built out and provided as static html snippets with css / css utils
 - components :
@@ -10,17 +10,17 @@ Goal :
   3. Dashboard
   does this include configue dashboard? No dedicated design for this?
 
-Plan :
+## Plan :
 Design -> Static HTML -> Razor Pages
 
 - Focus on static html build out of components first, and delivering customised variables and util classe
 - A focus from design and FE on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
 - These then handed over for integration into the Razor pages / partials
 
-Deliverables :
+## Deliverables :
 - Static html build out of components
 - Customised Bootstrap and BS util classes with docs where needed
 - JS with import maps for use as is or for intergration with build tool if needed in future
 
-Time Estimate : 2 weeks
+## Time Estimate : 2 weeks
 Disvussed that this wis rough esitame as the process is quite different from normal build. Plan disvissed with Lauren is to review at end of week 1 on progress, and clarify what will be achievable by end of week 2 / end of this first phase.
