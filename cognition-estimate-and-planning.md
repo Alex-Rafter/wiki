@@ -9,7 +9,7 @@ Design -> Static HTML -> Razor Pages
 
 ## Deliverables :
 
-- Customised Bootstrap ib and BS util classes
+- Customised Bootstrap lib and BS util classes
   - any docs where needed eg custom spacings etc
 - Styleguide component styles / component styles
 
