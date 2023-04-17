@@ -18,6 +18,7 @@ Deliverrables :
 
 - Static html build out of components first
 - Customised Bootstrap and BS util classes with docs where needed
+- JS with impirt maps for use as is or easy intergration into FE build too if used in future
 - static html handed over for integration into the Razor pages / partials as test of process
 
 
