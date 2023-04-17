@@ -1,7 +1,7 @@
 # Cognition Estimate and Planning
 
 Goal :
-customised BS library with updated util classes that can be used in fe dev work but also enables tech to work easily with pre-established design tokens
+- customised BS ui library with updated util classes that can be used in fe dev work but also enables tech to work easily with pre-established design tokens
 style guide ompontents : either base bs els styled and applicable via classes, or built out and provided as static html snippets
 components
 
