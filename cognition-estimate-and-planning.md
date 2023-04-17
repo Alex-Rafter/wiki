@@ -19,7 +19,7 @@ Design -> Static HTML -> Razor Pages
 - These then handed over for integration into the Razor pages / partials
 
 Deliverables :
-- Static html build out of components first
+- Static html build out of components
 - Customised Bootstrap and BS util classes with docs where needed
 - JS with import maps for use as is or easy intergration into FE build too if used in future
 
