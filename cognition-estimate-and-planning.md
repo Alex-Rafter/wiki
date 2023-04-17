@@ -9,7 +9,6 @@ Goal :
 3. Dashboard
 does this include configue dashboard? No dedicated design for this?
 
-
 Design -> Static HTML -> Razor Pages
 
 - Focus on static html build out of components first
