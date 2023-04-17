@@ -21,7 +21,7 @@ Design -> Static HTML -> Razor Pages
 Deliverables :
 - Static html build out of components
 - Customised Bootstrap and BS util classes with docs where needed
-- JS with import maps for use as is or for intergration with build tool if used in future
+- JS with import maps for use as is or for intergration with build tool if needed in future
 
 -----
 
