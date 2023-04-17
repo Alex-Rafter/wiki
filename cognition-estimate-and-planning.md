@@ -1,6 +1,6 @@
 # Cognition Estimate and Planning
 
-## Goal :
+## Goals :
 - Customised version of BS ui library with updated util classes that can be used in fe dev work but that also enables tech to work easily with pre-established design tokens while working Agile methodology
 - style guide components : either base BS components (re)styled and applicable via markup and css classes, or built out and provided as static html snippets with css / css utils
 - components :
