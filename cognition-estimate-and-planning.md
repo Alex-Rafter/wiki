@@ -6,6 +6,7 @@ Goal :
 - components
 vehicle uploader component in all states with js eg drag and drop etc
 Dashboard
+does this include configue dashboard? No dedicated concept for this
 
 Design -> Static HTML -> Razor Pages
 
