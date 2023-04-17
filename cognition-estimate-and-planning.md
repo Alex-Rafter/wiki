@@ -3,6 +3,7 @@
 ## Plan :
 Design -> Static HTML -> Razor Pages
 - Components as static html, along with util classes, etc handed over for integration into the Razor pages / partials
+<br>
 *[see prev notes](https://github.com/Alex-Rafter/wiki/blob/main/new-cognition-fe-dev-work.md)
 
 ## Deliverables :
