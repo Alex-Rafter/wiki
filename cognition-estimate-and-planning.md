@@ -15,7 +15,7 @@ Plan :
 Design -> Static HTML -> Razor Pages
 
 - Focus on static html build out of components first, and delivering customised variables and util classe
-- static html handed over for integration into the Razor pages / partials
+- static html handed over for integration into the Razor pages / partials as test of process
 
 -----
 
