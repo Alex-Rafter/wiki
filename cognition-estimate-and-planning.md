@@ -5,7 +5,7 @@ Goal :
 - style guide components : either base BS components (re)styled and applicable via markup and css classes, or built out and provided as static html snippets with css / css utils
 - components
 1. Login page inc 2FA
-2. vehicle uploader component in all states with js eg drag and drop etc
+2. vehicle uploader in all states with js eg drag and drop etc
 3. Dashboard
 does this include configue dashboard? No dedicated design for this?
 
