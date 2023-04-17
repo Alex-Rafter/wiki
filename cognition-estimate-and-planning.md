@@ -5,6 +5,15 @@ customised BS library with updated util classes that can be used in fe dev work 
 style guide ompontents : either base bs els styled and applicable via classes, or built out and provided as static html snippets
 components
 
+
+Design -> Static HTML -> Razor Pages
+
+- Focus on static html build out of components first
+- A focus from design and FE on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
+- These then handed over for integration into the Razor pages / partials
+
+-----
+
 3 days
 
 vehicle uploader component in all states with js eg drag and drop etc
