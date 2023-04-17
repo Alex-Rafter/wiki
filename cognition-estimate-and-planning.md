@@ -18,8 +18,8 @@ Design -> Static HTML -> Razor Pages
 - A focus from design and FE on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
 - These then handed over for integration into the Razor pages / partials
 
-
-- Static html build out of components first, handed over for integration into the Razor pages / partials as test of this process
+Deliverables :
+- Static html build out of components first
 - Customised Bootstrap and BS util classes with docs where needed
 - JS with import maps for use as is or easy intergration into FE build too if used in future
 
