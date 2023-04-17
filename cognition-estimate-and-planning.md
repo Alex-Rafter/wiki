@@ -10,7 +10,6 @@ Goal :
   3. Dashboard
   does this include configue dashboard? No dedicated design for this?
 
-
 Plan :
 Design -> Static HTML -> Razor Pages
 
