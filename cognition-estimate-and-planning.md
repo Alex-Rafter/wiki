@@ -1,28 +1,26 @@
 # Cognition Estimate and Planning
 
-## Goals :
-- Customised version of BS ui library with updated util classes that can be used in fe dev work but that also enables tech to work easily with pre-established design tokens while working Agile methodology
-- style guide components : either base BS components (re)styled and applicable via markup and css classes, or built out and provided as static html snippets with css / css utils
-- components :
+## Plan :
+Design -> Static HTML -> Razor Pages
+- Components as static html, along with util classes, etc handed over for integration into the Razor pages / partials
+*[see prev notes]()
+
+## Deliverables :
+
+- Customised Bootstrap and BS util classes
+  - any docs where needed eg custom spacings etc
+- Styleguide component styles
+
+- Static html build out of Cognition components
 
   1. Login page inc 2FA
   2. vehicle uploader inc all states with js eg drag and drop etc
   3. Dashboard
   does this include configure dashboard? No dedicated design for this?
 
-## Plan :
-Design -> Static HTML -> Razor Pages
-
-- Focus on static html build out of components, and delivering customised variables and util classes
-- Focus on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
-- These then handed over for integration into the Razor pages / partials
-
-## Deliverables :
-- Static html build out of components
-- Customised Bootstrap and BS util classes with docs where needed
 - JS with import maps for use as is or for integration with build tool if needed in future
 
 ## Time Estimate : 2 weeks
-Discussed that this is a rough estimate, as the process is quite different from normal build. Plan discussed with Lauren is to review at end of week 1 on progress, and clarify what will be achievable by end of week 2 / end of this first phase.
+Discussed that this is a rough estimate, as the process is quite different from normal build. Plan discussed with Lauren is to for us to review at end of week 1 on progress, and clarify what will be achievable by end of week 2 / end of this first phase.
 
 
