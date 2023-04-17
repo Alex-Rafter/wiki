@@ -23,6 +23,6 @@ Design -> Static HTML -> Razor Pages
 - JS with import maps for use as is or for integration with build tool if needed in future
 
 ## Time Estimate : 2 weeks
-Discussed that this is a rough estimate, as the process is quite different from normal build. Plan discussed with Lauren is to for us to review at end of week 1 on progress, and clarify what will be achievable by end of week 2 / end of this first phase.
+Discussed that this is a rough estimate, as the process is quite different from normal build. Plan discussed with Lauren is to for us to review at end of week 1 on progress, and clarify what will be achievable by end of week 2 / end of this first phase as could be more / less
 
 
