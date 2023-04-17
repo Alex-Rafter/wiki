@@ -23,4 +23,4 @@ Deliverables :
 - JS with import maps for use as is or for intergration with build tool if needed in future
 
 Time Estimate : 2 weeks
-Disvussed that this wis rough esitame as the process is quite different from normal build. Plan disvissed with Lauren is to review at end of week 1 on progress and have a better idea of what will be achievable by end of week 2
+Disvussed that this wis rough esitame as the process is quite different from normal build. Plan disvissed with Lauren is to review at end of week 1 on progress, and clarify what will be achievable by end of week 2
