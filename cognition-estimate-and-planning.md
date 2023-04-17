@@ -14,13 +14,15 @@ Goal :
 Plan :
 Design -> Static HTML -> Razor Pages
 
-Deliverrables :
+- Focus on static html build out of components first, and delivering customised variables and util classe
+- A focus from design and FE on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
+- These then handed over for integration into the Razor pages / partials
+
 
 - Static html build out of components first, handed over for integration into the Razor pages / partials as test of this process
 - Customised Bootstrap and BS util classes with docs where needed
-- JS with impirt maps for use as is or easy intergration into FE build too if used in future
+- JS with import maps for use as is or easy intergration into FE build too if used in future
 
-Time esitame
 -----
 
 3 days
