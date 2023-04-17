@@ -13,8 +13,8 @@
 ## Plan :
 Design -> Static HTML -> Razor Pages
 
-- Focus on static html build out of components first, and delivering customised variables and util classes
-- A focus from design and FE on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
+- Focus on static html build out of components, and delivering customised variables and util classes
+- Focus on setting up things like the customised variables and util classes etc so that iteration can be done easily within the design constraints
 - These then handed over for integration into the Razor pages / partials
 
 ## Deliverables :
