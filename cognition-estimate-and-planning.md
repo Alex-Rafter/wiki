@@ -2,7 +2,7 @@
 
 Goal :
 - customised version of BS ui library with updated util classes that can be used in fe dev work but that also enables tech to work easily with pre-established design tokens while working Agile methodology
-- style guide compontents : either base bs els styled and applicable via classes, or built out and provided as static html snippets
+- style guide compontents : either base BSs els styled and applicable via classes, or built out and provided as static html snippets
 - components
 vehicle uploader component in all states with js eg drag and drop etc
 Dashboard
