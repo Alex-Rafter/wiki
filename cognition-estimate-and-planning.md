@@ -11,7 +11,7 @@ Design -> Static HTML -> Razor Pages
 
 - Customised Bootstrap and BS util classes
   - any docs where needed eg custom spacings etc
-- Styleguide component styles
+- Styleguide component styles / component styles
 
 - Static html build out of Cognition components
 
