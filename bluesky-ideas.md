@@ -43,3 +43,6 @@ speak with Dave on any perf implications
 
 ## Psyudo Lang for bsk-els
 - firebase vid as example to work from?
+
+## CSS Vars in Sass bundle
+Pull most useful from bs that aren't css vars into the bundle oursleves (Wessex css-vars.scss as example)
