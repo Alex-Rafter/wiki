@@ -8,7 +8,7 @@ Change the fe workflow at a macro level
 - builds should be primarily exercises of configuration not development - followed by shorter stage of addiitonal customisation on top as needed.
 - dev work should happen upstream of builds.
     - dev work is slow. It takes time to QA and iron out bugs when building from scratch by its very nature.
-    We should capitalise on the man-hours we spend on custom dev work instead of losing it to one-offs as now on build
+     -We should capitalise on the man-hours we spend on custom dev work instead of losing it to one-offs as now on build
 - We can build on relative strengths within the team - eg css-focused devs would have a particualr stage to lean into their expertise, logic-focused (vb and js) would also have a specifc stage
 - We can create more robust sites signifcantly more quickly with the same levels of differentiation (or more) than now
 
