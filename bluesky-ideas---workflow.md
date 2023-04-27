@@ -28,7 +28,7 @@ at this point the partial
     - This does not necessarily have to be a fe dev - could be projects for stuff like config data, and ux/ui for design tokens
     - This web-form is dynamic - it prompts the user eg after selecting a partial for a page, iyt prompts for the necessary dependent data such as cms node - eg choose a banner partial for home page -> prompted for cms banners folder id.
 - A script is run locally by fe dev which then pulls in the config data and edits the codebase in line with the config, removing unused page variations, adding includes to match chosen partials, updates cms node refs, etc.
-- The dev is then able to spin up locally and run checks, and add in any additional customisation styling or any other parts / customisations that need to be done manually. This would be days of work rather than weeks / months as now.
+- The dev is then able to spin up locally and run checks, and add in any additional customisation, styling or any other parts / customisations that need to be done manually. This would be days of work rather than weeks / months as now.
 
 The end product is the same as we produce now in so far as :
 - its a cog site
