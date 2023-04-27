@@ -25,13 +25,13 @@ at this point the partial
 - The dev is then able to run checks and add addional styling or any other parts / customisations that need to be done manually. This would be days of work rather than weeks / months as now.
 
 The end product is the same as we produce now in so far as :
-its a cog site
-no need to completely change tech stack eg to spas etc to change to a new workflow
+- its a cog site
+- no need to completely change tech stack eg to spas etc to change to a new workflow
 
 Ideas for MVP / Lean testing
-We could do this with specifc site sections first :
-design tokens to bs vars.
-We can use the 300 as a testing ground for the workflow and build out from there
+- We could do this with specifc site sections first :
+- design tokens to bs vars.
+- We can use the 300 as a testing ground for the workflow and build out from there
 
 -----
 
