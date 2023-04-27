@@ -16,7 +16,7 @@ Change the fe workflow at a macro level
 ## Discrete stages of workflow :
 - ui/ux design stage
 - design to static html and / or vue template
-- testing and amends
+- testing and amends - as we do now on buidlks but do at this much earlier stage and while partial is static
 - partials / components made dynamic
     - eg add in literals, cog data, cms data and refs to cms modules, any server side logic etc
 at this point the partial
