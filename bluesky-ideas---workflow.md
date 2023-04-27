@@ -33,6 +33,7 @@ at this point the partial
 The end product is the same as we produce now in so far as :
 - its a cog site
 - no need to completely change tech stack eg to spas etc to change to a new workflow
+- siginificant time savings
 
 Ideas for MVP / Lean testing
 - We could do this with specific site sections first :
