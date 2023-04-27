@@ -17,7 +17,7 @@ Change the fe workflow at a macro level
 - ui/ux design stage
 - design to static html and / or vue template
 - testing and amends
-  - as we do now on buidlks but do at this much earlier stage and while partial / component is static
+  - as we do now on buidlks but do at this much earlier stage and while partial / component is static html
     - This is much potentially much easier to share / discuss and quicker to amend.
 - partials / components made dynamic
     - eg add in literals, cog data, cms data and refs to cms modules, any server side logic etc
