@@ -10,6 +10,7 @@ Change the fe workflow at a macro level
     dev work is slow. It takes time to QA and iron out bugs when building from scratch by its very nature.
     We should capitalise on the man-hours we spend on custom dev work instead of losing it to one-offs as now on build
 - We can build on relative strengths within the team - eg css-focused devs would have a particualr stage to lean into their expertise, logic-focused (vb and js) would also have a specifc stage
+- We can create more robust sites signifcantly more quickly with the same levels of differentiation (or more) than now
 
 ## Work should be split into descrete chunks and each can be tested and signed off :
 - ui/ux design stage
