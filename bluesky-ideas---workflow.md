@@ -35,7 +35,7 @@ Ideas for MVP / Lean testing
 
 -----
 
-Other :
+## Other :
 Working in partials and components
 Partials are row-level strips of site?
 components below that?
