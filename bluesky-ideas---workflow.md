@@ -4,7 +4,7 @@
 
 Change the fe workflow at a macro level. Move (most) dev work upstream of builds, create more space for leaning into relative strengths, leverage scripting to automate much of the build process.
 
-## principles for the workflow:
+## Principles for the workflow:
 - builds should be primarily exercises of configuration not development - followed by shorter stage of additional customisation on top as needed.
 - dev work should happen upstream of builds.
     - dev work is slow. It takes time to QA and iron out bugs when building from scratch by its very nature.
