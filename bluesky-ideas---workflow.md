@@ -17,7 +17,7 @@ Change the fe workflow at a macro level
 - ui/ux design stage
 - design to static html and / or vue template
 - testing and amends
-- partials / components  then worked in separate stage to make dynamic
+- partials / components made dynamic
     eg add in literals, cog data, cms data and refs to cms modules, any server side logic etc
 at this point the partial
     At this point we have robust, well tested dynamic partials with default / bp styling, that 'just work' and can be droppped into any project.
