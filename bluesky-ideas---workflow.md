@@ -18,9 +18,9 @@ Change the fe workflow at a macro level
 - design to static html and / or vue template
 - testing and amends
 - partials / components made dynamic
-    eg add in literals, cog data, cms data and refs to cms modules, any server side logic etc
+    - eg add in literals, cog data, cms data and refs to cms modules, any server side logic etc
 at this point the partial
-    At this point we have robust, well tested dynamic partials with default / bp styling, that 'just work' and can be droppped into any project.
+    - At this point we have robust, well tested dynamic partials with default / bp styling, that 'just work' and can be droppped into any project.
 - site configuration data is input via web-based form / forms.
     This includes stuff like, webid, cms instance name and modules, design tokens for use in bs vars, etc.
     The form is dynamic - prompting user to choose partials for each page, and requesting the neccessary refs on choice - eg choose a banner partial for home page -> promoted for cms banners folder id.
