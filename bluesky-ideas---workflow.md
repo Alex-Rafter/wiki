@@ -2,7 +2,7 @@
 
 ## Workflow idea :
 
-Change the fe workflow at a macro level
+Change the fe workflow at a macro level. Move (most) dev work upstream of builds, create more space for leaning into relative strengths, leverage scripting to automate much of the build process.
 
 ## principles :
 - builds should be primarily exercises of configuration not development - followed by shorter stage of additional customisation on top as needed.
@@ -36,9 +36,9 @@ The end product is the same as we produce now in so far as :
 - siginificant time savings
 
 Ideas for MVP / Lean testing
-- We could do this with specific site sections first :
+- We could do this with specific site pages sections first - no need to do all of BP in one go to test
 - design tokens to bs vars.
-- We can use the 300 as a testing ground for the workflow and build out from there
+- We can use the 300 as a testing ground for the workflow and build out from there : make one super robust site with a few options eg diff spotlight variations on home. Then config -> site build.
 
 -----
 
