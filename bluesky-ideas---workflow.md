@@ -22,8 +22,9 @@ Change the fe workflow at a macro level
 at this point the partial
     - At this point we have robust, well tested dynamic partials with default / bp styling, that 'just work' and can be droppped into any project.
 - site configuration data is input via web-based form / forms.
-    This includes stuff like, webid, cms instance name and modules, design tokens for use in bs vars, etc.
-    The form is dynamic - prompting user to choose partials for each page, and requesting the neccessary refs on choice - eg choose a banner partial for home page -> promoted for cms banners folder id.
+    - This includes stuff like, webid, cms instance name and modules, design tokens for use in bs vars, etc.
+    - This does not neccessrily have to be a fe dev - could be projects for stuff like
+    - The form is dynamic - prompting user to choose partials for each page, and requesting the neccessary refs on choice - eg choose a banner partial for home page -> promoted for cms banners folder id.
 - Script is run locally by dev which pulls in the config data and edits the codebase removing unused page variations, adding includes, updating cms refs, etc
 - The dev is then able to run checks and add addional styling or any other parts / customisations that need to be done manually. This would be days of work rather than weeks / months as now.
 
