@@ -13,7 +13,7 @@ Change the fe workflow at a macro level
 - We can build on relative strengths within the team - eg css-focused devs would have a particualr stage to lean into their expertise, logic-focused (vb and js) would also have a specifc stage-
 - We can create more robust sites signifcantly more quickly with the same levels of differentiation (or more) than now-
 
-## Work should be split into descrete chunks and each can be tested and signed off :
+## Descrete stges of workkflow :
 - ui/ux design stage
 - design to static html and / or vue template
 - partials / components  then worked in separate stage to make dynamic
