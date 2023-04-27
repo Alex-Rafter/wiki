@@ -5,7 +5,7 @@
 Change the fe workflow at a macro level
 
 ## principles :
-- builds should be primarily exercises of configuration not development - followed by shorter stage of addiitonal customisation on top.
+- builds should be primarily exercises of configuration not development - followed by shorter stage of addiitonal customisation on top as needed.
 - dev work should happen upstream of builds
     dev work is slow. It takes time to QA and iron out bugs when building from scratch by its very nature.
     We should capitalise on the man-hours we spend on custom dev work instead of losing it to one-offs as now on build
