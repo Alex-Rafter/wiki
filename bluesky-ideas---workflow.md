@@ -16,7 +16,7 @@ Change the fe workflow at a macro level
 ## Descrete stges of workkflow :
 - ui/ux design stage
 - design to static html and / or vue template
-- testing
+- testing and amends
 - partials / components  then worked in separate stage to make dynamic
     eg add in literals, cog data, cms data and refs to cms modules, any server side logic etc
 at this point the partial
