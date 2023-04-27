@@ -26,7 +26,7 @@ at this point the partial
 - site configuration data is input via web-based form / forms.
     - This includes stuff like, webid, cms instance name and modules, design tokens for use in bs vars, etc.
     - This does not necessarily have to be a fe dev - could be projects for stuff like config data, and ux/ui for design tokens
-    - This web-form is dynamic - it prompts the user eg after selecting a partial for a page, iyt prompts forthe necessary refs on choice - eg choose a banner partial for home page -> promoted for cms banners folder id.
+    - This web-form is dynamic - it prompts the user eg after selecting a partial for a page, iyt prompts for the necessary refs on choice - eg choose a banner partial for home page -> promoted for cms banners folder id.
 - Script is run locally by dev which pulls in the config data and edits the codebase removing unused page variations, adding includes, updating cms refs, etc
 - The dev is then able to run checks and add additional styling or any other parts / customisations that need to be done manually. This would be days of work rather than weeks / months as now.
 
