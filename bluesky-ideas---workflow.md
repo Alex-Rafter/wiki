@@ -3,14 +3,15 @@
 ## Workflow idea :
 
 Change the fe workflow at a macro level
-principle :
+
+## principle :
 - builds should be primarily configuartion NOT development
 - dev work should happen upstream of builds
     dev work is slow. It takes time to QA and iron out bugs when building from scratch by its very nature.
     We should capitalise on the man-hours we spend on custom dev work instead of losing it to one-offs as now on build
 - We can build on relative strengths within the team - eg css-focused devs would have a particualr stage to lean into their expertise, logic-focused (vb and js) would also have a specifc stage
 
-Work should be split into descrete chunks and each can be tested and signed off :
+## Work should be split into descrete chunks and each can be tested and signed off :
 - ui/ux design stage
 - design to static html and / or vue template
 - partials / components  then worked in separate stage to make dynamic
