@@ -56,4 +56,4 @@ Declarative shadow dom?
 Used xd / figma resp functionality - not static images
 
 ## Vue form forbuild config data - bs vars form test page
-Once data is input by ux/ui designers the updated sass
+Once data is input by ux/ui designers the values could be added to updated sass file of bs vars and then compiled and sent back to the browser created
