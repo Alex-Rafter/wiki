@@ -56,3 +56,4 @@ Declarative shadow dom?
 Used xd / figma resp functionality - not static images
 
 ## Vue form forbuild config data - bs vars form test page
+Once data is input by ux/ui designers the updated sass
