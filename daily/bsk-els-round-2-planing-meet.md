@@ -1,6 +1,6 @@
 # BSK-Els Round 2 Planing Meet
 
-Rough notes to edit later
+Rough notes to edit later.
 
 
 ## Catch up notes and thoughts :
