@@ -4,7 +4,6 @@
 
 flowchart TD
 
-A[Submit Idea / Issue]
-B[Proposal]
+A[Submit Idea / Issue] --> B[Proposal]
 
 ```
