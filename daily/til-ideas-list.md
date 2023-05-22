@@ -1,6 +1,6 @@
 # TIL Ideas List
 
-
+## New With
 <%
     Dim links As New List(Of Object)
     links.Add(New With {.type = "offers"})
