@@ -6,4 +6,4 @@
 - Cog Cms Grid and comms with Design on this
 - Header
 - Web form to css variables
-- Rest of bakclog in prio order
+- Rest of backlog in prio order
