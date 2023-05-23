@@ -1,29 +1,37 @@
 # BSK Component List From Sites
 
 # Component List
-- Header
-- Nav
+
+Shipped v1
 - Hero section
 - Cards/spotlights
 - used car repeat
+- Shortlist functionality
+- Image carousels/banners
+- breadcrumbs
+Partially
+- Used car results - Car repeat, filters, sort by, rep example
+- used car details - tables, spec, notes, video, things like car located at
+
+- Header
+- Nav
 - new car repeat
 - Footer
 - Forms (valuation, contact, service booking, callback etc)
 - Speedy search
 - UI items maybe? not components? just variables? (buttons in particular)
-- Shortlist functionality
+
 - Grid of logo's (manufacturrs mainly)
 - COG CMS (all elements that can generate)
-- Image carousels/banners
+
 - Lightbox
 - Social media icon groups
 - News/careers/etc specific cards?
 - CTA callout section
 - Filter component for various sections (used car, offers, anywhere data is filtered)
-- Used car results - Car repeat, filters, sort by, rep example
+
 - Finance products (codeweavers API etc)
 - used car details - tables, spec, notes, video, things like car located at
-- breadcrumbs
 - Dealership details - google maps, opening hours, address
 -
 - Full page
