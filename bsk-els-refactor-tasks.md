@@ -1,6 +1,6 @@
 # Bsk-Els-Refactor-Tasks
 
-## BP Refactor Sub Tasks
+Tasks
 Add in footer?
 Add in spots as tiles on home - harvest these.
 Go through all home page components and style better.
