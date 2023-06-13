@@ -1,7 +1,7 @@
 # Bsk-Els-Refactor-Tasks
 
 ## Tasks
-- [ ] Add in footer?
+- [x] Add in footer?
 - [ ] Add in spots as tiles on home - harvest these.
 - [ ] Go through all home page components and style better.
 - [ ] Debug spots strip resize slick
