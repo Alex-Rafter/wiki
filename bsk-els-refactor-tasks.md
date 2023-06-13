@@ -15,7 +15,7 @@ Offers :
 - [ ] Examples GH action
 
 Used Cars
-Get help on finance versions - do we need these?
+- [ ] Get help on finance versions - do we need these?
 
 UCD Gallery to bsk-element
 
