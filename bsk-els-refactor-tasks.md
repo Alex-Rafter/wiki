@@ -10,9 +10,9 @@
 - [ ] Add in the examples folder
 
 Offers :
-Add inline offers somewhere
-Examples folder for all offers
-Examples GH action
+- [ ] Add inline offers somewhere
+- [ ] Examples folder for all offers
+- [ ] Examples GH action
 
 Used Cars
 Get help on finance versions - do we need these?
