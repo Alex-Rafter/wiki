@@ -1,13 +1,13 @@
 # Bsk-Els-Refactor-Tasks
 
 ## Tasks
-Add in footer?
-Add in spots as tiles on home - harvest these.
-Go through all home page components and style better.
-Debug spots strip resize slick
-Sort the fallback for the banner on mob
-Add in the resp img sizes to the banners - give the defaults for px dimensions etc
-Add in the examples folder
+- [ ] Add in footer?
+- [ ] Add in spots as tiles on home - harvest these.
+- [ ] Go through all home page components and style better.
+- [ ] Debug spots strip resize slick
+- [ ] Sort the fallback for the banner on mob
+- [ ] Add in the resp img sizes to the banners - give the defaults for px dimensions etc
+- [ ] Add in the examples folder
 
 Offers :
 Add inline offers somewhere
