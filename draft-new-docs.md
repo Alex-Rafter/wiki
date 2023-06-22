@@ -724,3 +724,573 @@ The bsk-clear-filters element is used to display a button that resets all select
 ```html
 <bsk-clear-filters text="Clear All Filters"></bsk-clear-filters>
 ```
+
+## :green_circle: Footer Address
+
+The bsk-footer-address element is used to display an address in the footer of the website.
+
+### Mandatory Attributes:
+
+- address: The address to display
+
+### Optional Attributes:
+
+- is: The alignment of the address (default is left-aligned, can also be set to centered)
+
+Example:
+
+```html
+<bsk-footer-address
+  address="123 Main St, Anytown USA, 12345"
+  is="centered"
+>
+</bsk-footer-address>
+```
+## :green_circle: Footer Bottom
+
+The bsk-footer-bottom element is used to display text, such as a  copyright message, at the bottom of a page. The component is designed to be responsive and can be customized with different background colors.
+
+### Mandatory Attributes:
+
+- none
+
+### Optional Attributes:
+
+- none
+
+### Slots:
+
+The component includes one slot for inserting the text:
+
+- text-content : The text to be displayed in the footer. This can include HTML markup.
+
+### Example:
+
+```html
+ <bsk-footer-bottom>
+          <span slot="text-content">
+            &copy; <%=Year(Now)%> <%=Website_Name.Text%>, Automotive website provided by <a
+              href="https://www.blueskyinteractive.co.uk" target="_blank" rel="noopener">Bluesky Interactive Ltd</a>
+          </span>
+        </bsk-footer-bottom>
+```## :green_circle: Footer Contact
+
+The bsk-footer-contact element is used to display contact information in the footer section of a web page. The contact information includes an email address and telephone number, with clickable links for both.
+
+### Mandatory Attributes:
+
+- email: The email address to display
+- telephone: The telephone number to display
+
+### Optional Attributes:
+
+None.
+
+Example:
+
+```html
+<bsk-footer-contact
+  email="info@example.com"
+  telephone="+44 1234 567890"
+>
+</bsk-footer-contact>
+```
+## :green_circle: Footer Content
+
+The bsk-footer-content element is used to display content in the footer section of a webpage. This component can be customized by setting different attributes on the element.
+
+### Optional Attributes:
+
+- title: The title of the footer content (default is null)
+
+### Slot:
+- content: All content inside the bsk-footer-content tag will be displayed in the footer content area.
+
+#### Centered Links
+
+When the bsk-footer-content element has the attribute "is" set to "centered-links", it will display any list items inside the element as centered links in a row.
+
+Example:
+
+```html
+<!-- Default footer content -->
+<bsk-footer-content>
+  <h6>About Us</h6>
+  <p>Learn more about our company and what we do.</p>
+</bsk-footer-content>
+
+<!-- Footer content with centered links -->
+<bsk-footer-content is="centered-links" title="Connect With Us">
+  <ul>
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Instagram</a></li>
+  </ul>
+</bsk-footer-content>
+```
+## :green_circle: Footer
+
+The bsk-footer element is used to display a footer at the bottom of a web page. This component can be used with two different styles (centered and standard) and includes up to four slots to display content in each style. The slots allow developers to customize the content without the need for affecting the CSS, and they are responsive to different screen sizes.
+
+### Mandatory Attributes:
+
+None.
+
+### Optional Attributes:
+
+- is: A string value indicating whether the footer should be displayed in a centered style ('centered') or default.
+
+### Slots:
+
+- one : The content to be displayed in the first column of the footer.
+- two : The content to be displayed in the second column of the footer.
+- three: The content to be displayed in the third column of the footer (only for the standard style).
+- four: The content to be displayed in the fourth column of the footer (only for the standard style).
+- bottom (mandatory): The content to be displayed at the bottom of the footer.
+
+### Example:
+
+```html
+<bsk-footer>
+
+  <div slot="one">
+      <bsk-footer-logo img-src="https://bluesky.sirv.com/Websites/cog_boilerplate/images/logo.png" img-alt="logo">
+      </bsk-footer-logo>
+      <bsk-footer-address address="Boilerplate UI,123 Somewhere Street, Town,City,CH34 F45"></bsk-footer-address>
+      <bsk-footer-contact
+      email="info@boilerplate.co.uk"
+      telephone="01284 623127"
+      ></bsk-footer-contact>
+      <bsk-footer-socials
+      facebook="https://www.facebook.com/BlueskyInteractive"
+      twitter="https://twitter.com/Bluesky_Int"
+      linkedin="https://www.linkedin.com/company/bluesky-interactive-ltd"
+      youtube="https://www.youtube.com/user/BlueskyInteractive"
+      instagram="https://www.instagram.com/blueskyinteractive/"
+      >
+     </bsk-footer-socials>
+  </div>
+
+  <div slot="two">
+    <bsk-footer-content title="Quick links">
+        <ul class="mb-0" slot="content">
+          <li><a href="/used-car-results.aspx">Used Vehicles</a></li>
+          <li><a href="/new-cars/">New Vehicles</a></li>
+          <li><a href="/offers/">Offers</a></li>
+          <li><a href="/service/">Servicing</a></li>
+          <li><a href="/business/">Business</a></li>
+          <li><a href="/news/">News</a></li>
+          <li><a href="/contact-us/">Contact Us</a></li>
+        </ul>
+      </bsk-footer-content>
+  </div>
+  <div slot="three">
+      <bsk-footer-content title="Legal">
+          <ul class="mb-0" slot="content">
+            <li><a href="/pages/terms-and-conditions/cookie-policy/">Cookie Policy</a></li>
+            <li><a href="/pages/terms-and-conditions/data-protection-policy/" data-anchor="#">Data Protection Policy</a></li>
+            <li><a href="/pages/terms-and-conditions/terms-and-conditions/" data-anchor="#">Terms &amp; Conditions</a></li>
+            </ul>
+        </bsk-footer-content>
+  </div>
+  <div slot="bottom">
+      <bsk-footer-bottom>
+          <span slot="text-content">
+            &copy; <%=Year(Now)%> <%=Website_Name.Text%>, Automotive website provided by <a
+              href="https://www.blueskyinteractive.co.uk" target="_blank" rel="noopener">Bluesky Interactive Ltd</a>
+          </span>
+        </bsk-footer-bottom>
+  </div>
+</bsk-footer>
+```
+## :green_circle: Footer Links
+
+The bsk-footer-links element is used to display a list of links in the footer section of a webpage.
+
+### Optional Attributes:
+
+- title: The title to be displayed above the list of links
+
+### Slots:
+
+- list: A slot where the list of links can be inserted
+
+Example:
+
+```html
+<bsk-footer-links title="Useful Links">
+  <ul slot="list">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</bsk-footer-links>
+```
+## :green_circle: Header
+
+The bsk-header element is used to display a header for a website or application. The header includes a logo or brand name, navigation links or buttons, and a hamburger (collapsed) menu button. The header can be configured to have a centered or left-aligned layout, to include a shortlist icon or to expand.
+
+### Mandatory Attributes:
+
+- img-src: The URL of the image to use as a logo
+- img-width: The width of the logo image
+- img-height: The height of the logo image
+
+### Optional Attributes:
+
+- is: The layout of the header ('centre' or 'left')
+- offcanvas: The ID of a Bootstrap offcanvas element to use as the navigation menu
+- expand: the breakpoint at which the header nav should expand from a hamburger menu to the nav
+- hamburger: The type of hamburger menu to use ( eg 'arrow', 'slide', 'spin', or 'elastic')
+  - To change the hamburger
+    - uncomment the **one** hamburger style you want to use from ```src\scss\app\theme\components\hamburger\index.scss```
+    - add that hamburger style to the ```hamburger``` attribute of the ```bsk-header``` element eg ```hamburger="spin"```
+
+#### Slots:
+
+- left-nav: Navigation links to display on the left (for 'centre' layout only)
+- nav: Navigation links to display (you could use an include inside this slot to keep your code clean)
+- shortlist: A slot designed for the shortlist global-heart component icon
+
+Example:
+
+```html
+ <bsk-header hamburger="spin" expand="navbar-expand-xl"
+    img-src="https://bluesky.sirv.com/Websites/cog_boilerplate/images/logo.png" img-width="183" img-height="40">
+    <span slot="shortlist">
+      <bsk-shortlist-global-heart child-class="text-dark"></bsk-shortlist-global-heart>
+    </span>
+    <span slot="nav" class="ms-auto">
+      <!--#include file="/inc/components/nav.aspx" -->
+    </span>
+  </bsk-header>
+```
+## :green_circle: Header Top
+
+The bsk-header-top element is used to display a top header bar on large screens where the left and right sections can be customized as slots.
+
+
+### Slots:
+
+- left-nav: The contents of the left section of the header
+- right-nav: The contents of the right section of the header
+
+### Logic:
+
+No mandatory or optional attributes are required for this component.
+
+### Example:
+
+```html
+<bsk-header-top>
+  <div slot="left-nav"><a href="/">Home</a></div>
+  <div slot="right-nav">
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="/login">Log in</a></li>
+      <li class="list-inline-item"><a href="/register">Register</a></li>
+    </ul>
+  </div>
+</bsk-header-top>
+```## :green_circle: Header Top Socials
+
+The bsk-header-top-socials element is used to display a list of social media icons in the top header section of a webpage. These icons link to the corresponding social media profiles or pages.
+
+### Mandatory Attributes:
+
+None.
+
+### Optional Attributes:
+- facebook: The URL for the Facebook page/profile
+- twitter: The URL for the Twitter page/profile
+- linkedin: The URL for the LinkedIn page/profile
+- youtube: The URL for the Youtube channel/profile
+- instagram: The URL for the Instagram page/profile
+
+Note: At least one of the optional social media URLs must be provided to display the social media icons in the header.
+
+Example:
+
+```html
+<bsk-header-top-socials
+  facebook="https://www.facebook.com/myFBpage"
+  twitter="https://twitter.com/myTwitter"
+  linkedin="https://www.linkedin.com/in/myLinkedIn"
+  youtube="https://www.youtube.com/myYouTubeChannel"
+  instagram="https://www.instagram.com/myInstagram"
+>
+</bsk-header-top-socials>
+```
+## :green_circle: Grid Masonry
+
+The bsk-grid-masonry element is a container used to create responsive grid layouts with a masonry effect for 5 items. The grid can be reorganized into a slick carousel on smaller screens by setting the slick-mob boolean attribute to true.
+
+### Optional Attributes:
+
+- slick-mob: Boolean attribute, set to true to reorganize the grid into a slick carousel on smaller screens
+
+### Slots:
+
+- grid: The items to be displayed in the grid. Each item will automatically span 1 row and 1 column at all breakpoints.
+
+Example:
+
+```html
+<bsk-grid-masonry slick-mob="true">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+  <div>Item 5</div>
+  <!-- ... -->
+</bsk-grid-masonry>
+```
+## :green_circle: Page Hero Image
+
+The bsk-page-hero-img component is used to display a hero image at the top of a page, along with a title and body text. This component is designed to be responsive and includes two versions lg and default. The lg variant also includes css animation on load.
+
+### Mandatory Attributes:
+
+- img-src: The URL for the hero image
+- title: The title to display on the hero image
+- body-text: The body text to display on the hero image
+
+### Optional Attributes:
+
+- is set to 'lg' to use the lg version of the hero image (default is false)
+- hero-height: Set the height of the hero image when using the is="lg" variant. Set in 'vh' units (default is 75vh)
+
+Example:
+
+```html
+<bsk-page-hero-img is="lg" title="Insurance"
+    body-text="All our staff are given first class training and resources to ensure that we provide customers with an exceptional experience, whether you are buying a car, having a service, looking for parts and accessories or using our manufacturer approved body shops."
+    img-src="https://cogcms.co.uk/media/h0ibudi2/tyre-bg.jpg" hero-height="50vh" class="d-block mb-5">
+</bsk-page-hero-img>
+```
+## :green_circle: Page Hero
+
+The bsk-page-hero element is used to create a hero section at the top of a page. The hero section includes a title and two slots for body copy. Using slot, the hero component can be used in tandem with cogcms data sources (see example below).
+
+### Mandatory Attributes:
+
+- title: The main title of the hero section.
+
+### Optional Attributes:
+
+None
+
+### Slots:
+
+- body-copy-one: The first body copy slot for additional text content.
+- body-copy-two: The second body copy slot for additional text content.
+
+### Example (using component to create a hero section for offers list page):
+
+```html
+  <bsk-page-hero
+    title="<%= _cogCmsOffersSection.Title %>"
+    offer-count="<%=offerCount%>"
+  >
+
+  <span slot="body-copy-one">
+    <%= _cogCmsOffersSection.Body.replace("<p>", "<p class='mb-2'>") %>
+  </span>
+
+  <span slot="body-copy-two">
+      We have <strong class="text-primary"><%=offerCount%></strong> offers available
+      <% If Request.QueryString("filter") <> "" Then %>
+      that match your search category
+      <% End If %>
+  </span>
+
+</bsk-page-hero>
+```
+## :green_circle: Shortlist Ajax
+
+The bsk-shortlist-ajax element is used to display a list of vehicles that a user has shortlisted. The list is dynamically generated using an AJAX request to the server and allows the user to easily remove items from their shortlist. After the ajax request, the component will add the shortlisted cars into the DOM.
+
+### Mandatory Attributes:
+
+No mandatory attributes are required.
+
+### Optional Attributes:
+
+No optional attributes are available.
+
+Example:
+
+```html
+<bsk-shortlist-ajax></bsk-shortlist-ajax>
+```
+## :green_circle: Shortlist Comparison Table
+
+The bsk-shortlist-compare element is used to display a table comparing multiple vehicles that have been shortlisted. The array of these shortlisted cars is housed in the the shortlist store ```src\js\app\bluesky-elements\store\shortlist.js```. A row is added to the table for each shortlised car using vue template syntax ```v-for="car in store.sl.cars"```
+
+The table includes columns for an image, vehicle information, and specifications.
+
+Vehicles can be removed via the trash-can icon. An event listener  ```@click.prevent="store.sl.rmFromSummary(car, $el)"```, triggers the remove method in the shortlist global store ```src\js\app\bluesky-elements\store\shortlist.js``` when the icon is clicked.
+
+### Attributes:
+
+This component does not require any attributes.
+
+### Example:
+
+```html
+<bsk-shortlist-compare></bsk-shortlist-compare>
+```
+
+#### *Note: This component requires data to be provided from the store, which is not shown here.
+## :blue_circle: Shortlist Summary
+
+The bsk-shortlist-summary element is used to display a summary of the cars saved in the user's shortlist. If no cars are in the shortlist, the element displays a message indicating how to add cars to the shortlist. With cars in the shortlist, the element displays the car image, title, version, and a button to view the car by default. The template can be customized ```inc\bluesky-elements\shortlist\bsk-shortlist-summary.html```.
+
+### Conditional Rendering:
+- When no cars are in the shortlist, render a message indicating how to add cars to the shortlist
+- When there are cars in the shortlist, render a card for each car in the shortlist.
+
+### Optional Attributes:
+
+- None
+
+### :
+
+```html
+<bsk-shortlist-summary></bsk-shortlist-summary>
+```
+## :red_circle: Grid Slick-to-Row
+
+The bsk-grid-slick-to-row element is used to display all child elements in a grid, and automatically adjusts to a carousel on mobile / smaller screens.
+The component initializes a slick slider if the window width is less than 992px by default. This can be updated in
+```/src/js/app/bluesky-elements/state-objects/grid/slick-or-grid.js```
+
+### Slots:
+
+- grid: The slot for the elements to be displayed in the grid.
+
+### Optional Attributes:
+
+- is="large": By default, each grid-child takes up 3 columns of a 12 col grid. With this attribute, each element takes up 6 columns when the screen size is greater than 992px.
+
+Example:
+
+```html
+<bsk-grid-slick-to-row>
+  <div v-for="item in items" class="card">
+    <!-- card content -->
+  </div>
+</bsk-grid-slick-to-row>
+```
+
+```html
+<bsk-grid-slick-to-row is="large">
+  <div v-for="item in items" class="card">
+    <!-- card content -->
+  </div>
+</bsk-grid-slick-to-row>
+```
+## :green_circle: Grid Section Spacer
+
+The bsk-grid-section-spacer element is used to create vertical gaps between sections in a grid layout.
+
+### CSS Custom Properties:
+
+- --component-gap: Determines the size of the gap between sections (default is 3rem)
+
+### Usage:
+
+The bsk-grid-section-spacer element should contain any elements that need to be spaced apart in a grid layout. By default, a gap of 3rem is added between each child element. To exclude an element from the gap, add the class "exclude-from-gap" to that element.
+
+Example:
+
+```html
+<bsk-grid-section-spacer>
+  <div>Section 1</div>
+  <div>Section 2</div>
+  <div class="exclude-from-gap">Section 3 (with no gap below)</div>
+  <div>Section 4</div>
+</bsk-grid-section-spacer>
+```
+## :blue_circle: Thumbnail
+
+The bsk-thumbnail element is used to display a clickable image. The 'hover' variant that presents additional information in a hover state. The thumbnail is designed to be responsive and includes optional logo-links eg for use on multi-franchise sites.
+
+### Mandatory Attributes:
+
+- link-url: The URL to navigate to when the thumbnail is clicked
+- img-src: The URL of the thumbnail image
+- title: The title of the thumbnail information
+
+### Optional Attributes:
+- is="hover": Enables the hover variant of the thumbnail component
+- body : The synopsis text to display below the title on hover (used only in the hover variant)
+- img-src-medium: The medium-sized URL of the thumbnail image
+- img-src-large: The large-sized URL of the thumbnail image
+- line-clamp-length: The number of lines to display in the synopsis text (default is 2)
+
+### Slots:
+
+Additional links can be included below the title using the slot `logo-links`. This can be used with any html but is designed to be used with the ```<thumbnial-logo-links>``` component.
+
+Example:
+
+```html
+ <bsk-thumbnail is="hover" link-url="/new-cars/"
+   img-src="https://bluesky-cogcms.cdn.imgeng.in/media/vw5b5nnl/new-cars.jpg" title="Thumbnail Title"
+   body="Thumbnail Body Text">
+
+   <span slot="logo-links">
+     <bsk-thumbnail-logo-links
+       logo-link-one="audi, /audi/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/audi.png"
+       logo-link-two="ford, /ford/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/ford.png"
+       logo-link-three="seat,/seat/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/seat.png"
+       logo-link-four="skoda, /skoda/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/skoda.png"
+       logo-link-five="volkswagen, /volkswagen/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/volkswagen.png"
+       logo-link-six="volvo, /volvo/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/volvo.png">
+     </bsk-thumbnail-logo-links>
+   </span>
+
+ </bsk-thumbnail>
+```
+## :green_circle: Thumbnail Logo Links
+
+The bsk-thumbnail-logo-links element is used to display a row of logos with associated links in a thumbnail format.
+The row is designed to be responsive, displaying a maximum of 6 logos per row, with the logoCols attribute controlling the number of columns displayed.
+
+### Mandatory Attributes:
+
+- logo-link-one: The CSV-format string representing the link details for the first logo
+- logo-link-two: The CSV-format string representing the link details for the second logo
+- logo-link-three: The CSV-format string representing the link details for the third logo
+
+### Optional Attributes:
+
+- logo-link-four: The CSV-format string representing the link details for the fourth logo
+- logo-link-five: The CSV-format string representing the link details for the fifth logo
+- logo-link-six: The CSV-format string representing the link details for the sixth logo
+
+- logo-cols: The number of columns to display in the row (default is 6)
+
+**Note**: The CSV-format string for each logo link should have the following structure: ```"alt text,image URL,link URL".``` For example :
+```logo-link-one="audi,/audi/new-cars/,https://bluesky.sirv.com/Websites/Mon%20Motors/logos/audi.png"```
+
+Example:
+
+```html
+ <bsk-thumbnail is="hover" link-url="/new-cars/"
+   img-src="https://bluesky-cogcms.cdn.imgeng.in/media/vw5b5nnl/new-cars.jpg" title="Thumbnail Title"
+   body="Thumbnail Body Text">
+
+   <span slot="logo-links">
+     <bsk-thumbnail-logo-links
+       logo-link-one="audi, /audi/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/audi.png"
+       logo-link-two="ford, /ford/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/ford.png"
+       logo-link-three="seat,/seat/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/seat.png"
+       logo-link-four="skoda, /skoda/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/skoda.png"
+       logo-link-five="volkswagen, /volkswagen/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/volkswagen.png"
+       logo-link-six="volvo, /volvo/new-cars/, https://bluesky.sirv.com/Websites/Mon%20Motors/logos/volvo.png">
+     </bsk-thumbnail-logo-links>
+   </span>
+
+ </bsk-thumbnail>
+```
