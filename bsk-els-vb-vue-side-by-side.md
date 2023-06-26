@@ -147,7 +147,7 @@
 <button class="<%= cssClass %>">Click Me</button>
 ```
 
-Or
+### VB With If Operator Shorthand
 
 
 ```html
