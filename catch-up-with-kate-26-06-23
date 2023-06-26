@@ -1,0 +1,38 @@
+# Meeting / Catch up with Kate 26.06.23
+
+Concept Feasibility
+
+Discussed feedback on Winchester Motor Group
+
+Valuation Components 
+
+Actioned mv through stages and sub-tasks added
+
+CU Build Speed Board
+
+Review blocker on UI testing stage and time schedule.
+
+COGCMS 
+
+- Talked over issue with building out designed cogcms grid content section. 
+
+Poss solutions : 
+Designing to a reduced container 
+md breakpoint - issue. Is the fix for this that the tech work needs to be done first to change default breakpoints, rather than a design or fe solution? 
+
+helper classes 
+e.g vertically centring, text alignment, button fw or not, reorder-mob, bullet point styles
+
+BP COGCMS Designs - from Days
+https://xd.adobe.com/view/4aa59fd0-df5b-46c1-99cc-d26c533bdbcf-1ff6/screen/1630bcb9-bc4e-4eb8-aeae-b38d2150ef3a
+
+Could we use this as the master design for cogcms grid. Test robustness of dev work, work solution for md breakpoint issue. 
+Then add on helper classes on top of this.
+
+Actions 
+- Speak with Rach on Days COGCMS design and input on using as master 
+- Speak with fe build devs on that feasibility of using this as master design and adding helper classes on top of this.
+- Get feedback on useful helper classes to add to cogcms grid scss.
+- Need to flag md- breakpoint issue and whether this is changed first by tech 
+- Design tweaks? Or just straight copy to master  cogcms 
+- Build out all comoponents and test all possible combinations of cogcms grid.
