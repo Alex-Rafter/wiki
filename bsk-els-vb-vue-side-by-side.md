@@ -210,10 +210,9 @@
 
 ## Toggle a Class on Click
 
-### VB
+### ASPX
 
 ```html
-<% For Each banner In _cogCmsHomeBanners %>
 <button id="demo">Click Me</button>
 <script>
     // JS would likely in src/js for bundling etc but added in script tag for demo purposes
@@ -223,7 +222,6 @@
     });
 
 </script>
-<% Next %>
 ```
 
 ### Vue
@@ -237,10 +235,9 @@
 
 ## Hide and Show an Element on an Event (Click)
 
-### VB
+### ASPX
 
 ```html
-<% For Each banner In _cogCmsHomeBanners %>
 <button id="demo">Click Me</button>
 <script>
     // JS would likely in src/js for bundling etc but added in script tag for demo purposes
@@ -250,7 +247,6 @@
     });
 
 </script>
-<% Next %>
 ```
 
 ### Vue
