@@ -9,7 +9,7 @@
 
 <div>
     <p>
-        <%=banner.BannerText %>
+        <%= message %>
     </p>
 </div>
 
@@ -20,7 +20,7 @@
 ```html
 
 <div>
-  <p>{{ banner.BannerText }}</p>
+  <p>{{ message }}</p>
 </div>
 
 ```
