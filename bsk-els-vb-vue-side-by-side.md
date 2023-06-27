@@ -56,10 +56,13 @@
 ### VB
 
 ```html
-<% If _cogCmsHomeBanners.Count > 0 Then %>
+<%
+Dim message As String = "Banners found!"
+If _cogCmsHomeBanners.Count > 0 Then
+%>
 <div>
     <p>
-        <%=banner.BannerText %>
+        <%= message %>
     </p>
 </div>
 <% End If %>
@@ -70,7 +73,7 @@
 ```html
 
 <div v-if="banners.length > 0">
-  <p>{{ banner.BannerText }}</p>
+  <p>{{ message }}</p>
 </div>
 
 ```
@@ -80,16 +83,16 @@
 ### VB
 
 ```html
-<% If _cogCmsHomeBanners.Count > 0 Then %>
+<% If Price.Text <> "~" Then %>
 <div>
     <p>
-        <%=banner.BannerText %>
+        £<%= Price.Text %>
     </p>
 </div>
 <% Else %>
 <div>
     <p>
-        No banners
+        Price TBC
     </p>
 </div>
 
@@ -100,11 +103,11 @@
 
 ```html
 
-<div v-if="banners.length > 0">
-  <p>{{ banner.BannerText }}</p>
+<div v-if="price">
+  <p>£{{ price }}</p>
 </div>
 <div v-else>
-  <p>No banners</p>
+  <p>Price TBC</p>
 </div>
 
 ```
