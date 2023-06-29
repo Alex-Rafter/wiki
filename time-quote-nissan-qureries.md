@@ -10,6 +10,11 @@
   - 2nd is for each site, and includes a brief of the specific requirements for each site inc the new cars that would be added for each.
   - Initial fe dev work cost was split between all the sites
 
+### Examples of work from last year
+- https://app.clickup.com/t/2x7mjgv
+- https://www.patkirk.com/nissan/nissan-electrified-event/
+- https://www.alexandersmotorgroup.co.uk/nissan/nissan-electrified-event/
+
 
 ### Qs: Landing Hero + new car page components
 
