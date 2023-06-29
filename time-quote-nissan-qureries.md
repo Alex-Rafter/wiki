@@ -5,6 +5,10 @@
 - Generic template landing page as pt 1 of work
 - Then customised for each site (within a few parameters) as pt 2 of work
 - Not all sites on same cms (some on cogcms, some on surreal cms)
+- Last year 2 quotes were done :
+  - 1st brief is generic to all the sites.
+  - 2nd is for each site, and includes a brief of the specific requirements for each site inc the new cars that would be added for each.
+  - Initial fe dev work cost was split between all the sites
 
 
 ### Qs: Landing Hero + new car page components
@@ -24,8 +28,6 @@
 - Last year was simple bg image with html text over.
 - Char to speak with Nissan on animation and get back on what's needed.
 
-
-
 ### Qs: New Cars List
 
 - How would the new cars be added to the site?
@@ -39,14 +41,6 @@
 - The assets and content for each new cars would need to be dynamic so it could be updated.
 - Not all are on cogcms. Some are on surreal cms. So it needs to be either hardcoded or pulled in from 1 source.
 - Hardcoded would be easier and as its 2 weeks shouldn't need updating.
-
-----
-
-
-- Last year 2 quotes were done :
-- 1st brief is generic to all the sites.
-- 2nd is for each site, and includes a brief of the specific requirements for each site inc the new cars that would be added for each.
-- Initial fe dev work cost was split between all the sites
 
 ### Qs: Assets :
 - Assets and content will be provided.
