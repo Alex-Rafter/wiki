@@ -64,3 +64,7 @@
 - eg https://www.alexandersmotorgroup.co.uk/nissan/nissan-electrified-event/
 - Site styles pulled in form group
 
+
+### Quote
+- Initial work : 3 - 4 hours to re-purpose existing template
+- 1 hours per site for roll out
