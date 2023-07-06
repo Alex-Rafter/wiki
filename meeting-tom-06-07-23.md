@@ -54,6 +54,5 @@ Main things :
 - Issue with no proper franchise set up
 - Planning and build review meets as the best time to do this catch up
 
-### Action :
-- Schedule before and after
--
+### Actions :
+- Schedule before and after builds
