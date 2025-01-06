@@ -4,9 +4,9 @@
 - Productised Offering (premium template)
 - Code Quality
 
-## BP Static
+## 👉 BP Static
 
-### Goal ideas:
+### Goal Ideas:
 
 - By end Sept 2025 we ship : first full production site consuming data from APIs, submitting data to APIs
 - By July 2025 we ship : BP Static v2 -  consuming data from APIs, submitting data to new APIs
@@ -48,7 +48,7 @@ This allows us to make changes to any of the 3 parts (API, content store, or tem
 
 We then review at this point re: 2nd half of 2025 and the tine needed for the other goals
 
-## Productised Offering (premium template)
+## 👉 Productised Offering (premium template)
 
 The way BP Static pulls in data from an endpoint, links up very nicely with some of the patterns we have used  the 300 project for template site generation. An option is to bring the learnings from 300 project to BP Static and create a productised offering or premium template on top of BP Static.
 
@@ -56,7 +56,7 @@ Benefits
 - Could give a way to get the new codebase generating revenue for the business quickly
 - This could give us a way to build with the new codebase in a sandboxed way - as a product with definite start and end points and specific goals to measure on.
 
-## Code Quality
+## 👉 Code Quality
 
 Post build speed work, i think this is a key one we need to look at internally in FE. I think to do a good job on this, 'code quality' likely needs to be an overarching goal like we had with 'build speed' as an overall title for a bunch of different pieces of work we did inc bsk lib and the UI lib on top of this, build support and, etc
 
