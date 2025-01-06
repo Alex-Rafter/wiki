@@ -1,4 +1,4 @@
-# Bluesky 2025 Goals and Project Ideas
+# Bluesky 2025 Goal Ideas / Project Ideas
 
 - BP Static
 - Productised Offering (premium template)
