@@ -39,12 +39,12 @@ This allows us to make changes to any of the 3 parts (API, content store, or tem
 - sprint 1: content store work and automated build scripts etc
 - sprint 2: initial bsk ui library setup, set up FE for use by build devs
 
-**This 4 week work will likely not include Hypersearch move over. **
+*This 4 week work will likely not include Hypersearch move over.*
 
 #### First full site - 4 weeks (with 2 build devs)
 - Idea here is to train 2 build devs through the process of building and shipping this first product or site. They are then product leaders along with myself - making for mini team that can build, support others, etc
 
-**Design work first (not inc in schedule)**
+*Design work first (not inc in schedule)*
 
 We then review at this point re: 2nd half of 2025 and the tine needed for the other goals
 
