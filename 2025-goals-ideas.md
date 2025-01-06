@@ -24,12 +24,12 @@ The prototype architecture is built with decoupling in mind from the start.
 
 ![diagram of decouple BP Static](/img/bp-static-decoupled.png)
 
-- The content store can consume data from any endpoint that can serve data in teh expected format - this decouples it from BE sources of data (ie COG or  API)
+- The content store can consume data from any endpoint that can serve data in the expected format - this decouples it from BE sources of data (ie COG or  API)
 - The Template portion of the codebase (page, layout, components) used mainly by build devs / FE Team is decoupled from content store which fetches and transforms the endpoint data
 This allows us to make changes to any of the 3 parts (API, content store, or templates) without disruption / major changes to the other.
 
 #### Benefits of this architecture
-- We can start building with BP Static now - allowing us to ship full FE prototypes and products early / prior to full API BE availability
+- **We can start building with BP Static now - allowing us to ship full FE prototypes and products early / prior to full API BE availability**
 - We can train build devs early / prior to full API BE availability  even as API work is being done / rolled out
 - We can switch over to API endpoints as and when these come on line without majorly disrupting build devs
 
