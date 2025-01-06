@@ -22,6 +22,7 @@ The prototype architecture is built with decoupling in mind from the start.
 - content store and automated build scripts etc (rarely touched by build devs)
 - template codebase of pages,layout, components etc (frequently touched by build devs)
 
+![diagram of decouple BP Static](/img/bp-static-decoupled.png)
 
 - The content store can consume data from any endpoint that can serve data in teh expected format - this decouples it from BE sources of data (ie COG or  API)
 - The Template portion of the codebase (page, layout, components) used mainly by build devs / FE Team is decoupled from content store which fetches and transforms the endpoint data
