@@ -6,7 +6,7 @@
 
 ## 👉 BP Static
 
-### Goal Ideas:
+### 📈 Goal Ideas:
 
 - By end Sept 2025 we ship : first full production site consuming data from APIs, submitting data to APIs
 - By July 2025 we ship : BP Static v2 -  consuming data from APIs, submitting data to new APIs
@@ -14,7 +14,7 @@
 - By June 2025 : FE BP Static build team trained and shipping code - 2 FE build devs fully trained and able to build sites with the BP Static codebase
 - By Feb 2025 we ship  : BP Static v1 -  consuming data from current COG BE, built into current COG BE
 
-### Leveraging decoupled code
+### 🧩 Leveraging Decoupled Code
 
 The prototype architecture is built with decoupling in mind from the start.
 
@@ -28,12 +28,12 @@ The prototype architecture is built with decoupling in mind from the start.
 - The Template portion of the codebase (page, layout, components) used mainly by build devs / FE Team is decoupled from content store which fetches and transforms the endpoint data
 This allows us to make changes to any of the 3 parts (API, content store, or templates) without disruption / major changes to the other.
 
-#### Benefits of this architecture
+#### 🚀 Benefits of this architecture
 - **We can start building with BP Static now - allowing us to ship full FE prototypes and products early / prior to full API BE availability**
 - We can train build devs early / prior to full API BE availability  even as API work is being done / rolled out
 - We can switch over to API endpoints as and when these come on line without majorly disrupting build devs
 
-#### Time required for work.
+#### ⏱️Time required for work.
 
 #### BP Static v1 - initial 4 week (2 sprint) run
 - sprint 1: content store work and automated build scripts etc
@@ -64,7 +64,7 @@ There are at least 2 areas to this i think: tooling and training.
 - Tooling areas could include : leveraging shared deploy, setting up automated testing, linting + formatting,
 - Training could include : team training, documenting our in-house coding / git practices, etc, build support, code review / deeper PR review for specific cases
 
-### Benefits
+### 🚀 Benefits
 - Fewer bugs / Higher quality of codebases
 - Reduce common problems with our coding practices
 - Better maintainability of sites
