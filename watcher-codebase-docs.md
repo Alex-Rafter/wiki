@@ -1,6 +1,6 @@
 # Watcher Codebase Documentation Overview
 
-This documentatin is meant for maintainers and developers who need to understand the core logic and structure of the watcher script system. If you are looking for how to use watcher as a build dev please refer to the CLI documentation.
+This documentation is meant for maintainers and developers who need to understand the core logic and structure of the watcher script system. If you are looking for how to use watcher as a build dev please refer to the CLI documentation.
 
 ## Contents
 - [System Overview](#system-overview)
