@@ -3,29 +3,36 @@
 This documentation is meant for maintainers and developers who need to understand the core logic and structure of the watcher script system. If you are looking for how to use watcher as a build dev please refer to the CLI documentation.
 
 ## Contents
+
 - [System Overview](#system-overview)
 - [Core Components](#core-components)
 
-
 ## System Overview
+
 The watcher system is a Node.js-based tool designed to manage and compile template files across multiple franchises. It consists of several interconnected modules that handle template compilation, data management, and real-time file watching.
 
 ## Core Components
 
 ### 1. Entry Point (`src/scripts/watcher/index.mjs`)
-The main entry point that handles CLI flags and directs execution:
-- Supports four main operations: `launch`, `make`, `merge`, and `compile`
-- If no flags are provided, defaults to watching for file changes, and recompiling templates based on those changes
-- `launch` starts the data viewer server
 
+The main entry point handles CLI flags and directs execution:
+- It supports four main operations: `watch`, `launch`, `make`, and `compile`
+	- `watch` watches for file changes, and recompiles templates based on those changes,  writing a final version of the file for each franchise
+	-  `make` resets the config, pulling in data 
+	- `launch` starts the data viewer server
+	-  `compile` loops over all files in the watcher directory, compiles the templates, and writes a final version of the file for each franchise
+
+- If no flags are provided, defaults to watching for file changes, and recompiling templates based on those changes
+  
 ### 2. Core Modules
 
-#### File Watcher (`logic/index.mjs`)
+#### File Watcher (`src/scripts/watcher/logic/index.mjs`)
 - Uses `chokidar` to monitor the `./watcher` directory for changes
 - Triggers template compilation on file changes
 - Implements debouncing to prevent excessive merge operations
 
-#### Template Compiler (`modules/compile-template.mjs`)
+#### Template Compiler (src/scripts/watcher/modules/compile-template.mjs`)
+
 - Processes individual template files
 - Extracts front matter using `gray-matter`
 - Coordinates with franchise-specific configurations
@@ -56,21 +63,13 @@ src/scripts/watcher/
 ## Core Logic Flow
 
 1. **Template Processing**
+   
 ```mermaid
-graph LR
+graph TD
     A[Template File] --> B[Extract Front Matter]
     B --> C[Load Configuration]
     C --> D[Compile Template]
     D --> E[Output Franchise-Specific Files]
-```
-
-2. **Configuration Management**
-```mermaid
-graph LR
-    A[Template Changes] --> B[Update Cache]
-    B --> C[Check New Properties]
-    C --> D[Check Unused Properties]
-    D --> E[Update Configuration]
 ```
 
 ## Key Technical Concepts
@@ -90,55 +89,28 @@ graph LR
 - Maintains directory structure from template to output
 - Handles both `.aspx` and `.ascx` files
 
-## Error Handling and Edge Cases
-
-1. **Configuration Parsing**
-```javascript
-try {
-    config = JSON.parse(sh.cat('src/scripts/watcher/config/config.json').toString());
-} catch (error) {
-    console.error('Error parsing config.json, falling back to default data source');
-}
-```
-
-2. **Directory Creation**
-```javascript
-if (!sh.test('-d', `./${franchise}`)) sh.mkdir(`./${franchise}`)
-```
-
 ## Development Guidelines
 
 1. **Adding New Features**
-- Add new CLI flags in `index.mjs`
-- Implement corresponding logic modules
+- Add new CLI flags in `src/scripts/watcher/index.mjs`
+- Implement corresponding logic in `src/scripts/watcher/modules`
 - Update configuration schema as needed
 
 2. **Modifying Templates**
 - Ensure front matter follows established patterns
-- Test across all franchises
-- Verify global configuration integration
+- Use expressions in template literals to use global or franchise data 
 
-3. **Configuration Changes**
+1. **Configuration Changes**
 - Use the data viewer for testing
 - Verify changes propagate correctly
-- Check for franchise-specific impacts
-
+  
 ## Dependencies
 Key external dependencies:
 - `chokidar`: File watching
 - `gray-matter`: Front matter parsing
-- `express`: Data viewer server
 - `shelljs`: File system operations
+- `express`: Data viewer server 
 
-This documentation focuses on the technical implementation details and should be used alongside the user-facing CLI documentation for complete system understanding.
-
-**User**:
-
-This is good. Now add some helpful notes / an overview about the logic in each of the core modules.
-
-**Cursor**:
-
-I'll break down the core logic for each main module:
 
 ## Core Module Logic Overview
 
@@ -281,54 +253,291 @@ graph TD
     G --> H[Franchise Files]
 ```
 
-## Common Patterns Across Modules
-
-1. **Configuration Handling**
-   - All modules access `config.json`
-   - Error handling for configuration loading
-   - Franchise-specific configuration management
-
-2. **File Operations**
-   - Use of `shelljs` for consistency
-   - Path normalization
-   - Directory creation checks
-
-3. **Template Processing**
-   - Front matter extraction
-   - Global configuration integration
-   - Franchise-specific rendering
-
-4. **Error Management**
-   - Configuration parsing fallbacks
-   - Directory creation checks
-   - Path validation
-
-This detailed breakdown of module logic should help developers understand how the different parts of the system interact and what each module is responsible for.
-
-**User**:
-
-Can you make any suggestions for other things to add that would improve the documentation?
-
-**Cursor**:
-
 Here are several valuable additions that would enhance the technical documentation:
 
 ## 1. Configuration Schema Documentation
-```javascript
+```json
 // Example config.json structure
+// Example config.json structure
+
 {
-  "franchise": {
-    "path/to/template": {
-      "path": "path/to/template",
-      "customProp1": "value",
-      "customProp2": "value"
-    },
-    "global": {
-      "path": "global",
-      "webId": "1234567890",
-      "locations": ["location1", "location2"]
-    }
-  }
+
+    "ford": {
+
+        "watcher/contact-us/default.aspx": {
+
+            "path": "watcher/contact-us/default.aspx",
+
+            "pageTitle": "Placeholder Contact Us"
+
+        },
+
+        "watcher/default.aspx": {
+
+            "path": "watcher/default.aspx",
+
+            "franchise": "ford",
+
+            "dealerships": [
+
+                123,
+
+                456,
+
+                789,
+
+                999,
+
+                101,
+
+                223,
+
+                343,
+
+                888,
+
+                1212,
+
+                34567
+
+            ],
+
+            "dealershipsToExclude": [
+
+                123,
+
+                456,
+
+                789
+
+            ],
+
+            "title": "Default Data Homepage",
+
+            "homie": "home",
+
+            "tester": "thingy",
+
+            "dat": "This is a test",
+
+            "demo": "This is a demo",
+
+            "another": "another one to pull in",
+
+            "obj": {
+
+                "a": 1,
+
+                "b": 2,
+
+                "c": 3
+
+            }
+
+        },
+
+        "global": {
+
+            "path": "global",
+
+            "webId": "1234567890",
+
+            "locations": [
+
+                "sussex",
+
+                "kent",
+
+                "coventry"
+
+            ],
+
+            "dealerships": [
+
+                123,
+
+                456,
+
+                789,
+
+                999,
+
+                101,
+
+                223,
+
+                343,
+
+                888,
+
+                1212,
+
+                34567
+
+            ]
+
+        },
+
+        "watcher/inc/modules/cookies/cookie-compliance.aspx": {
+
+            "path": "watcher/inc/modules/cookies/cookie-compliance.aspx",
+
+            "cookieId": "cookie-compliance",
+
+            "cookieName": "cookie-compliance"
+
+        },
+
+        "watcher/inc/modules/search/refine-search.aspx": {
+
+            "path": "watcher/inc/modules/search/refine-search.aspx",
+
+            "searchRef": "refine-search",
+
+            "modelRef": "ModelField",
+
+            "makeRef": "MakeField",
+
+            "locationRef": "LocationField",
+
+            "minPriceRef": "MinPrice",
+
+            "maxPriceRef": "MaxPrice"
+
+        },
+
+        "watcher/inc/test.aspx": {
+
+            "path": "watcher/inc/test.aspx",
+
+            "franchise": "ford",
+
+            "dealerships": [
+
+                123,
+
+                456,
+
+                789,
+
+                999,
+
+                101,
+
+                223,
+
+                343,
+
+                888,
+
+                1212,
+
+                34567
+
+            ],
+
+            "dealershipsToExclude": [
+
+                123,
+
+                456,
+
+                789
+
+            ],
+
+            "title": "Default Data Homepage",
+
+            "homie": "home",
+
+            "tester": "thingy",
+
+            "dat": "This is a test",
+
+            "another": "another one to pull in",
+
+            "obj": {
+
+                "a": 1,
+
+                "b": 2,
+
+                "c": 3
+
+            }
+
+        },
+
+        "watcher/offers/default.aspx": {
+
+            "path": "watcher/offers/default.aspx",
+
+            "title": "Offers",
+
+            "dealers": [
+
+                124,
+
+                26,
+
+                1
+
+            ],
+
+            "newProp": "Hello from the template"
+
+        },
+
+        "watcher/used-cars/default.aspx": {
+
+            "path": "watcher/used-cars/default.aspx",
+
+            "franchise": "ford",
+
+            "dealerships": [
+
+                123,
+
+                456,
+
+                789,
+
+                999,
+
+                101,
+
+                223,
+
+                343,
+
+                888,
+
+                1212,
+
+                34567,
+
+                88888
+
+            ],
+
+            "dealershipsToExclude": [
+
+                123,
+
+                456,
+
+                789,
+
+                999
+
+            ],
+
+            "title": "Default Used Page"
+
+        }
+
+    }
+
 }
 ```
 Include:
