@@ -45,6 +45,7 @@ The watcher system, built in Node.js, automates template compilation across mult
 
 ## Key Files and Structure
 
+```plaintext
 src/scripts/watcher/
 ├── config/
 │   ├── config.json         # Stores central configuration
@@ -52,14 +53,17 @@ src/scripts/watcher/
 ├── data-view/              # Web UI components
 ├── logic/                  # Core logic modules
 └── modules/                # Shared utilities
+```
 
 ##  Core Logic Flow
 
+```mermaid
 graph TD
     A[Template File] --> B[Extract Front Matter]
     B --> C[Load Configuration]
     C --> D[Compile Template]
     D --> E[Output Franchise Files]
+```
 
 ## Key Technical Concepts
 1. **Template Compilation**
