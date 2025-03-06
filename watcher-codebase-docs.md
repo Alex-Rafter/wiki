@@ -18,12 +18,12 @@ The watcher system is a Node.js-based tool designed to manage and compile templa
 The main entry point handles CLI flags and directs execution:
 - It supports four main operations: `watch`, `launch`, `make`, and `compile`
 	- `watch` watches for file changes, and recompiles templates based on those changes,  writing a final version of the file for each franchise
-	-  `make` resets the config, pulling in data 
+	-  `make` resets the config, pulling in data
 	- `launch` starts the data viewer server
 	-  `compile` loops over all files in the watcher directory, compiles the templates, and writes a final version of the file for each franchise
 
 - If no flags are provided, defaults to watching for file changes, and recompiling templates based on those changes
-  
+
 ### 2. Core Modules
 
 #### File Watcher (`src/scripts/watcher/logic/index.mjs`)
@@ -63,7 +63,7 @@ src/scripts/watcher/
 ## Core Logic Flow
 
 1. **Template Processing**
-   
+
 ```mermaid
 graph TD
     A[Template File] --> B[Extract Front Matter]
@@ -98,18 +98,18 @@ graph TD
 
 2. **Modifying Templates**
 - Ensure front matter follows established patterns
-- Use expressions in template literals to use global or franchise data 
+- Use expressions in template literals to use global or franchise data
 
 1. **Configuration Changes**
 - Use the data viewer for testing
 - Verify changes propagate correctly
-  
+
 ## Dependencies
 Key external dependencies:
 - `chokidar`: File watching
 - `gray-matter`: Front matter parsing
 - `shelljs`: File system operations
-- `express`: Data viewer server 
+- `express`: Data viewer server
 
 
 ## Core Module Logic Overview
@@ -258,286 +258,58 @@ Here are several valuable additions that would enhance the technical documentati
 ## 1. Configuration Schema Documentation
 ```json
 // Example config.json structure
-// Example config.json structure
-
 {
-
     "ford": {
-
         "watcher/contact-us/default.aspx": {
-
             "path": "watcher/contact-us/default.aspx",
-
             "pageTitle": "Placeholder Contact Us"
-
         },
-
         "watcher/default.aspx": {
-
             "path": "watcher/default.aspx",
-
             "franchise": "ford",
-
             "dealerships": [
-
                 123,
-
                 456,
-
                 789,
-
                 999,
-
                 101,
-
-                223,
-
-                343,
-
-                888,
-
-                1212,
-
-                34567
-
             ],
-
             "dealershipsToExclude": [
-
                 123,
-
                 456,
-
                 789
-
             ],
-
             "title": "Default Data Homepage",
-
-            "homie": "home",
-
-            "tester": "thingy",
-
+            "tester": "Just a test string",
             "dat": "This is a test",
-
-            "demo": "This is a demo",
-
-            "another": "another one to pull in",
-
             "obj": {
-
                 "a": 1,
-
                 "b": 2,
-
                 "c": 3
-
             }
-
         },
-
         "global": {
-
             "path": "global",
-
             "webId": "1234567890",
-
             "locations": [
-
                 "sussex",
-
                 "kent",
-
                 "coventry"
-
             ],
-
             "dealerships": [
-
                 123,
-
                 456,
-
                 789,
-
                 999,
-
-                101,
-
-                223,
-
-                343,
-
-                888,
-
-                1212,
-
-                34567
-
+                101
             ]
-
         },
-
         "watcher/inc/modules/cookies/cookie-compliance.aspx": {
-
             "path": "watcher/inc/modules/cookies/cookie-compliance.aspx",
-
             "cookieId": "cookie-compliance",
-
             "cookieName": "cookie-compliance"
-
-        },
-
-        "watcher/inc/modules/search/refine-search.aspx": {
-
-            "path": "watcher/inc/modules/search/refine-search.aspx",
-
-            "searchRef": "refine-search",
-
-            "modelRef": "ModelField",
-
-            "makeRef": "MakeField",
-
-            "locationRef": "LocationField",
-
-            "minPriceRef": "MinPrice",
-
-            "maxPriceRef": "MaxPrice"
-
-        },
-
-        "watcher/inc/test.aspx": {
-
-            "path": "watcher/inc/test.aspx",
-
-            "franchise": "ford",
-
-            "dealerships": [
-
-                123,
-
-                456,
-
-                789,
-
-                999,
-
-                101,
-
-                223,
-
-                343,
-
-                888,
-
-                1212,
-
-                34567
-
-            ],
-
-            "dealershipsToExclude": [
-
-                123,
-
-                456,
-
-                789
-
-            ],
-
-            "title": "Default Data Homepage",
-
-            "homie": "home",
-
-            "tester": "thingy",
-
-            "dat": "This is a test",
-
-            "another": "another one to pull in",
-
-            "obj": {
-
-                "a": 1,
-
-                "b": 2,
-
-                "c": 3
-
-            }
-
-        },
-
-        "watcher/offers/default.aspx": {
-
-            "path": "watcher/offers/default.aspx",
-
-            "title": "Offers",
-
-            "dealers": [
-
-                124,
-
-                26,
-
-                1
-
-            ],
-
-            "newProp": "Hello from the template"
-
-        },
-
-        "watcher/used-cars/default.aspx": {
-
-            "path": "watcher/used-cars/default.aspx",
-
-            "franchise": "ford",
-
-            "dealerships": [
-
-                123,
-
-                456,
-
-                789,
-
-                999,
-
-                101,
-
-                223,
-
-                343,
-
-                888,
-
-                1212,
-
-                34567,
-
-                88888
-
-            ],
-
-            "dealershipsToExclude": [
-
-                123,
-
-                456,
-
-                789,
-
-                999
-
-            ],
-
-            "title": "Default Used Page"
-
         }
-
     }
-
 }
 ```
 Include:
