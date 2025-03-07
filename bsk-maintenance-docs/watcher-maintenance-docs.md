@@ -1,4 +1,4 @@
-# Watcher Codebase Documentation 📜
+# Watcher - Codebase Maintenance 📝
 
 This documentation targets maintainers and developers needing insight into the watcher script system's core logic and structure. For CLI usage instructions, refer to the CLI documentation.
 

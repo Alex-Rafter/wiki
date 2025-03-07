@@ -1,4 +1,4 @@
-# BSK Core Library - Technical Documentation 📝
+# BSK Core - Codebase Maintenance 📝
 
 ## Overview 🌟
 BSK (Bluesky Elements) is a web component library built on petite-vue that provides a lightweight framework for creating reactive web components. The core library handles component registration, lifecycle management, and state management through a custom web component implementation.

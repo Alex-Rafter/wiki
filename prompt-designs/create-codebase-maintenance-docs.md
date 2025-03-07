@@ -1,9 +1,40 @@
+
+# document a codebase for maintenance 📝
+
+------------------------
+
+PROMPT START:
+
+------------------------
+
+You are a technical writer. Write documentation for this codebase that a maintainer could use to better understand the codebase and assist them in maintenance.  
+
+The documentation should include : 
+- a high-level overview 
+- an introduction to the key modules / logic that drives the functionality 
+- how to run the software
+- how to maintain / extend the software
+
+
+Focus on simple, clear, language. 
+Optimise for ease of comprehension over maximum depth
+Keep examples and information short.
+Format the output as markdown. Wrap that output in a plain text codeblock as below  
+  
+```text  
+  
+```
+
+Here is an example of the writing style i want as output. Notice the use of emoji on titles / sub-titles to help break up text.
+
+----
+
 # Shared Workflows - Technical Documentation 📝
 
-## Overview 📖
+## Overview  📖
 This repository serves as a centralized location for reusable GitHub Actions workflows and composite actions. It's designed to provide standardized CI/CD processes that can be shared across multiple repositories within the organization.
 
-## Repository Structure 📂
+## Repository Structure 🏗️
 
 ### Core Components 🛠️
 1. **Reusable Workflows**
@@ -242,3 +273,5 @@ uses: MBBluesky/shared-workflows/.github/workflows/deploy-main.yml@v2.2.4
 
 ### Code Style ✍️
 The project uses ESLint for code style enforcement. Configuration is in `eslint.config.mjs`.
+
+--------
