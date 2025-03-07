@@ -8,87 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6d80d2069c2ede17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs-prompt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "docs-prompt"
-            }
-          },
-          {
-            "id": "f6f4b2a77910736d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bsk-core-lib-codebase-docs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bsk-core-lib-codebase-docs"
-            }
-          },
-          {
-            "id": "3942fa6c4f79111f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "16ad5fe8a5e75c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-codebase-docs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "300-codebase-docs"
-            }
-          },
-          {
-            "id": "5ecafa62d29b288d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300-worfklows-codebase-docs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "300-worfklows-codebase-docs"
-            }
-          },
-          {
             "id": "03218dd8cd2b66b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shared-deploy-docs.md",
+                "file": "bluesky-elements-lib/bsk-docs-offers-cards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shared-deploy-docs"
+              "title": "bsk-docs-offers-cards"
+            }
+          },
+          {
+            "id": "b493e63dc42c82a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bluesky-ideas---workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bluesky-ideas---workflow"
             }
           }
         ],
@@ -149,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 534.5
   },
   "right": {
     "id": "793db6ffdbba8ef6",
@@ -238,16 +181,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6f4b2a77910736d",
+  "active": "9dc9c4042e4453f0",
   "lastOpenFiles": [
-    "Untitled.md",
-    "bsk-core-lib-codebase-docs.md",
-    "docs-prompt.md",
-    "300-codebase-docs.md",
-    "300-worfklows-codebase-docs.md",
-    "shared-deploy-docs.md",
-    "watcher-codebase-docs.md",
+    "Untitled",
+    "ideas",
+    "meeting-notes/meetings-31.07.23.md",
+    "2025-goals-ideas.md",
+    "meeting-notes",
+    "bsk-design-tokens/web-scraping-brief---draft.md",
+    "bsk-design-tokens/bsk-automated-css-vars.md",
+    "draft-new-docs.md",
+    "bsk-design-tokens",
     "test-of-git-obsidian.md",
-    "style-guide-handover.md"
+    "cognition-style-guide-fe-dev-feedback.md",
+    "bluesky-elements-lib/bsk-prio-order-for-rnd-2.md",
+    "bluesky-elements-lib/bsk-els-vb-vue-side-by-side.md",
+    "bluesky-elements-lib/bsk-els-project-workflow.md",
+    "bluesky-elements-lib/bsk-els-to-dos-and-ideas.md",
+    "bluesky-elements-lib/bsk-els-refactor-tasks.md",
+    "bluesky-elements-lib/bsk-els-demo-20-06-23.pdf",
+    "bluesky-elements-lib/bsk-els-first demo.pdf",
+    "bluesky-elements-lib/bsk-docs-offers-cards.md",
+    "bluesky-elements-lib/bsk-elements-release-notes.md",
+    "bluesky-elements-lib/bsk-component-list-from-sites.md",
+    "bluesky-ideas---workflow.md",
+    "bluesky-ideas.md",
+    "bluesky-elements-lib/bluesky-elements-vehicle-card-docs.md",
+    "bluesky-elements-lib/bluesky-elements-seo-test-demo.md",
+    "bluesky-elements-lib/bluesky-elements-demo-notes.md",
+    "bluesky-elements-lib",
+    "bsk-training/bsk-training-maintenance-devs.md",
+    "bsk-maintenance-docs/shared-deploy-docs.md",
+    "bsk-maintenance-docs/300-worfklows-codebase-docs.md",
+    "bsk-maintenance-docs/docs-prompt.md",
+    "bsk-maintenance-docs/300-codebase-docs.md",
+    "bsk-maintenance-docs"
   ]
 }
