@@ -4,7 +4,7 @@
 ## Overview 📖
 The 300 Site Generator is a powerful tool designed to manage and generate multiple car dealership websites from a shared codebase. It uses a template-based approach where a master codebase is customized for individual dealership sites based on their specific configurations and requirements.
 
-## Core Components 🏗️
+## Core Components 📂
 
 ### 1. Watcher System 👀
 - Located in `/watcher`

@@ -13,7 +13,11 @@ The documentation should include :
 Focus on simple, clear, language. 
 Optimise for ease of comprehension over maximum depth
 Keep examples and information short.
-Format the output as markdown.
+Format the output as markdown. Wrap that output in a plain text codeblock as below  
+  
+```text  
+  
+```
 
 Here is an example of the writing style i want as output. Notice the use of emoji on titles / sub-titles to help break up text.
 

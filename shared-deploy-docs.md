@@ -3,7 +3,7 @@
 ## Overview 📖
 This repository serves as a centralized location for reusable GitHub Actions workflows and composite actions. It's designed to provide standardized CI/CD processes that can be shared across multiple repositories within the organization.
 
-## Repository Structure 🏗️
+## Repository Structure 📂
 
 ### Core Components 🛠️
 1. **Reusable Workflows**

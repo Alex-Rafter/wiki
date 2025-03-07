@@ -40,7 +40,7 @@ This documentation covers the GitHub Actions workflows used in the 300 Project. 
   - Compiles sites using watcher
   - Handles automated commits and pushes
 
-## Workflow Architecture 🏗️
+## Workflow Architecture 📂
 
 ### Data Flow
 1. Entry workflow receives trigger
@@ -55,19 +55,6 @@ This documentation covers the GitHub Actions workflows used in the 300 Project. 
 - Implements secure credential handling
 - Utilizes repository-specific secrets
 
-## Maintenance Guide 🔧
-
-### Adding New Sites
-1. Ensure site data is properly formatted in JSON
-2. Add site ID to relevant configuration
-3. Test using POST request trigger
-
-### Modifying Workflows
-1. Test changes in development environment
-2. Update site data schema if needed
-3. Verify backwards compatibility
-4. Update documentation
-
 ### Common Issues and Solutions 🚨
 
 #### Deployment Failures
@@ -77,61 +64,5 @@ This documentation covers the GitHub Actions workflows used in the 300 Project. 
 
 #### Generation Issues
 - Verify template integrity
-- Check node version compatibility
 - Review build logs for errors
 
-## Extension Guide 🔌
-
-### Creating New Workflows
-1. Create workflow file in `.github/workflows/`
-2. Define appropriate triggers
-3. Specify required inputs and secrets
-4. Add error handling and logging
-
-### Adding Features
-1. Update site data schema if needed
-2. Modify relevant workflow files
-3. Test thoroughly before deployment
-4. Document changes
-
-## Best Practices 📋
-
-### Code Management
-- Use descriptive commit messages
-- Follow branching strategy
-- Test changes thoroughly
-
-### Security
-- Never commit secrets
-- Use environment variables
-- Review access permissions regularly
-
-### Monitoring
-- Check workflow logs regularly
-- Monitor deployment success rates
-- Track API endpoint performance
-
-## Quick Reference 📚
-
-### Environment Setup
-```bash
-# Required Node.js version
-node -v  # Should be 20.17.0
-
-# Install dependencies
-npm ci
-```
-
-### Common Commands
-```bash
-# Trigger specific site deployment
-gh workflow run entry-specific-sites-on-post.yml
-
-# Check workflow status
-gh run list
-
-# View workflow logs
-gh run view [run-id]
-```
-
-Remember to keep this documentation updated as workflows evolve and new features are added.
