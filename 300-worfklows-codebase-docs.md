@@ -1,7 +1,7 @@
 
 # 300 Project GitHub Workflows Documentation 📝
 
-## Overview 🌟
+## Overview 📖
 This documentation covers the GitHub Actions workflows used in the 300 Project. These workflows automate site generation, deployment, and maintenance tasks across multiple repositories. The system is designed to handle both vanilla deployments and template-based site generation.
 
 ## Core Workflows 🔄

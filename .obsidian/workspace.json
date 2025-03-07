@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,12 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ecafa62d29b288d",
+  "active": "03218dd8cd2b66b2",
   "lastOpenFiles": [
-    "300-codebase-docs.md",
     "300-worfklows-codebase-docs.md",
-    "docs-prompt.md",
+    "300-codebase-docs.md",
     "shared-deploy-docs.md",
+    "docs-prompt.md",
     "watcher-codebase-docs.md",
     "test-of-git-obsidian.md",
     "style-guide-handover.md"
