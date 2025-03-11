@@ -78,3 +78,12 @@ uat_server_dir: COGBoilerplate_uat
 ```yml
 uat_server_dir: /OGBoilerplate_uat/
 ```
+
+
+### ⚠️ Important
+
+Be careful when setting up the deployment workflow for existing clients not to point to their in-use dev, uat, or live server directories!
+
+
+
+

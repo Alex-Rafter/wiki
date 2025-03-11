@@ -9,6 +9,9 @@
     - Templates
     - Component Logic
     - Vue syntax
+    
+- Common Bugs
+	- ReferenceError: test is not defined
 
 - Exploring some components
 
