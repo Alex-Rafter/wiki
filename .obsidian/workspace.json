@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "new-deployment-task-notes.md",
+                "file": "jct-sprint-1-notes-on-work-done.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "jct-sprint-1-notes-on-work-done"
+            }
+          },
+          {
+            "id": "6aa58fc78c91c0e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "site-perf-and-tidy-up-sprint-brief.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new-deployment-task-notes"
+              "title": "site-perf-and-tidy-up-sprint-brief"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,14 +193,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b22014c46cf3def",
+  "active": "6aa58fc78c91c0e9",
   "lastOpenFiles": [
+    "jct-sprint-1-notes-on-work-done.md",
+    "site-perf-and-tidy-up-sprint-brief.md",
+    "new-deployment-task-notes.md",
     "bsk-training/bsk-training-maintenance-devs.md",
     "bsk-training.md",
     "daily/11-03-2025.md",
     "divops-meet-10-03-25.md",
     "Untitled 1.md",
-    "jct-sprint-1-notes-on-work-done.md",
     "Untitled.md",
     "prompt-designs/create-codebase-maintenance-docs.md",
     "auto-c-document-codebase-for-maintenance.md",
@@ -196,7 +213,6 @@
     "bsk-maintenance-docs/300-maintenance-docs.md",
     "bsk-maintenance-docs/shared-deploy-maintenance-docs.md",
     "bsk-maintenance-docs/watcher-maintenance-docs.md",
-    "new-deployment-task-notes.md",
     "2025-goals-ideas.md",
     "stuff/example-worflow.md",
     "stuff/new-cognition-fe-dev-work.md",
@@ -207,7 +223,6 @@
     "bluesky-elements-lib/draft-new-docs.md",
     "meeting-notes/congition-fe-meeting.md",
     "stuff/cognition-style-guide-fe-dev-feedback.md",
-    "stuff/cognition-estimate-and-planning.md",
     "stuff",
     "ideas",
     "meeting-notes",
