@@ -92,6 +92,6 @@ This template outlines steps taken to optimize performance and tidy up a codebas
 ---
 
 ## 📝 Notes for Execution
-- Always test changes incrementally (e.g., comment out unused code before deleting).
-- Use version control to track changes and revert if necessary.
+- Always test changes incrementally
+- Use branching in git to track / compare changes and revert if necessary.
 - Validate performance improvements post-cleanup using tools like Lighthouse or browser DevTools.
