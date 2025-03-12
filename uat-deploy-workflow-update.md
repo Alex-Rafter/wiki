@@ -19,6 +19,9 @@ We are not using UAT in an optimal way. Some problems are:
 - Add a reminder to the PR body to check UAT before progressing
 - If there are problems on UAT and the PR needs closing, that would trigger a git revert of that last merge commit to UAT keeping it still the same as live site
 
+
+![Diagram showing current and beta workflows](./img/uat-current-and-beta-workflows-2.png)
+
 ## Actions to set up Beta Testing 🛠️
 
 After we have identified the dev and site that should be tested on we need to do the following: 
@@ -35,11 +38,18 @@ After we have identified the dev and site that should be tested on we need to do
 ### Install the Beta Workflows 💾
 
 - Clone the repo
+- Create a new branch `beta-uat-workflow`
 - From the project root run `npm run @alex-rafter/beta-uat-tester`
 - You should now have : 
 	- a new `deploy_uat.yml` workflow
 	- an edited version to `deployment_caller.yml`
 	- the edited `deployment_caller.yml` should point to a different version shared-deploy `@beta-uat` and have the key `uat-beta: true` set in the yml file
+- merge the changes into `dev`,  then push to `origin dev` to check the deploy on push still works as planned with the new version of shared-deploy you are pointing to
+- If all works and deploys correctly, create a PR to merge these changes into main
+- After the changes are merged into main branch the repo should now be set up correctly. At this point : 
+	- pushes to `origin dev` will deploy to dev as normal
+	- there should be no pushes made to `origin uat` 
+	- when a PR is created the changes contained in the PR will be automatically merged into `origin uat` and deployed to the uat server via the new workflow
 
 ### Notes on Testing Process 📝
 - All jobs for the test site should be put with the developer involved with the beta testing wherever possible. If this can't be done, it may be that the site is not a good candidate for early beta testing.
