@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ef7794d3af26ce41",
+        "id": "8b978640ae8a8263",
         "type": "tabs",
         "children": [
           {
-            "id": "1b22014c46cf3def",
+            "id": "390475a62b1ffa6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jct-sprint-1-notes-on-work-done.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "jct-sprint-1-notes-on-work-done"
-            }
-          },
-          {
-            "id": "6aa58fc78c91c0e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "site-perf-and-tidy-up-sprint-brief.md",
+                "file": "uat-deploy-workflow-update.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "site-perf-and-tidy-up-sprint-brief"
+              "title": "uat-deploy-workflow-update"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,8 +177,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6aa58fc78c91c0e9",
+  "active": "390475a62b1ffa6b",
   "lastOpenFiles": [
+    "uat-deploy-workflow-update.md",
     "jct-sprint-1-notes-on-work-done.md",
     "site-perf-and-tidy-up-sprint-brief.md",
     "new-deployment-task-notes.md",
@@ -221,7 +207,6 @@
     "bsk-design-tokens/style-guide-handover.md",
     "bluesky-elements-lib/draft-new-docs.md",
     "meeting-notes/congition-fe-meeting.md",
-    "stuff/cognition-style-guide-fe-dev-feedback.md",
     "stuff",
     "ideas",
     "meeting-notes",
