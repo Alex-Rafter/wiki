@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b978640ae8a8263",
+        "id": "5b0734e0515ae70e",
         "type": "tabs",
         "children": [
           {
-            "id": "390475a62b1ffa6b",
+            "id": "ba13d5d6f4c83f43",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -177,16 +177,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "390475a62b1ffa6b",
+  "active": "ba13d5d6f4c83f43",
   "lastOpenFiles": [
+    "bsk-training/bsk-training-maintenance-devs.md",
+    "bsk-training.md",
+    "uat-deploy-workflow-update.md",
+    "img/~ush-ruleset-2.tmp",
+    "img/push-ruleset-2.png",
+    "img/push-ruleset-1.png",
+    "Untitled 2.md",
     "img/uat-current-and-beta-workflows-2.png",
     "img/uat-current-and-beta-workflows.png",
-    "uat-deploy-workflow-update.md",
     "jct-sprint-1-notes-on-work-done.md",
     "site-perf-and-tidy-up-sprint-brief.md",
     "new-deployment-task-notes.md",
-    "bsk-training/bsk-training-maintenance-devs.md",
-    "bsk-training.md",
     "daily/11-03-2025.md",
     "divops-meet-10-03-25.md",
     "Untitled 1.md",
@@ -207,14 +211,12 @@
     "bsk-watcher",
     "stuff/time-quote-nissan-qureries.md",
     "bsk-design-tokens/style-guide-handover.md",
-    "bluesky-elements-lib/draft-new-docs.md",
     "stuff",
     "ideas",
     "meeting-notes",
     "bsk-design-tokens",
     "bluesky-elements-lib/bsk-els-demo-20-06-23.pdf",
     "bluesky-elements-lib/bsk-els-first demo.pdf",
-    "bluesky-elements-lib",
-    "bsk-maintenance-docs"
+    "bluesky-elements-lib"
   ]
 }

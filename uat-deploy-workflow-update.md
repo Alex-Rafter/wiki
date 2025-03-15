@@ -37,19 +37,34 @@ After we have identified the dev and site that should be tested on we need to do
   
 ### Install the Beta Workflows 💾
 
-- Clone the repo
+- Clone the repo for the site you want to add the beta workflow to
 - Create a new branch `beta-uat-workflow`
-- From the project root run `npm run @alex-rafter/beta-uat-tester`
+- From the project root run `npx @alexrafter/uat-workflow-installer`
+- This will add new workflow the files to your project
 - You should now have : 
-	- a new `deploy_uat.yml` workflow
-	- an edited version to `deployment_caller.yml`
-	- the edited `deployment_caller.yml` should point to a different version shared-deploy `@beta-uat` and have the key `uat-beta: true` set in the yml file
-- merge the changes into `dev`,  then push to `origin dev` to check the deploy on push still works as planned with the new version of shared-deploy you are pointing to
-- If all works and deploys correctly, create a PR to merge these changes into main
+	- a new `.github/workflows/uat-on-pr.yml` workflow
+	- a new `.github/workflows/revert-on-pr-close.yml` workflow
+	
+- Next, create a new ruleset for the site repo that you want to add the beta workflow to
+  
+	- step 1 under the repo 'settings' tab, create a new push ruleset
+
+![screenshot](./img/push-ruleset-1.png)
+
+	- step 2 set the following rules for the new ruleset
+
+
+![screenshot](./img/push-ruleset-2.png)
+
+
+*This ruleset ensures the only pushes that can be made to `origin uat` are those made by a member of Bluesky's `automated` team (this will usually be a our `@front-end-bsk` account).*
+
+- Next, merge your changes into `dev`,  then push to `origin dev` to check the deploy on push still works correctly.
+- If all works and deploys correctly, create a PR ahead of merging your changes into main
 - After the changes are merged into main branch the repo should now be set up correctly. At this point : 
-	- pushes to `origin dev` will deploy to dev as normal
-	- there should be no pushes made to `origin uat` 
-	- when a PR is created the changes contained in the PR will be automatically merged into `origin uat` and deployed to the uat server via the new workflow
+	- pushes to `origin dev` will be unaffected - and will trigger deploy to the dev site as normal
+	- we will not be able to manually push to `origin uat` anymore
+	- instead, when a PR is created the changes contained in that PR will be automatically merged into `origin uat` via the new workflow. This in turn will trigger the existing `.github\workflows\deployment_caller.yml` workflow just as if we had manually pushed  to `origin uat` ourselves
 
 ### Notes on Testing Process 📝
 - All jobs for the test site should be put with the developer involved with the beta testing wherever possible. If this can't be done, it may be that the site is not a good candidate for early beta testing.
