@@ -67,7 +67,8 @@ After we have identified the dev and site that should be tested on we need to do
 	- instead, when a PR is created the changes contained in that PR will be automatically merged into `origin uat` via the new workflow. This in turn will trigger the existing `.github\workflows\deployment_caller.yml` workflow just as if we had manually pushed  to `origin uat` ourselves
 
 ### Notes on Testing Process 📝
-- All jobs for the test site should be put with the developer involved with the beta testing wherever possible. If this can't be done, it may be that the site is not a good candidate for early beta testing.
+
+- All jobs for the test site should be put with single developer responsible for monitoring the beta test wherever possible. If this can't be done because many devs need to work site maintenance, it may be that the site is not a good candidate for early beta testing.
 - Changes should be tested on DEV by CS
 - After testing the can progress to check on live
 - UAT will be used as a staging branch. Its will be primarily used by the FE Dev and potentially the reviewer for testing changes
