@@ -1,18 +1,19 @@
 
 
-# Clean AutoEdge Setup
+# 🚗 Clean AutoEdge Setup
 
-The pattern below is not meant as an alternative to our AutoEdge install docs! This is a pattern to use when setting up AutoEdge to minimise parasol controls and markup.
+> [!WARNING]
+> The pattern below is not meant as an alternative to our AutoEdge install docs! This is a pattern to use when setting up AutoEdge to minimise parasol controls and markup.
 
-## The problem
+## ❓ The problem
 
 Setting up AutoEdge can get complex quickly. When we have multiple parasol content switcher controls, this often leads to a lot of markup on the page / in the include. When we work with multiple parasol content switcher controls in this way, it also often requires us to duplicate parts of the template.
 
-## The Solution
+## ✅ The Solution
 
 Limit Parasol Content Switcher and Parasol Content Controls to one set per page type  (eg homepage, ucd, etc). Use this one Parasol Content Switcher, and the one set of Parasol Content Controls, to set all dynamic values : Session variables, cms references, cog control properties; and styles for hiding / showing, and ordering content. 
 
-## The Benefits
+## 🎉 The Benefits
 
 The benefits of the pattern below are that AutoEdge parasol content switcher and parasol content controls are kept to a specific include for each per page type (eg homepage, ucd, etc). This helps keep the codebase clean, and the set up uniform across the site. By using the same pattern across builds its makes our AutoEdge setups consistent and easier to maintain. 
 
@@ -21,10 +22,12 @@ Between session variables and styles set we can control things like :
 	- the order of sections on a page
 	- showing / hiding sections for specific segments
 	- setting different static queries used with Tiny Search for different segments
-## The Setup
+	
+## 🛠️ The Setup
 
 - Limit Parasol Content Switcher and Parasol Content Controls to one set per page (eg homepage, franchise homepage, ucd, etc). Set these page level controls up an include separate from the page they are used on. 
-### Example 
+ 
+### 📝 Example
 
 ```html
 <!doctype html>
@@ -40,7 +43,8 @@ Between session variables and styles set we can control things like :
 ```
 
 - The includes should exist in their own folder, always in the same location, nested under the `inc/modules` directory.
-### Example 
+ 
+### 📂 Example
 
 ```text
 inc/
@@ -54,7 +58,7 @@ inc/
 
 - Use Session variables and inline vb to dynamically set cms content (eg banner folder references).
 
-### Example 
+### 📌 Example
 
 #### ❌ Statically Set CMS Banner Folder
 
@@ -80,7 +84,8 @@ inc/
 
 
 - Override Session variables from inside the Parasol Content Controls. This allows us to set segment-specific values that will, for example, allos us to point to different banner folders for different parasol segments.
-### Example 
+
+### 🔧 Example
 
 ```html
 
@@ -105,7 +110,7 @@ session("HeroFolderName") = "Hero Banners - Group"
 
 - For the direct parent of all sections on a page, set the display type to flex. 
   
-### Example
+### 🖼️ Example
 
 ```html
 
@@ -127,7 +132,7 @@ session("HeroFolderName") = "Hero Banners - Group"
 
 - Use an inline style tag to set segment specific-styles, including the flex order of the various sections on the page (as these often need to be re-ordered for different segments).
 
-### Example
+### 🎨 Example
 
 ```html
 
@@ -160,7 +165,7 @@ session("HeroFolderName") = "Hero Banners - Group"
 ```
 
 
-## Example Include
+## 📋 Example Include
 
 
 ```html

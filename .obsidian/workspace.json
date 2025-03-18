@@ -15,7 +15,7 @@
               "state": {
                 "file": "draft-autoedge-setup-docs.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "draft-autoedge-setup-docs"
