@@ -11,7 +11,7 @@
 - **Simplify the setup**: Reduce to the minimal code needed to recreate the bug, then test.
 - **Note conditions**: Record specifics (e.g., screen size, browser type) where the bug appears—hints at the source.
 
-## 🔧 3. Isolate the Problem
+## 🕵️ 3. Isolate the Problem
 
 - **Make it easy**: Narrow down to the specific file, include, script, or `if` statement—then dig deeper to the control, property, or variable.
 - **Reduce to basics**: Strip back to a minimal case that still triggers the bug.
@@ -39,7 +39,11 @@
 
 - **Test against a working version**: Load a bug-free version (different environment or commit) and spot differences.
 
-## 🔍 7. Research by Yourself Before Asking for Help
+## 🧰 7. Other Tools
+
+- **Jam browser extension:** Consider using The [Jam browser extension](https://jam.dev/) to help with your debugging.
+
+## 🔍 8. Research by Yourself Before Asking for Help
 
 - **Search the clue**: Google the error or behavior after replicating—answers are out there.
 - **Prompt an LLM**: Feed the error code to an LLM and ask for a breakdown if it’s unclear.
