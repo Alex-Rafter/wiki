@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "draft-autoedge-setup-docs"
             }
+          },
+          {
+            "id": "eac1f93964d4ce3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bluebook-api-tech-job-brief.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bluebook-api-tech-job-brief"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,10 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cebe1d5b22dcc596",
+  "active": "eac1f93964d4ce3a",
   "lastOpenFiles": [
-    "toubleshooting-draft-doc.md",
     "draft-autoedge-setup-docs.md",
+    "bluebook-api-tech-job-brief.md",
+    "toubleshooting-draft-doc.md",
     "divops-meet-10-03-25.md",
     "uat-deploy-workflow-update.md",
     "email.md",
@@ -211,7 +227,6 @@
     "2025-goals-ideas.md",
     "stuff/example-worflow.md",
     "stuff/new-cognition-fe-dev-work.md",
-    "meeting-notes/wessex-build-initial-meeting.md",
     "bsk-watcher",
     "stuff",
     "ideas",
