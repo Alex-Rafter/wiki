@@ -8,6 +8,7 @@ https://github.com/tj-actions/changed-files?tab=readme-ov-file#changed-files
 
 Overview 
 
+- This is popular dependency - its used in over 23000 repos workflows, and is listed on GitHub's Actions Marketplace: https://github.com/marketplace?query=%23+changed-files&type=actions
 - The compromise attempts to exposure secrets in public logs. 
 - Our repos are privates and so are our logs so it seems that this won't have affected us but please see what you think on that.
 - We use it in one of our codebases : https://github.com/MBBluesky/shared-workflows/
