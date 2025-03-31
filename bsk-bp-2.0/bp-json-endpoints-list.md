@@ -1,0 +1,152 @@
+## List of COG Endpoints
+
+- website
+- stock: 
+	- summary
+	- list and details?
+- dealerships
+	- summary
+	- list and details?
+
+## List of CMS Endpoints
+
+- Top Level?
+- Summary
+	- The manufacturers they have
+	- If they use the other things below. This would help to dynamically get data.
+	- GetHomePage()? Or maybe that should be separated out?
+- New Vehicles
+	- Summary
+		- Types of CMS Vehicles they use
+		- List of franchises they have etc
+		
+- Careers
+	- section
+		- the list of all the careers list
+		- section data
+	- details data for each active career
+		- Not sure if these should be their own thing or nested under section? WHatever is simplest - under section to start
+- News
+	- section / list
+	- details data for each active + published 
+	
+- Offers
+	- section / list
+	- details data for each active + published 
+	
+- Testimonials
+	- section / list
+	- details data for each active + published 
+ 
+- Pages
+	- list of page-folders names (doesn't exist)
+	- page details
+	- Broken API for page folders
+	
+- Banners
+	- list of banner-folders-names (doesn't exist)
+	- banner collection details
+
+- Vehicles: Car
+	- Summary: 
+		- Section data
+		- List of franchises and their data (eg models list data)
+		- Details  -each vehicle's details data
+		
+- Vehicles: Bike
+	- As car
+- Vehicles: Van
+	- As car
+- Vehicles: Motorhome
+	- As car
+	
+- CmsBannersService
+- CmsCareersService
+- CmsMultiFranchiseNewCarService
+- CmsNewBikeService
+- CmsNewCarService
+- CmsNewMotorhomeService
+- CmsNewTruckService
+- CmsNewVanService
+- CmsNewsService 
+- CmsOffersService
+- CmsPagesService
+-  CmsPanelService
+- CmsTestimonialService
+
+website: 
+website name
+GTM and other tracking details
+address?
+main contact info etc - what is the main number for the site eg for header etc?
+finance provider: from list of options? Could use to set finance details etc
+cookies management: is this cooikebot etc?
+
+stock
+https://bluebook.dev.cogplatform.co.uk/design/docs/cog/cog-field-reference/#used-vehicles
+
+dealerships: 
+https://bluebook.dev.cogplatform.co.uk/design/docs/cog/cog-field-reference/#dealerships
+https://bluebook.dev.cogplatform.co.uk/design/docs/cog/opening-times/
+
+*opening times only when opening times module is being used in thissite.config*
+
+List of CMS Endpoints
+
+
+----
+Notes
+
+do we need some sort of configuration file eg that says whether the site uses different admin modules like opening times or finance provider etc?
+
+Tech Requirements: 
+We need additional CMS APIs -
+Banners etc - we need to be able to return a list of all the folders we have eg 
+getAllBannerFolderNames - so these can be iterated over in subsequent fetches
+getAllBannerFolderNames, getAllBannerFolderGuids, getAllBannerFolderNodeIds, getAllBannerTags
+
+We need these for everything - eg for cmsPanels, etc we need to be able to get all of these references in a list
+We need to be able to get panels by folderName and by their own panelReference
+
+We may need to agree some naming conventions for cms content to be able to acurately test for, and pull in content that may or may not exist.
+
+With current API, we can build out if we know ahead of time exactly what the pages are (or could be!). But what we can't do is pull a list of all the cms references, and dynamically use those. We have to statically set cms references eg we have to know the banner folder names ahead of time etc
+
+Its really important we have a way of checking for and handling non-existant csm data. It should never error in these cases but fall back. 
+
+We are doing this in the demo: 
+banner folder names, page folder names, etc and we're using those to iterate over and get data.
+Careers, news, offers, less of a prob as we can return all items as a list
+
+---
+Need to start simple and build up from there. 
+CMS is the difficult one, not COG
+COG: prioing modules we still use. 
+
+Start with COG, then move to CMS. 
+
+----
+All endpoints (where poss): 
+
+Summary 
+Details
+
+COG and CMS use same naming conventions but with diff data
+
+COG
+Summary 
+Numbers - eg of stock, of dealerships,
+list data: dealerships, 
+
+Details
+endpoint for detailed data
+
+CMS
+*likley to be contrived until we get extra data from CMS*
+Summary 
+section data
+summary data - numbers etc
+list data
+
+Details
+deeper details data for specific item
