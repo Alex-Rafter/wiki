@@ -22,10 +22,10 @@ There are 3 required actions + 1 suggestion listed on the repo:
 
 4. Rotating any secrets that may have been exposed during this timeframe to ensure the continued security of your workflows.
 
-Notes : 
+Notes on Actions Needed :
 1. Our logs persist for only 24 hours so I can't review the logs (see required actions below) but this also means they were removed quickly.
 2. N/A - we use tagged release 
 3. We already use tagged release 
-4. I can regenerate the GitHub Personal Access Tokens but will need Tech support to review and regenerate keys for FTP held in secrets. Also, i am not sure whether regenerating the FTP_PASSWORD is sufficient or not. Or if we need other secrets updating also. 
+4. I can regenerate the GitHub Personal Access Tokens but will need Tech support to review and regenerate keys for FTP held in secrets. Also, i am not sure whether regenerating the FTP_PASSWORD is sufficient or not or if we need other secrets updating also.
    
    
