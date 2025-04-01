@@ -164,4 +164,6 @@ And you can get a list of all that pageFolders pages with their urls - fur use w
 We can construct this from the name though? 
 We need to know if the url override field is completed. Because if it is we can't use that item.
 Haven't we already covered that with pages though? Check that...
+Yes! It works when you pass the careers url given with the list data. 
+
 
