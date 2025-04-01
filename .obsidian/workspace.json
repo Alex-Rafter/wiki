@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,11 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8cfd00ceaf4e6799",
+  "active": "5167e6e220464b11",
   "lastOpenFiles": [
-    "bsk-bp-2.0/bp-json-endpoints-list.md",
     "bp-json-llm-code-spec.md",
     "daily/31-03-2025.md",
+    "bsk-bp-2.0/bp-json-endpoints-list.md",
     "bsk-bp-2.0",
     "daily/28-03-2025.md",
     "daily/26-03-2025.md",

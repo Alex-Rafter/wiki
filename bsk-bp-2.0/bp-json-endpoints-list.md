@@ -150,3 +150,18 @@ list data
 
 Details
 deeper details data for specific item
+
+
+---
+CogCmsPageAutoEdgeFields - Not included in CMS because the API docs error so i don;t know what the class properties are / can't access
+Same : DataPointFields on (https://cogcms.co.uk/apihelp/api/CogCms.ClientModels.Pages.CogCmsPageModel.html)
+
+---
+To dynamically fetch careers items, new-cars, etc., just like we need a list of all pageFolder and bannerFolder names, we need to be able to get all the urls from the info/links section.
+
+So, you can get a list of all pageFolders for example
+And you can get a list of all that pageFolders pages with their urls - fur use with the urlOvervide.
+We can construct this from the name though? 
+We need to know if the url override field is completed. Because if it is we can't use that item.
+Haven't we already covered that with pages though? Check that...
+
