@@ -166,4 +166,60 @@ We need to know if the url override field is completed. Because if it is we can'
 Haven't we already covered that with pages though? Check that...
 Yes! It works when you pass the careers url given with the list data. 
 
+---
+
+New Vehicles
+
+Need something to sort out the urls - as they need re-ordering. Eg
+
+Bad 
+http://localhost:7842/api/cms/new-cars/model/?model_url=/mercedes-benz/new-cars/a-class/
+
+Good
+
+http://localhost:7842/api/cms/new-cars/model/?model_url=new-cars/mercedes-benz/a-class/
+
+
+Then, need to check if that is a range page and get details for each model within a range.
+
+
+---
+BUGS
+
+-----
+
+\_cogCmsOffer.DataPointFields.SimilarManufacturers doesn't return any results when data is input into the fields?
+
+---
+
+20 Working endpoints : 
+
+http://localhost:7842/api/cms/banners/summary/default.aspx
+http://localhost:7842/api/cms/careers/summary/default.aspx
+http://localhost:7842/api/cms/new-cars/summary/default.aspx
+http://localhost:7842/api/cms/news/summary/default.aspx
+http://localhost:7842/api/cms/offers/summary/default.aspx
+http://localhost:7842/api/cms/pages/summary/default.aspx
+http://localhost:7842/api/cms/testimonials/summary/default.aspx
+http://localhost:7842/api/cog/website/summary/default.aspx
+http://localhost:7842/api/cms/banners/details/default.aspx
+http://localhost:7842/api/cms/careers/details/default.aspx
+http://localhost:7842/api/cms/new-cars/manufacturer/default.aspx
+http://localhost:7842/api/cms/new-cars/model/default.aspx
+http://localhost:7842/api/cms/news/details/default.aspx
+http://localhost:7842/api/cms/offers/details/default.aspx
+http://localhost:7842/api/cms/pages/page/default.aspx
+http://localhost:7842/api/cms/pages/page-folder/default.aspx
+http://localhost:7842/api/cog/dealerships/details/default.aspx
+http://localhost:7842/api/cog/dealerships/list/default.aspx
+http://localhost:7842/api/cog/stock/list/default.aspx
+http://localhost:7842/api/cog/stock/details/default.aspx
+
+---
+BUG 
+
+CMS
+
+Why does the newCarSection() method take an argument but the newBikeSection() + newVanSection() doesn't?
+
 
