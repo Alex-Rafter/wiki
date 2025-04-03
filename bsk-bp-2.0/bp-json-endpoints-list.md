@@ -192,28 +192,40 @@ BUGS
 
 ---
 
-20 Working endpoints : 
+34 Working endpoints : 
 
-http://localhost:7842/api/cms/banners/summary/default.aspx
-http://localhost:7842/api/cms/careers/summary/default.aspx
-http://localhost:7842/api/cms/new-cars/summary/default.aspx
-http://localhost:7842/api/cms/news/summary/default.aspx
-http://localhost:7842/api/cms/offers/summary/default.aspx
-http://localhost:7842/api/cms/pages/summary/default.aspx
-http://localhost:7842/api/cms/testimonials/summary/default.aspx
-http://localhost:7842/api/cog/website/summary/default.aspx
-http://localhost:7842/api/cms/banners/details/default.aspx
-http://localhost:7842/api/cms/careers/details/default.aspx
-http://localhost:7842/api/cms/new-cars/manufacturer/default.aspx
-http://localhost:7842/api/cms/new-cars/model/default.aspx
-http://localhost:7842/api/cms/news/details/default.aspx
-http://localhost:7842/api/cms/offers/details/default.aspx
-http://localhost:7842/api/cms/pages/page/default.aspx
-http://localhost:7842/api/cms/pages/page-folder/default.aspx
-http://localhost:7842/api/cog/dealerships/details/default.aspx
-http://localhost:7842/api/cog/dealerships/list/default.aspx
-http://localhost:7842/api/cog/stock/list/default.aspx
-http://localhost:7842/api/cog/stock/details/default.aspx
+/api/cms/banners/details/default.aspx
+/api/cms/banners/summary/default.aspx
+/api/cms/careers/details/default.aspx
+/api/cms/careers/summary/default.aspx
+/api/cms/new-bikes/manufacturer/default.aspx
+/api/cms/new-bikes/model/default.aspx
+/api/cms/new-bikes/summary/default.aspx
+/api/cms/new-cars/manufacturer/default.aspx
+/api/cms/new-cars/model/default.aspx
+/api/cms/new-cars/summary/default.aspx
+/api/cms/new-motorhomes/manufacturer/default.aspx
+/api/cms/new-motorhomes/model/default.aspx
+/api/cms/new-motorhomes/summary/default.aspx
+/api/cms/new-trucks/manufacturer/default.aspx
+/api/cms/new-trucks/model/default.aspx
+/api/cms/new-trucks/summary/default.aspx
+/api/cms/new-vans/manufacturer/default.aspx
+/api/cms/new-vans/model/default.aspx
+/api/cms/new-vans/summary/default.aspx
+/api/cms/news/details/default.aspx
+/api/cms/news/summary/default.aspx
+/api/cms/offers/details/default.aspx
+/api/cms/offers/summary/default.aspx
+/api/cms/pages/page/default.aspx
+/api/cms/pages/page-folder/default.aspx
+/api/cms/pages/summary/default.aspx
+/api/cms/testimonials/summary/default.aspx
+/api/cog/dealerships/details/default.aspx
+/api/cog/dealerships/list/default.aspx
+/api/cog/stock/details/default.aspx
+/api/cog/stock/list/default.aspx
+/api/cog/website/summary/default.aspx
 
 ---
 BUG 
@@ -221,5 +233,10 @@ BUG
 CMS
 
 Why does the newCarSection() method take an argument but the newBikeSection() + newVanSection() doesn't?
+
+
+Why does 
+
+Class CogCmsNewCarManufacturer have SeoInformation but not  Class CogCmsNewMotorhomeManufacturer etc?
 
 
