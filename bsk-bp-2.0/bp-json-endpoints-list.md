@@ -192,40 +192,42 @@ BUGS
 
 ---
 
-34 Working endpoints : 
+32 Working endpoints : 
 
-/api/cms/banners/details/default.aspx
 /api/cms/banners/summary/default.aspx
-/api/cms/careers/details/default.aspx
 /api/cms/careers/summary/default.aspx
-/api/cms/new-bikes/manufacturer/default.aspx
-/api/cms/new-bikes/model/default.aspx
 /api/cms/new-bikes/summary/default.aspx
-/api/cms/new-cars/manufacturer/default.aspx
-/api/cms/new-cars/model/default.aspx
 /api/cms/new-cars/summary/default.aspx
-/api/cms/new-motorhomes/manufacturer/default.aspx
-/api/cms/new-motorhomes/model/default.aspx
 /api/cms/new-motorhomes/summary/default.aspx
-/api/cms/new-trucks/manufacturer/default.aspx
-/api/cms/new-trucks/model/default.aspx
 /api/cms/new-trucks/summary/default.aspx
-/api/cms/new-vans/manufacturer/default.aspx
-/api/cms/new-vans/model/default.aspx
 /api/cms/new-vans/summary/default.aspx
-/api/cms/news/details/default.aspx
 /api/cms/news/summary/default.aspx
-/api/cms/offers/details/default.aspx
 /api/cms/offers/summary/default.aspx
-/api/cms/pages/page/default.aspx
-/api/cms/pages/page-folder/default.aspx
 /api/cms/pages/summary/default.aspx
 /api/cms/testimonials/summary/default.aspx
-/api/cog/dealerships/details/default.aspx
-/api/cog/dealerships/list/default.aspx
-/api/cog/stock/details/default.aspx
-/api/cog/stock/list/default.aspx
 /api/cog/website/summary/default.aspx
+/api/cog/dealerships/summary/default.aspx
+/api/cog/stock/summary/default.aspx
+
+/api/cms/banners/details/default.aspx
+/api/cms/careers/details/default.aspx
+/api/cms/new-bikes/manufacturer/default.aspx
+/api/cms/new-bikes/model/default.aspx
+/api/cms/new-cars/manufacturer/default.aspx
+/api/cms/new-cars/model/default.aspx
+/api/cms/new-motorhomes/manufacturer/default.aspx
+/api/cms/new-motorhomes/model/default.aspx
+/api/cms/new-trucks/manufacturer/default.aspx
+/api/cms/new-trucks/model/default.aspx
+/api/cms/new-vans/manufacturer/default.aspx
+/api/cms/new-vans/model/default.aspx
+/api/cms/news/details/default.aspx
+/api/cms/offers/details/default.aspx
+/api/cms/pages/page/default.aspx
+/api/cms/pages/page-folder/default.aspx
+/api/cog/dealerships/details/default.aspx
+/api/cog/stock/details/default.aspx
+
 
 ---
 BUG 
@@ -239,4 +241,28 @@ Why does
 
 Class CogCmsNewCarManufacturer have SeoInformation but not  Class CogCmsNewMotorhomeManufacturer etc?
 
+
+----
+CMS New Vehicles
+
+These ALWAYS need to follow the same folder naming convetions: 
+New Cars
+New Bikes
+New Motorhomes
+etc
+Never
+Bikes
+etc
+
+We can update urls on the front as we like with Astro so that doesn't matter to the final url here as it might with COG / BP 1.0
+
+We might have to be a bit stricter on naming conventions for panels - as its hard: 
+lowercase only, no special chars, stick dash and underscore to separate 
+
+
+----
+Public assets dir 
+Could we make use of this to eg publish new vehicle data quickly without using the build step?
+Like, the script runs to fetch data on webhook but then publishes that to a public dir used by Astro but that is not actually part of the build step? 
+Then we side-step that when its not needed....
 
