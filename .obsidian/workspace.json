@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "793db6ffdbba8ef6",
@@ -178,12 +177,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f707d3f98bc2f273",
+  "active": "9dc9c4042e4453f0",
   "lastOpenFiles": [
+    "daily/11-03-2025.md",
     "daily/10-04-2025.md",
-    "daily/11-04-2025.md",
     "daily/08-04-2025.md",
     "daily/07-04-2025.md",
+    "daily/11-04-2025.md",
     "bsk-bp-2.0/bp-json-endpoints-list.md",
     "daily/31-03-2025.md",
     "bp-json-llm-code-spec.md",
@@ -191,7 +191,6 @@
     "daily/28-03-2025.md",
     "daily/26-03-2025.md",
     "daily/24-03-2025.md",
-    "daily/11-03-2025.md",
     "daily/2023-03-06.md",
     "dev-tools-as-ide.md",
     "Untitled 4.md",
