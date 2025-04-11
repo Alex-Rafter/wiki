@@ -35,8 +35,7 @@
               "title": "new-world-fe-sprint-1-update"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,10 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2841128ac14dd985",
+  "active": "f707d3f98bc2f273",
   "lastOpenFiles": [
-    "daily/11-04-2025.md",
     "new-world-fe-sprint-1-update.md",
+    "daily/11-04-2025.md",
     "daily/11-03-2025.md",
     "daily/10-04-2025.md",
     "daily/08-04-2025.md",

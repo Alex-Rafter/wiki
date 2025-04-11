@@ -10,7 +10,7 @@
     - ✅ All endpoint data can be fetched from endpoints - on script run.
     - ✅ All data can be correctly translated into format needed for content store - on script run
     - ✅ All edited data (JSON) stored locally - as flat file content store / db - on script run
-    - ❌ GitHub Actions workflows set up to trigger these script runs on POST.
+    - ✅ GitHub Actions workflows set up to trigger these script runs on POST.
     - ❌ Additional GitHub Actions workflows set up to send the POST req eg on schedule or workflow dispatch (to mimic any future Tech webhook), etc
 3. ✅ Data loading into Astro templates - finished
     - ✅All data from local content store can be loaded in to the components
