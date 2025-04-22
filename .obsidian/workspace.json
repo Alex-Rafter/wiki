@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/14-04-2025.md",
+                "file": "daily/22-04-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-04-2025"
+              "title": "22-04-2025"
             }
           }
         ]
@@ -180,9 +180,11 @@
   },
   "active": "578fba8e49897bfb",
   "lastOpenFiles": [
+    "daily/15-04-2025.md",
+    "daily/22-04-2025.md",
+    "daily/14-04-2025.md",
     "daily/11-04-2025.md",
     "new-world-fe-sprint-1-update.md",
-    "daily/14-04-2025.md",
     "sprint-1-demo.md",
     "daily/11-03-2025.md",
     "daily/10-04-2025.md",
@@ -205,8 +207,6 @@
     "toubleshooting-draft-doc.md",
     "divops-meet-10-03-25.md",
     "uat-deploy-workflow-update.md",
-    "email.md",
-    "bsk-training/bsk-training-maintenance-devs.md",
     "img/~ush-ruleset-2.tmp",
     "img/push-ruleset-2.png",
     "img/push-ruleset-1.png",
