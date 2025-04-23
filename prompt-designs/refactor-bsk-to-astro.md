@@ -13,6 +13,7 @@ I am in the process of moving these components over to our new Astro codebase.
 ### inc/bluesky-elements
 
 The .html files nested under this dir are template files using petite vue template syntax.
+The .aspx files should be ignored. 
 ### src/js/app/bluesky-elements/state-objects 
 
 the .js files nested under this dir are component logic files.
@@ -22,9 +23,10 @@ We use an in-house fork of petite vue to merge the template files with the compo
 
 ## Brief for Your Work
 
-For each pair of .html template and js component logic files, i want you to create a new astro file to the spec laid out below: 
+For each pair of .html template and js component logic files, i want you to create a new .astro file to the spec laid out below: 
 
-replace the template tag in the .html file, with a custom-element tag, with the custom element's tag name being the value of the bsk-element attribute on the template tag that is to be removed
+
+Replace the template tag in the .html file, with a custom-element tag, with the custom element's tag name being the value of the bsk-element attribute on the template tag that is to be removed
 eg this template tag
 
 ```html
@@ -38,8 +40,8 @@ Would be replaced with this custom element tag
 ```
 
 
-Adding the object containing the component logic to a script tag within the .astro file
-The script tag should have an this import statment at the top 
+Add the object containing the component logic to a script tag within the .astro file
+The script tag should have an this import statement at the top 
 
 ```js
 import { bsk } from "@bsk";
@@ -53,7 +55,8 @@ bsk({ bskArticleFullWidthCta });
 
 If there is a style tag nested within the .html file, it should be pulled out and added to the new .astro file as a top level style tag. 
 
-Where there is vue syntax for rendering text, rendering lists, etc that can be moved to server-side te,plate syntax so as to be handled at build time - creating static html - this should be the done as first preference. Where it is unclear if this can be handled effectively with .astro, leave the current set up (with this being handed by petite vue)
+
+Where there is vue syntax for rendering text, rendering lists, etc that can be moved to server-side template syntax so as to be handled at build time - creating static html - this should be the done as first preference. Where it is unclear if this can be handled effectively with .astro, leave the current set up (with this being handed by petite vue)
 
 Example template file: 
 
@@ -284,42 +287,80 @@ The example final .astro file created from the above:
 
 ```html
 
+---
+const { items, slickMob } = Astro.props || [];
+---
+
+<!-- Slick and Masonry Grid : START -->
+<bsk-grid-masonry slick-mob={slickMob}>
+    <div @vue:mounted="init($el)">
+        <slot name="grid"></slot>
+    </div>
+</bsk-grid-masonry>
+<!-- Slick and Masonry Grid : END -->
+
+<script>
+    import { bsk } from "@bsk";
+
+    const bskGridMasonry = {
+        init(el) {
+            console.log("this slick mob: ", this.slickMob);
+        },
+    };
+
+    bsk({ bskGridMasonry });
+</script>
+
+<style>
+    span:not(.slick-initialized) {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 1rem;
+    }
+
+    span > * {
+        grid-column: 1 / span 12;
+    }
+
+    .slick-slider .slick-dots {
+        margin: var(--bsk-spacer-2) auto var(--bsk-spacer-2);
+    }
+
+    @media only screen and (min-width: 576px) and (max-width: 991px) {
+        span:not(.slick-initialized) > :is(:nth-child(1), :nth-child(2)) {
+            grid-column: span 6;
+        }
+
+        span:not(.slick-initialized) > :not(:nth-child(1), :nth-child(2)) {
+            grid-column: span 4;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        span > :is(:nth-child(1), :nth-child(2)) {
+            grid-column: span 6;
+        }
+
+        span > :not(:nth-child(1), :nth-child(2)) {
+            grid-column: span 4;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        > span {
+            gap: 1.5rem;
+        }
+    }
+</style>
 
 
 ```
 
-I have refactored two files
-inc\bluesky-elements\accordion\bsk-accordion-group.html
-src\js\app\bluesky-elements\state-objects\accordion\bsk-accordion-group.js
 
-To create one new Astro file
-inc\astro-versions\accordion\AccordionGroup.astro
 
-Changes include : 
-removing the template tag with the  bsk-element attribute, and replacing that with a custom-element tag made of the value of that same bsk-element attribute 
-adding the component logic to a script tag within the Asdtro file and passing the object name to the imported bsk function 
-Notice that the folder namings and structure follow a standard pattern for the html template, js, and new Astro files. 
+### Final Notes
+It is important to stick to the brief, and follow the examples given of successful new .astro files created, and their contents. 
 
----
-Instruction: 
+I have created the empty dirs under inc\astro-versions for you. 
+You only need to create the new files and their contents. 
 
-create a new .astro file fllowing my example above and the instructions above. Follow these exactly. 
-create a new astro file based for all of the template files found in inc\bluesky-elements\article
-
-----
-
-You versions do not follow my example fully. 
-
-js should be within a script tag not astro front matter
-the bsk import should be 
-import { bsk } from "@bsk";
-
-not a rel path as in yours eg
-import { bsk } from "../../../src/js/app/bluesky-elements/bsk.js";
-
-component logic objects should be bested within an object passed to the function eg
-bsk({ bskAccordionGroup });
-not
-bsk(bskArticleIcon);
-
-Please refactor the files you created 

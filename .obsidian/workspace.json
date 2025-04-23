@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refactor-bsk-to-astro.md",
+                "file": "prompt-designs/refactor-bsk-to-astro.md",
                 "mode": "source",
                 "source": false
               },
@@ -206,10 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0697b7da70d9273d",
+  "active": "9dc9c4042e4453f0",
   "lastOpenFiles": [
     "bp-static-sprint-2.md",
-    "refactor-bsk-to-astro.md",
+    "prompt-designs/refactor-bsk-to-astro.md",
     "Untitled 6.md",
     "daily/22-04-2025.md",
     "Untitled 5.md",
