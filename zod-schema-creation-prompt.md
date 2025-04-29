@@ -1,15 +1,22 @@
 
-Create a zod schema for the data in the files below.
 
-The files should be a .js file. They should follow the examples in src\_lib\config\schemas directory with regards to : 
-- importing z from astro, 
-- using named exports not default exports. The export syntax should come at the end of the file not at variable declaration. 
-- file name related to content type and location to file from which schema is created - eg pages.js, banner.js, etc
-  
-For an example of a successfully created schema file see: src\_lib\config\schemas\pages.js
+Write a zod schema to the chat out for the data in the files below.
+
+Do not add zod imports etc. just write the schema to the chat output -as if this were just part of a file
 
 Data files:
-_content/cms/testimonials/summary/summary.json
+_content\cms\news\details\news-new-event.json
+
+---------
+
+Write a zod schema to the chat out for the data in the files below.
+
+The output should follow the examples in src\_lib\content-config\banners.js with regards to : 
+- importing z from astro, 
+- using named exports not default exports. The export syntax should come at the end of the file not at variable declaration. 
+
+Data files:
+_content\cms\testimonials\summary\summary.json
 
 ```txt
 _content/cms/testimonials/summary/summary.json
