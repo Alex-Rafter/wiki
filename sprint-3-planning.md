@@ -175,7 +175,7 @@ Follows similar pattern to default.aspx or index.html
 
 *Related*
 How we build base components, and extend for variations with slots to override fallback content
-### Global State
+### Global State + Services
 store
 worker
 
