@@ -119,12 +119,21 @@ And at it maximum?
 ### Components
 
 ### Component Coarseness Levels 
-pages
-features
-components
 
+When we are building a site we work at 3 levels of granularity 
+
+- pages
+- features
+- components
+
+We start broad - at the page level - and we move down to the other levels only as we need to do so. We do this to avoid premature optimisation and overly-fine-grained component libraries which can be hard to navigate and unnecessary for teams of our size.
+
+What this means in practice? 
+Starting a new page, create your code in the page file itself. 
+Break any page-specific components out to the page's ./\_components folder
 
 ### Static Endpoints
+
 As well as fully built pages, we build assets for 2 different kinds of static endpoint: 
 
 - data endpoints
