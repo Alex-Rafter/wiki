@@ -38,9 +38,9 @@ Go over each and put what each may contain and not contain and why
 
 #### Overview
 
-Each feature is an isolated world that contains everything needed for the feature: components, styles, javascript, etc. 
-For that reason, you can think of any folder in features as like a micro version of the ./src folder
-
+Each feature is an isolated world. 
+Each feature contains everything needed for the feature: its components, styles, and javascript, etc. 
+For that reason, you can think of any feature as being like a micro version of the ./src folder
 ### Valid Folders in a Feature
 
 ```txt
