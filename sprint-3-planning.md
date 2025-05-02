@@ -37,10 +37,15 @@ Go over each and put what each may contain and not contain and why
 ### Features
 
 #### Overview
+A bit like includes or partials
+
+#### Modularity and Isolation
 Each feature is isolated from every other feature that they share the ./src/features folder with.
-They cannot talk to each other or share code in any way.
+They cannot 'talk' to each other or share code in any way.
+
 The only code that a feature can import is:
 shared code in the ./src directory's folders
+external dependencies (npm packages etc)
 
 eg 
 a feature can import a common component like a vehicle card 
@@ -119,6 +124,21 @@ features
 components
 
 
+### Static Endpoints
+As well as fully built pages, we build assets for 2 different kinds of static endpoint: 
+
+- data endpoints
+- partials endpoints
+##### Data
+Pre-built static JSON data served from `/endpoints/data` endpoints
+
+eg the endpoint `/endpoints/data/news-items` might serve all of the site's published news articles as JSON data
+#### Partials
+Pre-built static HTML served from from `/endpoints/partials` endpoints
+these partials are full pages and are served without any doctype declaration, head or body tags etc
+
+eg the endpoint `/endpoints/partials/news-cards` might serve 
+a collection of all of the site's published news articles as pre-built HTML cards
 ### Component Naming Conventions 
 
 Components
