@@ -37,15 +37,33 @@ Go over each and put what each may contain and not contain and why
 ### Features
 
 #### Overview
+Each feature is isolated from every other feature that they share the ./src/features folder with.
+They cannot talk to each other or share code in any way.
+The only code that a feature can import is:
+shared code in the ./src directory's folders
 
-Each feature is an isolated world. 
-Each feature contains everything needed for the feature: its components, styles, and javascript, etc. 
-For that reason, you can think of any feature as being like a micro version of the ./src folder
-### Valid Folders in a Feature
+eg 
+a feature can import a common component like a vehicle card 
+
+./src/components/
+
+or perhaps a utility function that is designed to be used in many places
+./src/modules/utils/helper.js
+
+But it cannot import another feature's code. 
+
+If something needs to be shared between two features? Great, move that code up a level to the ./src/components or ./src/modules etc and import it into both the original feature and the new feature you are creating.
+
+This ensures code always flows downwards which helps keep code understandable - we know what is shared code and what is not. If we were to delete a feature folder we can be confident it would not break other features in other folders :)
+
+Each feature then contains everything needed for its cod to run correctly: its components, styles, and javascript, etc. 
+For that reason, you can think of any feature as being like a micro version of its ./src folder. It have its own components folder, and could have many other folders you will be used to from the ./src directory. 
+### Valid Folders in any Feature
 
 ```txt
 ./_lib
 ./components
+./modules
 ./store
 ./styles
 ./workers
