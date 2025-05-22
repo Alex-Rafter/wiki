@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sprint-3-planning.md",
+                "file": "daily/22-05-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sprint-3-planning"
+              "title": "22-05-2025"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "sprint-2-report-summary"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,8 +193,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04cabc0068945350",
+  "active": "0ae37bba8f30700a",
   "lastOpenFiles": [
+    "daily/21-05-2025.md",
+    "daily/22-05-2025.md",
+    "daily/20-05-2025.md",
+    "daily/19-05-2025.md",
+    "daily/16-05-2025.md",
+    "daily/14-05-2025.md",
+    "daily/13-05-2025.md",
+    "daily/12-05-2025.md",
     "sprint-3-planning.md",
     "sprint-2-report-summary.md",
     "daily/02-05-2025.md",
@@ -214,14 +221,6 @@
     "daily/14-04-2025.md",
     "daily/11-04-2025.md",
     "new-world-fe-sprint-1-update.md",
-    "sprint-1-demo.md",
-    "daily/11-03-2025.md",
-    "daily/10-04-2025.md",
-    "daily/08-04-2025.md",
-    "daily/07-04-2025.md",
-    "bsk-bp-2.0/bp-json-endpoints-list.md",
-    "daily/31-03-2025.md",
-    "bp-json-llm-code-spec.md",
     "bsk-bp-2.0",
     "img/~ush-ruleset-2.tmp",
     "img/push-ruleset-2.png",
