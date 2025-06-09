@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/02-06-2025.md",
+                "file": "daily/09-06-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-06-2025"
+              "title": "09-06-2025"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "sherwoods-aos-tests"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,8 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58d26e575426bb62",
+  "active": "a597703c76f6fce6",
   "lastOpenFiles": [
+    "daily/06-06-2025.md",
+    "daily/09-06-2025.md",
+    "daily/04-06-2025.md",
+    "daily/03-06-2025.md",
     "daily/02-06-2025.md",
     "sherwoods-aos-tests.md",
     "daily/22-05-2025.md",
@@ -218,10 +221,6 @@
     "daily/15-04-2025.md",
     "daily/23-04-2025.md",
     "content-config-prompt.md",
-    "zod-schema-creation-prompt.md",
-    "bp-static-sprint-2.md",
-    "prompt-designs/refactor-bsk-to-astro.md",
-    "Untitled 6.md",
     "bsk-bp-2.0",
     "img/~ush-ruleset-2.tmp",
     "img/push-ruleset-2.png",
