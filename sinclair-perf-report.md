@@ -50,30 +50,63 @@ LIVE SITE without 3rd Parties
 
 ### Findings from baselining
 
-3rd Part cde is having a significant impact on perf across the site. 
+3rd party code is having a significant impact on perf across the site. 
 
+- **Performance Score:** Lowered by **33%** (from 53 down to 34)
 - **JavaScript transferred size:** Added **386 kB** (~28% more JS)
 - **JavaScript uncompressed resources:** Added **1,217 kB** (~55% more JS)
-- **Performance Score:** Lowered by **33%** (from 53 down to 34)
 - **First Contentful Paint:** Slowed down by **0.7 s** (~12% slower)
 - **Largest Contentful Paint:** Slowed down by **2.6 s** (~29% slower)
 - **Total Blocking Time:** Increased by **1,002 ms** (~400% higher)
 - **Time to Interactive:** Slowed down by **3.4 s** (~37% slower)
 - **Speed Index:** Slowed down by **0.4 s** (~6% slower)
 
-### Recommendations
+### Recommendations from Baselining
 
 If perf is an important objective, an audit of all 3rd party code is needed and the size of the payload needs to be reduced significantly. The issue here is not only the size of the payload but the amount of resources required to execute this code which can block the main thread rendering html and styles (core to perf scores such as FCP and LCP)
 
-## Work Done
+## Sprint Work Done
 
 - Initial changes to enable baselining with and without 3rd party JS 
-- Group homepage refactor
-- Brand homepages
-- JavaScript bundle refactor
-- SCCS/ CSS bundle refactor
+- group homepage refactor
+- audi homepage refactor
+- byd homepage refactor
+- cupra homepage refactor
+- finance-and-leasing homepage refactor
+- gwm-ora homepage refactor
+- hyundai homepage refactor
+- jaguar homepage refactor
+- land-rover homepage refactor
+- mercedes-benz homepage refactor
+- seat homepage refactor
+- skoda homepage refactor
+- smart homepage refactor
+- volkswagen homepage refactor
+- volkswagen-vans homepage refactor
+- JavaScript bundle refactoring
+- SCCS/ CSS bundle refactoring
 - New post-build step scripts and tooling to purge unused code
 - Various refactors of non-bundled and inline scripts, fixing issues with script run orders and adding missing event listeners etc to ensure things run / query the DOM etc at the correct time
 - Refactoring code into new includes to reduce code duplication 
 - Reducing unused UI library code
 - Refactoring carousel code across the site to optimise load times
+
+## Performance Improvements
+
+Test page `/perf-test`
+
+used so we can control the cms banner folder to maintain consistency between tests 
+content is changing frequently and scores varying with this 
+
+perf scores 
+
+## Recommendations
+
+Audit of 3rd parties 
+Move to Tiny Search BSK version - much smaller payload 0- given its on group and brand homepages optimising components for perf will help
+Thin out CSS further
+
+## Next Steps
+
+UVD loading state for gallery - to reduce LCP
+move pages css to their own css files rather than global bundle
