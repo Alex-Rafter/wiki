@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bp-static-bsk-bring-overs-brief.md",
+                "file": "bsk-bp-2.0/bp-static-bsk-bring-overs-brief.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "right": {
     "id": "793db6ffdbba8ef6",
@@ -193,10 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84bd1692229e6d30",
+  "active": "9dc9c4042e4453f0",
   "lastOpenFiles": [
     "daily/21-07-2025.md",
-    "bp-static-bsk-bring-overs-brief.md",
+    "bsk-bp-2.0/bp-static-bsk-bring-overs-brief.md",
     "daily/17-07-2025.md",
     "daily/16-07-2025.md",
     "daily/09-07-2025.md",
@@ -217,7 +216,7 @@
     "t.md",
     "daily/16-06-2025.md",
     "Untitled 7.md",
-    "bp-static-brief-static-homepage-16-06-25.md",
+    "bsk-bp-2.0/bp-static-brief-static-homepage-16-06-25.md",
     "daily/13-06-2025.md",
     "test.md",
     "daily/12-06-2025.md",
