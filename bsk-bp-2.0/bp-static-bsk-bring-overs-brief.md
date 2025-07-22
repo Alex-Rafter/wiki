@@ -293,3 +293,10 @@ Once all refactoring is done, create a demo of the component use in a sub-page o
 
 Notes
 All components using Slick JS or other JQuery plugins need to be re-written. Note these down for now and move on, We can do these as a second batch after the majority are brought over.
+
+
+### 🗂️ Notes on Workflow
+
+Please break this work down into small feature branches based on one folder of components at a time. eg the components in `inc/bluesky-elements/accordion` could be transferred over in a feature branch `feature/bsk-conversion/accordion`. This will allow us to work in small batches and hopefully keep a good flow of finished work reaching main branch throughout the sprint - rather than working on one long-running feature branch that contains lots of changes.
+
+
