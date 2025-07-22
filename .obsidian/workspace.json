@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "21-07-2025"
             }
+          },
+          {
+            "id": "84bd1692229e6d30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bp-static-bsk-bring-overs-brief.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bp-static-bsk-bring-overs-brief"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,9 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "40738fceb4a0608e",
+  "active": "84bd1692229e6d30",
   "lastOpenFiles": [
     "daily/21-07-2025.md",
+    "bp-static-bsk-bring-overs-brief.md",
     "daily/17-07-2025.md",
     "daily/16-07-2025.md",
     "daily/09-07-2025.md",
@@ -205,7 +221,6 @@
     "daily/13-06-2025.md",
     "test.md",
     "daily/12-06-2025.md",
-    "daily/10-06-2025.md",
     "bsk-bp-2.0",
     "img/~ush-ruleset-2.tmp",
     "img/push-ruleset-2.png",
