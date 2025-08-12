@@ -131,6 +131,7 @@ Sandboxed role for LLM with manual pick up ensures quality
 when is vibe-coding not vibe-coding?
 Very early days but very exciting in terms outcomes
 comparing outputs : very roughly 1 week of new starter time during DX testing manual coding equal to 90 mins with this new workflow
+Drafts !== finished components (yet). Time above v exciting but not full component build process
 How : newer LLM based tooling, custom instructions, CI/CD, manual review and refactor 
 LLM workflow implications - opps / fears / hype versus reality etc
 Looking forward: UI Jams, drafting ideas and viewing in browser - CI/CD workflows
@@ -139,6 +140,19 @@ Needs: investment. Anthropic Claude / Claude Code, Open AI Codex, Dedicated CDN 
 FE tooling on BP Static - open source
 Again, early days - full demo of where we're at with UI at next meet and workflow demo / experiments coming
 
+## Business objectives and shaping BP Static
+Review of project goal: working prototype of new codebase and using APIs / interim APIs for Sept
+what that means now - still good but moved on?
+
+Suggestions
+Re-state / upgrade prototype Sept 
+FE aim: finished beta of BP 2.0 for end of Sept
+*There will be stuff missing as there is a lot to iron out still (some tehncial some higher level / strategic / product eg search)*
+
+Why discuss? 
+With upgraded goal in mind, progress could potentially outpace goals so good to rev higher level
+Features vs business value
+Good to think about post-working prototype
 
 
 we have the early alpha release which covers mainly data duties : data fetch scripts, data loading in astro, build time data handling and bsk-data API, data transform API, initial / early work on front end data handling
