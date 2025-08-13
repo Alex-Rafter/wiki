@@ -13,7 +13,7 @@ Stuff to update on / things to cover
 
 ### brief review (FE)
 
-## what have we done
+## brief review (FE)
 early codebase prototypes and demos
 mocking responses protoype
 built out interim endpoints and data fetch tooling
@@ -29,8 +29,9 @@ building out new ui - components, page templates, etc
 new workflows for drafting components / page templates / UI 
 	
 ## where are we at?
-Off for New World for a bit for other work. Now back on - shipping again as of last week
+Alex off for New World for a bit for other work. 
 Making versus mentoring
+Now back on - shipping again as of last week
 
 ## reputation api (JCT not BP Static at present)
 
@@ -38,7 +39,6 @@ Successful sprint
 Currently on dev
 Need small amount of time to refactor code following Dave's latest work 
 Dispatch Worker architecture - working outside of BP Static. Maximise code-reuse (not 1 2 1 though)
-
 
 ## codebase testing / validating ideas, tooling, architecture decisions, etc with early testers
 2x successful mini-sprints. 
@@ -153,6 +153,30 @@ Why discuss?
 With upgraded goal in mind, progress could potentially outpace goals so good to rev higher level
 Features vs business value
 Good to think about post-working prototype
+High level broad aims discussed so far: 
+- further improve build speed
+- improve site quality - eg Web Design aesthetes / interaction etc
+- improve conversion rates (Tony - HeyFlow example)
+prios / trade-offs and time
+new goals and when they steer / when we measure against
+initial goal / upgraded goal -> next stage steered by business objective
+
+## Review of Ideas discussed on channel
+
+- Modern high performance websites that clear page speed with ease, are fast to load in real world situations and look and feel like a progression of the current normal level of sites we make - _that are good enough for clients to want to upgrade to it and that upgrades are feasible and cost effective_
+- By having more modern and componentised approaches to development we are hoping to be able to use forms/data input (back ends etc) to massively speed up the input of requirements for a web build or possibly a website currently in production - this will include being able to more easily generate custom boilerplates - _reasonable aim but we need to be clear on what the gains are?_
+- Also with components we should improve at creating libraries and re-using well tested and written code to speed up dev time, where it makes sense (improves efficiency) we should use global assest.- _reasonable aim but we need to be clear on what the gains are?_
+- We are hoping through the above to see a measurable improvement in build speed time and amount of amends required to basic functions - this doesn't include subjective changes but more responsiveness, layout, performance, dead links etc - this may be achieved through better testing functionality within the new product - _aim of this is that amends do not take more than 1 day (current range 4hours to 2 weeks)_
+- Potentially improve (but at least don't worsen) SEO - _ok_
+- Where appropriate (which is when Back End Dev are redoing a service) to integrate a new style service into existing sites - _this is to make the overall process more efficient (potentially half back end dev time)_
+
+## Discussion
+
+
+## Next Steps
+
+
+
 
 
 we have the early alpha release which covers mainly data duties : data fetch scripts, data loading in astro, build time data handling and bsk-data API, data transform API, initial / early work on front end data handling
