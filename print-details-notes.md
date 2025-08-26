@@ -64,13 +64,22 @@ I experimented with a client side solution using a small client side lib https:/
 - the relative url of the print details stylesheet
 - the selector to use for targeting which bit of the document you want to print (`html`, `#main`, `.print-section`, etc)
 
-From the Dev who works a print details task, the set up is essentially the same as now: a print details page with its own print stylesheet.
+From the Dev who works a print details task, the set up is essentially the same as now: a print details page with its own print stylesheet that can be spun up and worked locally.
 
 But the main benefits are: 
 - Its much easier to write styles that are consistent between dev tools device emulation (emulating a PDF in this case) and the final output.
 - That means we can use create more interesting and modern designs for print details pages. 
 - Its much quicker to work any of these jobs that come in.
-- FE can better understand the print dependency's API, and this opens up new options for us in
+- FE can better understand the print dependency's API, and this opens up new options for us
+- We can do stuff with the fetched print details document before its passed as a html string to the print lib. This opens up a lot of options for querying / adding  to / editing that returned print details page(s).  
+
+Main trade-offs i can see are : 
+- We open a print dialog on click rather than open in the WinnovativePdfConverter PDF viewer. This is actually one if the things that makes styling easier i think but might not meet your needs if you want that viewer ahead of printing, i'm not sure?
+- Its a new dependency so we need to do some more testing before we move to production.
+
+But moving print details client side does feel like it gives us quite a few benefits and because we have a better understanding of teh API, i think we might be able to offer some new functionality along with better templates / a better workflow for styling print details templates. 
+
+Happy to do a demo of what i've done so far if it helps you guys decide if any of it is a good fit for New cognition UI or whether the current Winnovative option is a better fit. Will be back in 26th Aug if you want to have a look together :)
 
 Using this way 
 

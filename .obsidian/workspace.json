@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ac2ee02de2852d2",
+        "id": "91c35c6c21f5b6b9",
         "type": "tabs",
         "children": [
           {
-            "id": "d5320cb114624d87",
+            "id": "6a47601bfdef52f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "print-details-notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "print-details-notes"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 336.5
   },
   "right": {
     "id": "793db6ffdbba8ef6",
@@ -158,16 +154,16 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 305.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,9 +173,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5320cb114624d87",
+  "active": "6a47601bfdef52f0",
   "lastOpenFiles": [
+    "stuff/polypane-accounts.md",
+    "daily/26-08-2025.md",
+    "bases/test-base.base",
+    "bp-json-llm-code-spec.md",
+    "bases",
+    "Untitled.base",
+    "Untitled 9.md",
     "print-details-notes.md",
+    "stuff/cognition-estimate-and-planning.md",
+    "Untitled 8.md",
     "bsk-bp-2.0/bp-static-update-12-08-25.md",
     "daily/08-08-2025.md",
     "bp-static.md",
@@ -199,12 +204,6 @@
     "daily/08-07-2025.md",
     "sinclair-perf-sprint.md",
     "daily/04-07-2025.md",
-    "d'ed.md",
-    "daily/03-07-2025.md",
-    "daily/04-06-2025.md",
-    "daily/01-07-2025.md",
-    "daily/30-06-2025.md",
-    "daily/27-06-2025.md",
     "bsk-bp-2.0",
     "img/~ush-ruleset-2.tmp",
     "img/push-ruleset-2.png",
@@ -215,9 +214,6 @@
     "bsk-watcher",
     "stuff",
     "ideas",
-    "meeting-notes",
-    "bsk-design-tokens",
-    "bluesky-elements-lib/bsk-els-demo-20-06-23.pdf",
-    "bluesky-elements-lib/bsk-els-first demo.pdf"
+    "meeting-notes"
   ]
 }

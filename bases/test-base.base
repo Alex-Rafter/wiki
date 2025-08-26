@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: bp 2.0
+    filters:
+      and:
+        - file.inFolder("bsk-bp-2.0")
+    order:
+      - file.name
+      - file.ctime
+      - file.folder
+      - file.fullname
+      - file.path
+      - file.tags
+  - type: table
+    name: all bp-2.0
+    filters:
+      and:
+        - file.name.contains("bp")
+    order:
+      - file.name
+      - file.fullname
+      - file.folder
+  - type: table
+    name: View
