@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "91c35c6c21f5b6b9",
+        "id": "b341d59b87063edc",
         "type": "tabs",
         "children": [
           {
-            "id": "6a47601bfdef52f0",
+            "id": "ab2aeb150b501471",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "daily/03-09-2025.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03-09-2025"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "templates",
+                "query": "device",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "right": {
     "id": "793db6ffdbba8ef6",
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "daily/26-08-2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 26-08-2025"
             }
           },
           {
@@ -108,11 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "daily/26-08-2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 26-08-2025"
             }
           },
           {
@@ -136,12 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "daily/26-08-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 26-08-2025"
             }
           },
           {
@@ -173,37 +182,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a47601bfdef52f0",
+  "active": "ab2aeb150b501471",
   "lastOpenFiles": [
-    "stuff/polypane-accounts.md",
+    "daily/03-09-2025.md",
+    "daily/02-09-2025.md",
+    "daily/01-09-2025.md",
+    "print-details-notes.md",
+    "bluesky-elements-lib/draft-new-docs.md",
+    "bluesky-elements-lib/bsk-docs-offers-cards.md",
+    "daily/27-08-2025.md",
+    "daily/29-08-2025.md",
+    "meeting-notes/bp-static-meet-tom-kate-28-08-25.md",
+    "Untitled 11.md",
     "daily/26-08-2025.md",
+    "daily/21-07-2025.md",
+    "bsk-bp-2.0/bp-static-update-12-08-25.md",
+    "bsk-bp-2.0/bp-json-endpoints-list.md",
+    "daily/29-04-2025.md",
+    "daily/22-05-2025.md",
+    "daily/29-05-2025.md",
+    "daily/13-06-2025.md",
+    "bsk-bp-2.0/bp-static-brief-static-homepage-16-06-25.md",
     "bases/test-base.base",
+    "bsk-bp-2.0/bp-static-sprint-2.md",
+    "img/bp-static-decoupled.png",
+    "bp-static.md",
+    "bsk-bp-2.0/bp-static-bsk-bring-overs-brief.md",
+    "fm-test.md",
+    "Untitled 10.md",
+    "stuff/polypane-accounts.md",
     "bp-json-llm-code-spec.md",
     "bases",
     "Untitled.base",
-    "Untitled 9.md",
-    "print-details-notes.md",
-    "stuff/cognition-estimate-and-planning.md",
-    "Untitled 8.md",
-    "bsk-bp-2.0/bp-static-update-12-08-25.md",
-    "daily/08-08-2025.md",
-    "bp-static.md",
-    "daily/07-08-2025.md",
-    "daily/04-08-2025.md",
-    "daily/29-07-2025.md",
-    "daily/21-07-2025.md",
-    "tsls.md",
-    "tt.md",
-    "daily/23-07-2025.md",
-    "daily/22-05-2025.md",
-    "bsk-bp-2.0/bp-static-bsk-bring-overs-brief.md",
-    "daily/17-07-2025.md",
-    "daily/16-07-2025.md",
-    "daily/09-07-2025.md",
-    "sinclair-perf-report.md",
-    "daily/08-07-2025.md",
-    "sinclair-perf-sprint.md",
-    "daily/04-07-2025.md",
     "bsk-bp-2.0",
     "img/~ush-ruleset-2.tmp",
     "img/push-ruleset-2.png",

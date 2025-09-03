@@ -20,5 +20,7 @@ views:
       - file.name
       - file.fullname
       - file.folder
+    cardSize: 110
+    image: note.tags
   - type: table
     name: View

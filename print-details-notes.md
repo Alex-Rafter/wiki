@@ -3,6 +3,15 @@
 # Print Details Notes
 
 
+### Docs
+
+This document describes both the neccessary steps required to set up bsk-print-details on 
+
+
+Setup
+
+
+
 The current set up is actually fine mostly
 But wont be for new world
 We can use a new bsk component. I have created one quickly to test.
